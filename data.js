@@ -250,6 +250,231 @@ window.STUDIO = {
    ],
    "numbers_for_signoff": [],
    "short": "Budgets need tags"
+  },
+  {
+   "id": "S1",
+   "profile": "srinath",
+   "status": "ready",
+   "date": "2026-10-02",
+   "time": "10:00",
+   "short": "Azure Standard tier is gone",
+   "idea": "W1: Azure Databricks Standard tier auto-upgraded to Premium on 1 Oct",
+   "format": "Single image · editorial news-article mimicry",
+   "sample": {
+    "id": "AV19",
+    "creator": "Alex Vacca (ColdIQ)",
+    "what": "Editorial article stack: kicker, headline, date, standfirst, share row, illustrated hero, credit line",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7471136784983293952"
+   },
+   "copy_basis": "Prompt doc: News Post template (news hook, impact line, numbered analysis blocks, engagement question), in Srinath's story-first voice.",
+   "cta": true,
+   "media": {
+    "type": "image",
+    "src": "S1",
+    "tall": false,
+    "files": [
+     "media/S1/image.jpg"
+    ]
+   },
+   "text": "Yesterday, Microsoft moved every Azure Databricks workspace still on Standard tier to Premium.\n\nAutomatically. Nobody on your team had to click a thing.\n\nHere is why I think it matters more than it looks.\n\n1. The rate changed. The workload did not.\nSame jobs, same clusters, same schedules. A different tier. If you were still on Standard, compare what you pay per DBU now with last month.\n\n2. Access controls start switched off.\nMicrosoft's own docs say access control lists are disabled by default on upgraded workspaces. Worth a look from your platform team this week.\n\n3. Month one is where surprises hide.\nDatabricks made Budgets generally available in July. Set one on these workspaces now, so the first Premium invoice is not a surprise.\n\nNone of this is a problem with Databricks. The platform did exactly what was announced.\n\nThe problem is the one I see everywhere. Changes land on the bill before anyone looks at the bill.\n\nOn 15 October I am running a live masterclass on how to baseline your spend, so changes like this never catch you out.\n\nWere any of your workspaces still on Standard?\n\n#Databricks #Azure #FinOps",
+   "first_comment": "If Azure Databricks is part of your estate, this is exactly the kind of change I will show you how to catch early. Live masterclass, Thu 15 Oct, 12:00 PM ET. Save your seat: https://webinar.bighammerai.com/",
+   "sources": [
+    "Microsoft Learn: Azure Databricks Standard tier retirement (dated 11 Sep 2026): auto-upgrade 1 Oct 2026, ACLs disabled by default after upgrade",
+    "Databricks release notes Jul 2026: Budgets GA"
+   ],
+   "numbers_for_signoff": []
+  },
+  {
+   "id": "S2",
+   "profile": "srinath",
+   "status": "ready",
+   "date": "2026-10-07",
+   "time": "10:00",
+   "short": "Is that savings number real?",
+   "idea": "W4: every vendor promises 75%, including us. 4 questions to check any of us",
+   "format": "Single image · quote card",
+   "sample": {
+    "id": "AB21",
+    "creator": "Austin Belcak",
+    "what": "Minimal quote card: speckled paper, avatar + name row, one large sentence",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7471910820696891392"
+   },
+   "copy_basis": "Prompt doc: Thought Leadership template (question, bold answer, value, proof, italic key line, emoji bullets, close).",
+   "cta": true,
+   "media": {
+    "type": "image",
+    "src": "S2",
+    "tall": false,
+    "files": [
+     "media/S2/image.jpg"
+    ]
+   },
+   "text": "How do you know if a savings number is real?\n\nASK WHAT WAS MEASURED.\n\nEvery vendor in my space promises you 75%. Including us. After the third deck, leadership stops listening. And they are right to.\n\nI have sat on both sides of this table. Buying tools for a 600+ person data organization, and now building one.\n\n*If a savings number cannot tell you what was measured and what was assumed, it is not a number. It is a pitch.*\n\nSo here are the 4 questions I would ask any vendor, including us:\n\n🔍 What was measured from your own billing and run data?\n\n🧮 What was assumed, and at what rate?\n\n🚫 What was left out? Contract discounts, cloud VM costs, spend nobody can trace to a job.\n\n➕ Could the total savings be bigger than what you actually spend? If that is not an obvious no, something is counted twice.\n\nThat is why our reports keep two columns. Measured first. Estimates second, each with the rule behind it. And spend we cannot trace is never called savings.\n\nOn 15 October I will show you which parts of our numbers are measured and which are estimated. Live.\n\n#Databricks #FinOps #DataLeadership",
+   "first_comment": "Want to see the measured versus estimated split on a real Databricks bill? That is exactly what I walk through live on Thu 15 Oct, 12:00 PM ET. Join here: https://webinar.bighammerai.com/",
+   "sources": [
+    "BigHammer email series Issue 5 (measured vs estimated, 4 questions)",
+    "voice.md: 600+ people across data engineering, governance and data quality at D&B"
+   ],
+   "numbers_for_signoff": [
+    "75% (vendor claim reference)",
+    "600+ person organization"
+   ]
+  },
+  {
+   "id": "S3",
+   "profile": "srinath",
+   "status": "ready",
+   "date": "2026-10-14",
+   "time": "10:00",
+   "short": "The free AirPods confession",
+   "idea": "W10: half my old team signed up for webinars for the free AirPods",
+   "format": "Single image · photo hero, message on a phone screen",
+   "sample": {
+    "id": "HD05",
+    "creator": "Harry Dry (@marketingharry)",
+    "what": "Photo hero: the message lives on the lit screen of a device held in hand (message-as-device-screen)",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7478310902824546304"
+   },
+   "copy_basis": "Prompt doc: Experiential Story template (hook, context, struggle, turning point, decision with a real quote, value, outcome, close). Re-matched from AB35 to HD05 after design review: no candid photo of Srinath exists, so the story is carried by an object photo (no person, AI generated) with his words on the screen.",
+   "cta": true,
+   "media": {
+    "type": "image",
+    "src": "S3v2",
+    "tall": false,
+    "files": [
+     "media/S3v2/image.jpg"
+    ]
+   },
+   "text": "Half my old team signed up for webinars for the free AirPods.\n\nI never blamed them.\n\nMost of those webinars were a sales pitch with a title slide. Forty minutes about the product, five minutes of anything useful, and a gift card at the end to make the hour feel worth it.\n\nSome of them told me straight. They stayed for the giveaway, not the content.\n\nSo when we started planning our own masterclass, I kept thinking about them.\n\nRichard said it best in one of our planning calls:\n\n\"If it comes in the middle, this is just a product pitch.\"\n\nHe was right. So we flipped it.\n\n30 minutes of the framework we actually use to bring Databricks costs down. Real numbers. Then 15 minutes of your questions. BigHammer only shows up at the very end.\n\nThere is still a prize. The three best questions win a $50 Amazon gift card. I would rather reward a good question than a long attention span.\n\nIf you own a Databricks bill, I would love to see you there tomorrow.\n\nBring your hardest question.",
+   "first_comment": "Tomorrow, Thu 15 Oct at 12:00 PM ET. 30 minutes of framework, 15 minutes of your questions, and the pitch saved for the last minute. Grab a seat: https://webinar.bighammerai.com/",
+   "sources": [
+    "10 Jun planning call transcript: Srinath on team attending webinars for free AirPods / gift cards; Richard: 'if it comes in the middle, this is just a product pitch'",
+    "Webinar page: structure, $50 gift card for top 3 questions"
+   ],
+   "numbers_for_signoff": [
+    "$50 gift card, top 3 questions"
+   ],
+   "flags": [
+    "Srinath to confirm he is happy telling the AirPods story and quoting Richard"
+   ]
+  },
+  {
+   "id": "S4",
+   "profile": "srinath",
+   "status": "ready",
+   "date": "2026-10-05",
+   "time": "10:00",
+   "short": "Automate the upkeep, keep the engineer",
+   "idea": "N1: customers feared automation meant layoffs. I respect that answer",
+   "format": "Single image · hand-drawn crossing-curves chart",
+   "sample": {
+    "id": "HD49",
+    "creator": "Harry Dry (@marketingharry)",
+    "what": "Hand-drawn line chart, two crossing curves, numbered call-outs, end labels, share box",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7459865898087092224"
+   },
+   "copy_basis": "Prompt doc: Thought Leadership template, opened as a story (Srinath is story-first); sample HD49 is image-led so its one-line copy was not enough.",
+   "cta": false,
+   "media": {
+    "type": "image",
+    "src": "S4",
+    "tall": false,
+    "files": [
+     "media/S4/image.jpg"
+    ]
+   },
+   "text": "A few customers told us they did not want to automate because it might mean laying off data engineers.\n\nI respect that answer. It comes from leaders who care about their people.\n\nI ran a data organization of more than 600 people. I know how a team feels when the word automation shows up on a slide.\n\nBut here is what I have seen. The work that gets automated first is not the work engineers love. It is the upkeep.\n\nFailed overnight jobs. Reruns. Schema breaks. Manual checks.\n\nOne benchmark this year put fragile pipelines and manual operations at 53% of engineering time. More than half the week, spent keeping things standing.\n\nGartner expects agentic data management to automate 75% of data engineering workflows by 2029. That change is coming either way.\n\nSo the real question for a leader is not \"will we automate\". It is \"where will my people go when we do\".\n\nMy answer: closer to the business.\n\nDesign. Business logic. Data products. Getting data ready for AI.\n\nThat is where engineers grow. It is also where the business has been waiting for them.\n\nAutomate the upkeep. Keep the engineer.\n\nIf you lead a data team, what would your engineers build with half their week back?\n\n#DataEngineering #Leadership #AI",
+   "first_comment": "",
+   "sources": [
+    "Questions for Context: customers feared automation meant laying off data engineers",
+    "Fivetran 2026 enterprise data infrastructure benchmark: 53% of engineering time (vendor survey, n=500)",
+    "Gartner VP Analyst via CIO&Leader, 24 Sep 2026: 75% of DE workflows automated by 2029"
+   ],
+   "numbers_for_signoff": [
+    "53%",
+    "75% by 2029",
+    "600+"
+   ]
+  },
+  {
+   "id": "S5",
+   "profile": "srinath",
+   "status": "ready",
+   "date": "2026-10-20",
+   "time": "10:00",
+   "short": "Snowflake Gen2: faster, cheaper?",
+   "idea": "N4: a faster Snowflake warehouse can cost more. The math",
+   "format": "Single image · dark comparison table + worked example",
+   "sample": {
+    "id": "AV20",
+    "creator": "Alex Vacca (ColdIQ)",
+    "what": "Dark comparison table: factor column, colored channel headers with icons, cell text, face footer",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7470774398262865920"
+   },
+   "copy_basis": "Srinath technical structure (problem, fix, result) with the sample's factor-by-factor logic; prompt-doc Thought Leadership rhythm for the opening.",
+   "cta": false,
+   "media": {
+    "type": "image",
+    "src": "S5",
+    "tall": false,
+    "files": [
+     "media/S5/image.jpg"
+    ]
+   },
+   "text": "A faster warehouse can cost you more. Here is the math.\n\nSnowflake's Gen2 warehouses are genuinely faster engines. They also burn more credits per hour. 1.35x on AWS and GCP. 1.25x on Azure.\n\nSo which one is cheaper? It depends on one thing.\n\nCost is credits per hour, times the hours the warehouse runs. That is it.\n\nTake a job that runs for 60 minutes on a Medium Gen1 warehouse. That is 4 credits.\n\nOn Gen2 in AWS, the same job has to finish in about 44 minutes to cost the same. On Azure, about 48.\n\nFaster than that, Gen2 wins. Slower, and the faster warehouse is the expensive one.\n\nTwo more things worth knowing:\n\n→ Every time a warehouse resumes, you pay for at least 60 seconds. On either generation.\n→ Gen2 is not the default yet, and not in every region. You opt in.\n\nThe fix is simple. Run the same queries on both for a week. Compare WAREHOUSE_METERING_HISTORY and QUERY_HISTORY. Let the numbers decide.\n\nI say this about every platform. Match the engine to the job, then check the bill.\n\nHave you tested Gen2 against your own workloads yet?\n\n#Snowflake #FinOps #DataEngineering",
+   "first_comment": "",
+   "sources": [
+    "Snowflake Credit Consumption Table (effective 30 Sep 2026): Gen2 1.35x AWS/GCP, 1.25x Azure; 60 s minimum on resume",
+    "Snowflake docs: Gen2 not default, not all regions; account usage views"
+   ],
+   "numbers_for_signoff": [
+    "1.35x / 1.25x",
+    "4 credits Medium",
+    "44 / 48 min break-even",
+    "60 s minimum"
+   ]
+  },
+  {
+   "id": "S6",
+   "profile": "srinath",
+   "status": "ready",
+   "date": "2026-10-13",
+   "time": "10:00",
+   "short": "Spark 4.0: 3 silent migration risks",
+   "idea": "W8: Spark 4.0 changes 3 things your migration tests won't catch",
+   "format": "Carousel · 8 slides, dark tutorial with code windows",
+   "sample": {
+    "id": "AB34",
+    "creator": "Austin Belcak",
+    "what": "Dark tutorial carousel: identity header on every slide, highlighted title phrase, UI screenshots, CTA slide",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7477346638710190080"
+   },
+   "copy_basis": "Prompt doc: Carousel template (strong opener, belief challenge, what's inside, CTA), in Srinath's voice. Slide text follows the carousel slide template (numbered steps, one idea per slide, CTA slide).",
+   "cta": true,
+   "media": {
+    "type": "carousel",
+    "src": "S6",
+    "title": "Spark 4.0: 3 silent migration risks + 5 parity checks",
+    "files": [
+     "media/S6/p01.jpg",
+     "media/S6/p02.jpg",
+     "media/S6/p03.jpg",
+     "media/S6/p04.jpg",
+     "media/S6/p05.jpg",
+     "media/S6/p06.jpg",
+     "media/S6/p07.jpg",
+     "media/S6/p08.jpg"
+    ]
+   },
+   "text": "Spark 4.0 changed what happens when you cast 'abc' to a number.\n\nOn an older Databricks cluster, you get NULL. On Spark 4.0, the job fails.\n\nThat one change matters right now. EMR 8.0 and Dataproc 3.0 both run Spark 4.0. If you are moving jobs off Databricks this year, that is where they land.\n\nYou will hear this a lot:\n\n\"The code converted fine.\"\n\"All the tests passed.\"\n\"The job ran successfully.\"\n\nBut a job can run on time and still produce different numbers.\n\nInside the carousel:\n\n1. Why the target platforms changed under you\n2. ANSI mode, where bad input now stops the job\n3. Time zones, where the same row lands on a different day\n4. The Databricks only calls to replace first\n5. The 5 parity checks I would run on every migrated job\n6. How to run them without touching production\n\nCode conversion is the visible part of a migration. Proving parity is where trust is won or lost.\n\nOn 15 October I am walking through the full assess, migrate, monitor playbook, live.\n\nSave this for your next migration planning meeting.\n\n#Spark #Databricks #DataEngineering",
+   "first_comment": "Planning a move to EMR or Dataproc this year? I cover the parity checks and the migration waves in detail on Thu 15 Oct, 12:00 PM ET. Join me: https://webinar.bighammerai.com/",
+   "sources": [
+    "Apache Spark SQL migration guide: ANSI on by default since 4.0",
+    "Databricks docs: ANSI default from DBR 17.0; dbutils, dlt, Connect, UC names",
+    "AWS: EMR 8.0 Spark 4.0 GA 9 Jun 2026; Google: Dataproc image 3.0 GA 15 Jul 2026",
+    "BigHammer email series Issue 8 (parity checks)"
+   ],
+   "numbers_for_signoff": []
   }
  ],
  "webinar_url": "https://webinar.bighammerai.com/"

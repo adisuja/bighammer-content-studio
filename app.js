@@ -90,6 +90,7 @@
         <dt>Copy template</dt><dd>${esc(p.copy_basis || "")}</dd>
         <dt>First comment</dt><dd>${p.first_comment ? `<div class="fc">${esc(p.first_comment)}</div>` : "None (not a CTA post)"}</dd>
         <dt>Sources</dt><dd>${(p.sources || []).map(esc).join("<br>")}</dd>
+        ${(p.flags || []).length ? `<dt>Needs confirmation</dt><dd style="color:#a15c00">${p.flags.map(esc).join("<br>")}</dd>` : ""}
         ${(p.numbers_for_signoff || []).length ? `<dt>Numbers needing Varadha sign-off</dt><dd>${p.numbers_for_signoff.map(esc).join(" · ")}</dd>` : ""}
       </dl><div class="row"><button class="btn ghost" data-copyt="text">Copy post text</button>${p.first_comment ? '<button class="btn ghost" data-copyt="first_comment">Copy first comment</button>' : ""}</div></details>
     </article>`;
