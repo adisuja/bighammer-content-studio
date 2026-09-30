@@ -17,8 +17,12 @@
   function saveEv() { localStorage.setItem(KEY, JSON.stringify(EV)); tally(); }
   const uid = () => Date.now().toString(36) + Math.random().toString(36).slice(2, 8);
   function merge(list) { const have = new Set(EV.map(e => e.id)); let n = 0; (list || []).forEach(e => { if (e && e.id && !have.has(e.id)) { EV.push(e); have.add(e.id); n++; } }); EV.sort((a, b) => a.t.localeCompare(b.t)); return n; }
-  const comments = (post) => EV.filter(e => e.post === post && e.kind === "comment");
-  function appr(post, role) { const l = EV.filter(e => e.post === post && e.kind === "approve" && e.role === role); return l.length ? l[l.length - 1] : null; }
+  /* Removal is append-only too: a "_retract" event names the id it hides. Deleting sheet rows never works,
+     because any browser still holding the event re-sends it (that is the durability guarantee). */
+  const RETRACT = "_retract";
+  const live = () => { const gone = new Set(EV.filter(e => e.post === RETRACT).map(e => e.text)); return EV.filter(e => e.post !== RETRACT && !gone.has(e.id)); };
+  const comments = (post) => live().filter(e => e.post === post && e.kind === "comment");
+  function appr(post, role) { const l = live().filter(e => e.post === post && e.kind === "approve" && e.role === role); return l.length ? l[l.length - 1] : null; }
   const rv = (id) => { const g = appr(id, "glenn"), t = appr(id, "team"); return { glenn: !!(g && g.value), team: !!(t && t.value), g, t }; };
   const fmtT = (t) => new Date(t).toLocaleString("en-GB", { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" });
   /* Durability: an event counts as saved only once it has been READ BACK from the shared sheet.
@@ -226,7 +230,7 @@
     }
     if (e.target.id === "exportBtn") {
       const rows = [["batch", "post", "profile", "date", "time", "kind", "name", "approval / feedback", "at"]];
-      S.posts.forEach(p => EV.filter(x => x.post === p.key).forEach(x => rows.push(["Batch " + p.batch, p.id, p.profile, p.date, p.time, x.kind === "approve" ? "approval (" + x.role + ")" : "feedback", x.name, x.kind === "approve" ? (x.value ? "approved" : "unapproved") : x.text, x.t])));
+      S.posts.forEach(p => live().filter(x => x.post === p.key).forEach(x => rows.push(["Batch " + p.batch, p.id, p.profile, p.date, p.time, x.kind === "approve" ? "approval (" + x.role + ")" : "feedback", x.name, x.kind === "approve" ? (x.value ? "approved" : "unapproved") : x.text, x.t])));
       const csv = rows.map(r => r.map(x => `"${String(x ?? "").replace(/"/g, '""')}"`).join(",")).join("\n");
       const a = Object.assign(document.createElement("a"), { href: URL.createObjectURL(new Blob([csv], { type: "text/csv" })), download: "bighammer-linkedin-review.csv" }); a.click(); return;
     }
