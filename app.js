@@ -190,11 +190,8 @@
           const posts = postsOf(bt.id, pr.id), done = posts.filter(p => { const r = rv(p.key); return r.glenn && r.team; }).length;
           return `<a href="#b${esc(bt.id)}-profile-${esc(pr.id)}" data-target="b${esc(bt.id)}-profile-${esc(pr.id)}"><span>${esc(pr.name)}</span><small class="cnt">${done}/${posts.length}</small></a>`;
         }).join("") + `</details>`;
-    }).join("") + `<h4>About</h4><a href="#how" data-target="how"><span>How review works</span></a>`;
+    }).join("");
     document.querySelectorAll(".bnav").forEach(d => d.addEventListener("toggle", () => { openB[d.dataset.b] = d.open; localStorage.setItem("bh-nav-open", JSON.stringify(openB)); }));
-    const how = document.getElementById("how") || Object.assign(document.createElement("section"), { id: "how", className: "profile" });
-    how.innerHTML = `<div class="phead"><div><h2>How review works</h2><p>No login needed.</p></div></div><div class="pnote" style="background:#EFE9FF;color:#3D00AD">Type your name once, then tick <b>Approved by Glenn</b> or <b>Approved by BigHammer team</b>, or add as many feedback notes as you like under any post. Each note is saved with your name and the time, and appears in that post's feed. ${SYNC ? "Everyone's notes and approvals are shared: they appear for every reviewer within a minute." : "Notes save in this browser. Press <b>Share review link</b> to send your review to someone else, who can load it into their view."} <b>Export</b> downloads every note and approval as a CSV.</div>`;
-    document.getElementById("main").appendChild(how);
   }
   function tally() {
     const n = S.posts.length, g = S.posts.filter(p => rv(p.key).glenn).length, t = S.posts.filter(p => rv(p.key).team).length, b = S.posts.filter(p => rv(p.key).glenn && rv(p.key).team).length;
@@ -224,16 +221,6 @@
     const f = e.target.closest("[data-filter]");
     if (f) { f.parentElement.querySelectorAll("button").forEach(b => b.classList.toggle("on", b === f)); filter = f.dataset.filter; applyFilter(); return; }
     const poll = e.target.closest(".li-poll-o"); if (poll) { poll.parentElement.querySelectorAll(".li-poll-o").forEach(b => b.classList.toggle("voted", b === poll)); return; }
-    if (e.target.id === "shareBtn") {
-      const url = location.origin + location.pathname + "#r=" + enc({ v: 2, at: new Date().toISOString(), ev: EV });
-      navigator.clipboard.writeText(url).then(() => C.toast("Review link copied")); return;
-    }
-    if (e.target.id === "exportBtn") {
-      const rows = [["batch", "post", "profile", "date", "time", "kind", "name", "approval / feedback", "at"]];
-      S.posts.forEach(p => live().filter(x => x.post === p.key).forEach(x => rows.push(["Batch " + p.batch, p.id, p.profile, p.date, p.time, x.kind === "approve" ? "approval (" + x.role + ")" : "feedback", x.name, x.kind === "approve" ? (x.value ? "approved" : "unapproved") : x.text, x.t])));
-      const csv = rows.map(r => r.map(x => `"${String(x ?? "").replace(/"/g, '""')}"`).join(",")).join("\n");
-      const a = Object.assign(document.createElement("a"), { href: URL.createObjectURL(new Blob([csv], { type: "text/csv" })), download: "bighammer-linkedin-review.csv" }); a.click(); return;
-    }
     if (e.target.id === "loadShared") { const n = merge(window.__shared.ev || []); saveEv(); (window.__shared.ev || []).forEach(push); hideBanner(); refreshReviews(); C.toast(n + " shared items loaded"); return; }
     if (e.target.id === "ignoreShared") { hideBanner(); return; }
   });
