@@ -61,7 +61,7 @@ window.STUDIO = {
     "src": "C1",
     "tall": false,
     "files": [
-     "media/C1/image.jpg?v=202610010109"
+     "media/C1/image.jpg?v=202610010119"
     ]
    },
    "text": "Your Databricks bill already explains itself.\n\nThe explanation sits in 7 read-only tables most teams never query.\n\nHere's what each one tells you:\n\n1. Billing\n\n→ billing.usage: what you spent, on which SKU, for which job\n→ billing.list_prices: what each unit cost at the time\n\n2. Jobs\n\n→ lakeflow.jobs: which jobs exist and who owns them\n→ job_run_timeline: which runs failed or timed out\n→ job_task_run_timeline: which task inside a job burned the time\n\n3. Compute\n\n→ compute.clusters: how each cluster was sized, tagged and set to shut down\n→ compute.node_timeline: how busy the nodes were, minute by minute\n\nTwo things catch teams out.\n\nJobs that run on All-Purpose clusters carry no job ID in billing. That spend can't be traced to a job at all.\n\nAnd CPU history is only kept for 90 days, while billing and job history last 365. Your utilisation evidence expires first.\n\nStart with five numbers this week:\n\n→ 90-day cost by product\n→ Share of spend with a job ID\n→ What failed runs cost\n→ Top 10 jobs, each with an owner\n→ Clusters averaging under 20% CPU\n\nOn Thursday 15 October, our founder and CEO Srinath Reddy runs these on a real bill in a free live masterclass.\n\nWhich of the 7 does your team already query?\n\n#Databricks #FinOps #DataEngineering",
@@ -99,7 +99,7 @@ window.STUDIO = {
     "src": "C2",
     "tall": false,
     "files": [
-     "media/C2/image.jpg?v=202610010109"
+     "media/C2/image.jpg?v=202610010119"
     ]
    },
    "text": "\"Should we move off Databricks?\" is the wrong question.\n\nIt forces an all or nothing answer. Neither answer is right.\n\nThe better question is: which jobs?\n\nScore every job on two things. How complex it is, and how much it depends on Databricks-only features.\n\nYou get five answers instead of one:\n\n1. Keep on Databricks\nHigh complexity, high dependency. ML training and scoring, declarative pipelines, Feature Store. This is where the platform earns its price.\n\n2. Optimize, then evaluate\nComplex, but plain Spark underneath. Tune it first. Decide later.\n\n3. Migrate\nSimple and low dependency. Nightly batch ETL, source to target loads, Scala JAR and PySpark wheel jobs. Real candidates for public cloud Spark.\n\n4. Evaluate\nSomewhere in between. Small jobs on dbutils, code tied to three-part table names. Get more data before you decide.\n\n5. Defer\nToo small in cost to be worth moving yet.\n\nWhat counts as a dependency signal:\n\n→ dbutils calls\n→ Unity Catalog three-part names\n→ the dlt module\n→ Databricks Connect\n\nDecisions made job by job. Never platform wide.\n\nOn Thursday 15 October, our founder and CEO Srinath Reddy walks through this sort live, with the scores and the reasons behind each call.\n\nWhich quadrant holds most of your spend?\n\n#Databricks #DataEngineering #DataPlatform",
@@ -132,7 +132,7 @@ window.STUDIO = {
     "src": "C3",
     "tall": false,
     "files": [
-     "media/C3/image.jpg?v=202610010109"
+     "media/C3/image.jpg?v=202610010119"
     ]
    },
    "text": "Next Thursday, 15 October, at 12:00 PM ET, our founder and CEO Srinath Reddy goes live.\n\n45 minutes on where Databricks spend actually goes, and the framework enterprise data teams use to reduce it by up to 75%.\n\nMinutes 0 to 30: the framework\n\n→ Assess: turn 90 days of billing and run data into a baseline you can defend\n→ Migrate: move the right jobs, in waves, and prove parity before cutover\n→ Monitor: catch drift before it lands on next quarter's bill\n\nMinutes 30 to 45: your questions\n\n→ Bring the hardest cost question you have\n→ The best three questions win a $50 Amazon gift card\n\n5 PM UK · 6 PM CET · 9 AM PT · 9:30 PM IST\n\nIt is free. The link to save your seat is in the first comment.\n\n#Databricks #FinOps #Webinar",
@@ -168,7 +168,7 @@ window.STUDIO = {
     "src": "C4",
     "tall": false,
     "files": [
-     "media/C4/image.jpg?v=202610010109"
+     "media/C4/image.jpg?v=202610010119"
     ]
    },
    "text": "Four legacy data tools changed hands in the last three years.\n\nIf one of them runs your pipelines, your 2027 plan needs a line for it.\n\n1. Informatica PowerCenter\nSalesforce completed its acquisition of Informatica in November 2025. Standard support for PowerCenter 10.5 is reported to have ended in March 2026, with paid extended support after that.\n\n2. Talend Open Studio\nQlik retired the free edition on 31 January 2024. It is no longer hosted or updated.\n\n3. StreamSets\nIBM completed its acquisition in July 2024. It now sits inside IBM's wider data integration suite.\n\n4. Cloudera CDH and HDP\nBoth are past end of support. On-prem Cloudera 7.3.1 reaches end of support in December 2026.\n\nNone of this makes these tools bad. Plenty of pipelines run on them today, and run well.\n\nBut a new owner or a closing support window changes the renewal conversation. You have three options:\n\n→ Stay and pay for extended support. It buys time, not a plan.\n→ Move to the vendor's cloud. Same vendor, new platform, new contract.\n→ Own the logic. Convert the pipelines to open code that lives in your own repo.\n\nWhich one is your team planning for?\n\nSources: Salesforce, Qlik, IBM, Cloudera support lifecycle. PowerCenter dates per Informatica's lifecycle guide.\n\n#DataEngineering #ETL #DataLeadership",
@@ -206,7 +206,7 @@ window.STUDIO = {
     "src": "C5",
     "tall": false,
     "files": [
-     "media/C5/image.jpg?v=202610010109"
+     "media/C5/image.jpg?v=202610010119"
     ]
    },
    "text": "Three kinds of people do data engineering. Only one of them has it in their job title.\n\nThe data engineer\nCarries a backlog from every team. Owns what reaches production. Wants the design work back.\n\nThe analyst who never signed up for it\nHas to join sources and work out why two numbers disagree before the real analysis can start.\n\nThe product team whose app runs on data\nNeeds data plumbing under the product. Builds it once, then maintains it forever.\n\nWhere they overlap is where the pain lives:\n\n→ Two sources disagree, and reconciliation belongs to nobody\n→ A field means one thing in the report and another in the app\n→ The app depends on pipelines its own team never designed\n\nWe built BigHammer.ai for all three, on one shared foundation:\n\n1. Meaning stays attached. A field means the same thing in the pipeline, the report and the app.\n2. AI where it helps. Fixed, predictable rules wherever the workflow needs them.\n3. Logic in your repo. The business knowledge you build stays in your own GitHub.\n\nWhich of the three are you, most weeks?\n\n#DataEngineering #Analytics #AI",
@@ -238,7 +238,7 @@ window.STUDIO = {
     "src": "C6",
     "tall": false,
     "files": [
-     "media/C6/image.jpg?v=202610010109"
+     "media/C6/image.jpg?v=202610010119"
     ]
    },
    "text": "Databricks Budgets went GA in July.\n\nMost teams will set one budget for the whole account. It will tell them almost nothing.\n\nA budget is only as useful as the tags underneath it. Here's the order that works:\n\n1. Pick three tags. No more.\nowner, cost_center, environment.\n\n2. Enforce them with a cluster policy.\nA policy can require a cost centre tag before compute will launch. No tag, no cluster.\n\n3. Fix the spend that can't carry a tag.\nScheduled work on All-Purpose clusters moves to job compute, so every run is traceable.\n\n4. Check tag coverage in system.billing.usage.\nWhat share of spend actually carries the tags? That's your real starting line.\n\n5. Now create budgets, per tag.\nOne per team. One per environment, because non-prod is where drift hides. A monthly showback by owner for the top 10 jobs.\n\nThen review spend against the value it delivered, every month.\n\nAnd report untagged spend as a visibility gap. Never as savings.\n\nWhat share of your spend carries an owner tag today?\n\n#Databricks #FinOps #CloudCost",
@@ -273,7 +273,7 @@ window.STUDIO = {
     "src": "S1",
     "tall": false,
     "files": [
-     "media/S1/image.jpg?v=202610010109"
+     "media/S1/image.jpg?v=202610010119"
     ]
    },
    "text": "Yesterday, Microsoft moved every Azure Databricks workspace still on Standard tier to Premium.\n\nAutomatically. Nobody on your team had to click a thing.\n\nHere is why I think it matters more than it looks.\n\n1. The rate changed. The workload did not.\nSame jobs, same clusters, same schedules. A different tier. If you were still on Standard, compare what you pay per DBU now with last month.\n\n2. Access controls start switched off.\nMicrosoft's own docs say access control lists are disabled by default on upgraded workspaces. Worth a look from your platform team this week.\n\n3. Month one is where surprises hide.\nDatabricks made Budgets generally available in July. Set one on these workspaces now, so the first Premium invoice is not a surprise.\n\nNone of this is a problem with Databricks. The platform did exactly what was announced.\n\nThe problem is the one I see everywhere. Changes land on the bill before anyone looks at the bill.\n\nOn 15 October I am running a live masterclass on how to baseline your spend, so changes like this never catch you out.\n\nWere any of your workspaces still on Standard?\n\n#Databricks #Azure #FinOps",
@@ -306,7 +306,7 @@ window.STUDIO = {
     "src": "S2",
     "tall": false,
     "files": [
-     "media/S2/image.jpg?v=202610010109"
+     "media/S2/image.jpg?v=202610010119"
     ]
    },
    "text": "How do you know if a savings number is real?\n\nASK WHAT WAS MEASURED.\n\nEvery vendor in my space promises you 75%. Including us. After the third deck, leadership stops listening. And they are right to.\n\nI have sat on both sides of this table. Buying tools for a 600+ person data organization, and now building one.\n\n*If a savings number cannot tell you what was measured and what was assumed, it is not a number. It is a pitch.*\n\nSo here are the 4 questions I would ask any vendor, including us:\n\n🔍 What was measured from your own billing and run data?\n\n🧮 What was assumed, and at what rate?\n\n🚫 What was left out? Contract discounts, cloud VM costs, spend nobody can trace to a job.\n\n➕ Could the total savings be bigger than what you actually spend? If that is not an obvious no, something is counted twice.\n\nThat is why our reports keep two columns. Measured first. Estimates second, each with the rule behind it. And spend we cannot trace is never called savings.\n\nOn 15 October I will show you which parts of our numbers are measured and which are estimated. Live.\n\n#Databricks #FinOps #DataLeadership",
@@ -342,7 +342,7 @@ window.STUDIO = {
     "src": "S3v2",
     "tall": false,
     "files": [
-     "media/S3v2/image.jpg?v=202610010109"
+     "media/S3v2/image.jpg?v=202610010119"
     ]
    },
    "text": "Half my old team signed up for webinars for the free AirPods.\n\nI never blamed them.\n\nMost of those webinars were a sales pitch with a title slide. Forty minutes about the product, five minutes of anything useful, and a gift card at the end to make the hour feel worth it.\n\nSome of them told me straight. They stayed for the giveaway, not the content.\n\nSo when we started planning our own masterclass, I kept thinking about them.\n\nRichard Lawrence, who works with me at BigHammer.ai, said it best in one of our planning calls:\n\n\"If it comes in the middle, this is just a product pitch.\"\n\nHe was right. So we flipped it.\n\n30 minutes of the framework we actually use to bring Databricks costs down. Real numbers. Then 15 minutes of your questions. BigHammer only shows up at the very end.\n\nThere is still a prize. The three best questions win a $50 Amazon gift card. I would rather reward a good question than a long attention span.\n\nIf you own a Databricks bill, I would love to see you there on Thursday 15 October.\n\nBring your hardest question.",
@@ -377,7 +377,7 @@ window.STUDIO = {
     "src": "S4",
     "tall": false,
     "files": [
-     "media/S4/image.jpg?v=202610010109"
+     "media/S4/image.jpg?v=202610010119"
     ]
    },
    "text": "A few customers told us they did not want to automate because it might mean laying off data engineers.\n\nI respect that answer. It comes from leaders who care about their people.\n\nI ran a data organization of more than 600 people. I know how a team feels when the word automation shows up on a slide.\n\nBut here is what I have seen. The work that gets automated first is not the work engineers love. It is the upkeep.\n\nFailed overnight jobs. Reruns. Schema breaks. Manual checks.\n\nOne benchmark this year put fragile pipelines and manual operations at 53% of engineering time. More than half the week, spent keeping things standing.\n\nGartner expects agentic data management to automate 75% of data engineering workflows by 2029. That change is coming either way.\n\nSo the real question for a leader is not \"will we automate\". It is \"where will my people go when we do\".\n\nMy answer: closer to the business.\n\nDesign. Business logic. Data products. Getting data ready for AI.\n\nThat is where engineers grow. It is also where the business has been waiting for them.\n\nAutomate the upkeep. Keep the engineer.\n\nIf you lead a data team, what would your engineers build with half their week back?\n\n#DataEngineering #Leadership #AI",
@@ -415,7 +415,7 @@ window.STUDIO = {
     "src": "S5",
     "tall": false,
     "files": [
-     "media/S5/image.jpg?v=202610010109"
+     "media/S5/image.jpg?v=202610010119"
     ]
    },
    "text": "A faster warehouse can cost you more. Here is the math.\n\nSnowflake's Gen2 warehouses are genuinely faster engines. They also burn more credits per hour. 1.35x on AWS and GCP. 1.25x on Azure.\n\nSo which one is cheaper? It depends on one thing.\n\nCost is credits per hour, times the hours the warehouse runs. That is it.\n\nTake a job that runs for 60 minutes on a Medium Gen1 warehouse. That is 4 credits.\n\nOn Gen2 in AWS, the same job has to finish in about 44 minutes to cost the same. On Azure, about 48.\n\nFaster than that, Gen2 wins. Slower, and the faster warehouse is the expensive one.\n\nTwo more things worth knowing:\n\n→ Every time a warehouse resumes, you pay for at least 60 seconds. On either generation.\n→ Gen2 is not the default yet, and not in every region. You opt in.\n\nThe fix is simple. Run the same queries on both for a week. Compare WAREHOUSE_METERING_HISTORY and QUERY_HISTORY. Let the numbers decide.\n\nI say this about every platform. Match the engine to the job, then check the bill.\n\nHave you tested Gen2 against your own workloads yet?\n\n#Snowflake #FinOps #DataEngineering",
@@ -453,14 +453,14 @@ window.STUDIO = {
     "src": "S6",
     "title": "Spark 4.0: 3 silent migration risks + 5 parity checks",
     "files": [
-     "media/S6/p01.jpg?v=202610010109",
-     "media/S6/p02.jpg?v=202610010109",
-     "media/S6/p03.jpg?v=202610010109",
-     "media/S6/p04.jpg?v=202610010109",
-     "media/S6/p05.jpg?v=202610010109",
-     "media/S6/p06.jpg?v=202610010109",
-     "media/S6/p07.jpg?v=202610010109",
-     "media/S6/p08.jpg?v=202610010109"
+     "media/S6/p01.jpg?v=202610010119",
+     "media/S6/p02.jpg?v=202610010119",
+     "media/S6/p03.jpg?v=202610010119",
+     "media/S6/p04.jpg?v=202610010119",
+     "media/S6/p05.jpg?v=202610010119",
+     "media/S6/p06.jpg?v=202610010119",
+     "media/S6/p07.jpg?v=202610010119",
+     "media/S6/p08.jpg?v=202610010119"
     ]
    },
    "text": "Spark 4.0 changed what happens when you cast 'abc' to a number.\n\nOn an older Databricks cluster, you get NULL. On Spark 4.0, the job fails.\n\nThat one change matters right now. EMR 8.0 and Dataproc 3.0 both run Spark 4.0. If you are moving jobs off Databricks this year, that is where they land.\n\nYou will hear this a lot:\n\n\"The code converted fine.\"\n\"All the tests passed.\"\n\"The job ran successfully.\"\n\nBut a job can run on time and still produce different numbers.\n\nInside the carousel:\n\n1. Why the target platforms changed under you\n2. ANSI mode, where bad input now stops the job\n3. Time zones, where the same row lands on a different day\n4. The Databricks only calls to replace first\n5. The 5 parity checks I would run on every migrated job\n6. How to run them without touching production\n\nCode conversion is the visible part of a migration. Proving parity is where trust is won or lost.\n\nOn 15 October I am walking through the full assess, migrate, monitor playbook, live.\n\nSave this for your next migration planning meeting.\n\n#Spark #Databricks #DataEngineering",
@@ -495,7 +495,7 @@ window.STUDIO = {
     "src": "R4",
     "tall": false,
     "files": [
-     "media/R4/image.jpg?v=202610010109"
+     "media/R4/image.jpg?v=202610010119"
     ]
    },
    "text": "When a senior data engineer hands in their notice, most companies worry about the code.\n\nHere's the thing.\n\nThe code is the easy part.\n\nIt's still there on Monday. What leaves is everything the code means:\n\n• Why that join exists\n• Which report the CFO actually trusts\n• What \"active customer\" means in this company\n• The workaround that keeps the 2am job alive\n• Who to call when a source system changes\n\nNone of that is written down. It lives in one person's head, and in pipeline logic that only they can read.\n\nI spent years selling data integration tools. I watched this happen at customer after customer. A good engineer left, and a quarter of \"why does this number look wrong?\" followed.\n\nThe fix isn't to stop people leaving. People should grow and move on.\n\nThe fix is where the knowledge lives.\n\nBusiness rules belong in your own repository, in plain view, where the next person can read them and the business can own them.\n\nYour engineers will always move on.\nYour logic shouldn't have to.\n\n#DataEngineering #DataLeadership #DataGovernance",
@@ -528,7 +528,7 @@ window.STUDIO = {
     "src": "R2",
     "tall": false,
     "files": [
-     "media/R2/image.jpg?v=202610010109"
+     "media/R2/image.jpg?v=202610010119"
     ]
    },
    "text": "I used to sell Talend.\n\nSo I remember how many data teams started with the free version.\n\nTalend Open Studio was the easy yes. No procurement, no budget meeting. Download it, build a few jobs, prove the idea. Then a few jobs became a few hundred, and the proof of concept quietly became production.\n\nOn 31 January 2024, Qlik retired it.\n\nIt's no longer hosted or updated. The jobs built on it didn't stop running. They just stopped getting patches.\n\nI don't say this to criticise anyone. Starting free was a sensible decision at the time, and I sold plenty of upgrades off the back of it.\n\nBut from the seller's side of the table, I learned something I wish more buyers knew.\n\nThe tool you start on for free often becomes the tool you can't leave. Not because it's the best option, but because your business logic is locked inside it.\n\nIf you still have Open Studio jobs in your estate, three questions are worth an hour this month:\n\nWhich jobs still run on it?\nWho could patch them if they broke?\nWhere should that logic live next?\n\nThe answers usually say more about your platform strategy than any vendor roadmap.\n\n#DataEngineering #ETL #DataLeadership",
@@ -561,16 +561,16 @@ window.STUDIO = {
     "src": "R3",
     "title": "The Worried vs The Curious",
     "files": [
-     "media/R3/p01.jpg?v=202610010109",
-     "media/R3/p02.jpg?v=202610010109",
-     "media/R3/p03.jpg?v=202610010109",
-     "media/R3/p04.jpg?v=202610010109",
-     "media/R3/p05.jpg?v=202610010109",
-     "media/R3/p06.jpg?v=202610010109",
-     "media/R3/p07.jpg?v=202610010109",
-     "media/R3/p08.jpg?v=202610010109",
-     "media/R3/p09.jpg?v=202610010109",
-     "media/R3/p10.jpg?v=202610010109"
+     "media/R3/p01.jpg?v=202610010119",
+     "media/R3/p02.jpg?v=202610010119",
+     "media/R3/p03.jpg?v=202610010119",
+     "media/R3/p04.jpg?v=202610010119",
+     "media/R3/p05.jpg?v=202610010119",
+     "media/R3/p06.jpg?v=202610010119",
+     "media/R3/p07.jpg?v=202610010119",
+     "media/R3/p08.jpg?v=202610010119",
+     "media/R3/p09.jpg?v=202610010119",
+     "media/R3/p10.jpg?v=202610010119"
     ]
    },
    "text": "There are two kinds of data engineers meeting AI right now.\n\nThe Worried and The Curious.\n\nBoth are smart. Both work hard. One is about to have a much better couple of years.\n\nThe Worried see AI as a threat to skills they spent years building. That's an understandable reaction, but it tends to end with every conversation being about what could go wrong.\n\nThe Curious ask a different question: how could this help me do more?\n\nThey don't trust it blindly. In last year's Stack Overflow survey only a third of developers said they trust the accuracy of AI output. So they check the work and keep their own judgement.\n\nBut they hand over the repetitive upkeep, and spend the time they get back closer to the business.\n\nSwipe through for the differences.\n\nAt BigHammer.ai, the second mindset is the one we most want to work with. Automating the mundane work is where it starts. Human judgement stays at the centre.\n\nWhich one sounds more like your team?\n\n#DataEngineering #AI #DataTeams",
@@ -605,7 +605,7 @@ window.STUDIO = {
     "src": "R1",
     "tall": false,
     "files": [
-     "media/R1/image.jpg?v=202610010109"
+     "media/R1/image.jpg?v=202610010119"
     ]
    },
    "text": "When I sold software, your renewal date sat on my forecast.\n\nNot as a date. As an \"expansion opportunity\".\n\nI'm not proud of every conversation that followed. A new version meant a chance to charge more. The deal was on the forecast, and the forecast had to close.\n\nWhat made those renewals easy for the seller was simple. The buyer usually arrived with one number: the invoice total.\n\nA total isn't evidence. It tells you what you spent. It doesn't tell you what drove it, what's growing, or what could run somewhere cheaper.\n\nIf you're heading into a data platform renewal this year, here's what I'd want you to bring:\n\n1. A 90-day cost baseline you can defend line by line\n2. Your top 10 jobs by cost, each with an owner\n3. What failed runs cost you, on a separate line\n4. Which workloads genuinely need the platform, and which don't\n\nThat last one is your leverage.\n\nWith those four, the conversation stops being about the price and starts being about your workloads. That's a much stronger seat to sit in.\n\nI switched sides because I wanted success to come from customers seeing real value in what they buy.\n\nThis is what that looks like in practice. If you want help building that evidence, there's a free masterclass on it in the comments.\n\n#DataLeadership #Databricks #FinOps",
@@ -641,7 +641,7 @@ window.STUDIO = {
     "src": "R5",
     "tall": false,
     "files": [
-     "media/R5/image.jpg?v=202610010109"
+     "media/R5/image.jpg?v=202610010119"
     ]
    },
    "text": "Most migration business cases I've seen price one bill.\n\nThe new platform's compute.\n\nIt looks great on a slide. Then the real costs turn up, and the savings that justified the project shrink by the quarter.\n\nBefore you move any job to a new platform, price all four bills:\n\n1. Target compute\nSized from real utilisation data, not last year's cluster size. Spot capacity where a retry is cheap. Egress if the data crosses clouds.\n\n2. The platform fee\nManaged Spark isn't just the machines. Google Dataproc adds $0.010 per vCPU hour on top of the Compute Engine bill. Amazon EMR adds a per-instance uplift, around $0.048 an hour on an m5.xlarge in us-east-1.\n\n3. Migration effort\nConverting platform-specific code, rewiring orchestration and rebuilding access and governance. Priced per job, not per project.\n\n4. The dual-run period\nWhile you prove the new job matches the old one, you pay for both.\n\nThen do the 60-second check before anyone signs:\n\n→ Every job has a 90-day cost baseline\n→ Fees are counted on both sides\n→ Dual-run weeks are in the budget\n→ Savings are split into measured and estimated\n→ Jobs that belong where they are, stay there\n\nA business case that survives those five questions is one your CFO will still believe in a year.\n\nSave this for your next platform review.\n\n#DataEngineering #FinOps #CloudCost",
@@ -678,13 +678,13 @@ window.STUDIO = {
     "src": "R6",
     "title": "Please don't come to our masterclass if...",
     "files": [
-     "media/R6/p01.jpg?v=202610010109",
-     "media/R6/p02.jpg?v=202610010109",
-     "media/R6/p03.jpg?v=202610010109",
-     "media/R6/p04.jpg?v=202610010109",
-     "media/R6/p05.jpg?v=202610010109",
-     "media/R6/p06.jpg?v=202610010109",
-     "media/R6/p07.jpg?v=202610010109"
+     "media/R6/p01.jpg?v=202610010119",
+     "media/R6/p02.jpg?v=202610010119",
+     "media/R6/p03.jpg?v=202610010119",
+     "media/R6/p04.jpg?v=202610010119",
+     "media/R6/p05.jpg?v=202610010119",
+     "media/R6/p06.jpg?v=202610010119",
+     "media/R6/p07.jpg?v=202610010119"
     ]
    },
    "text": "Please don't come to our masterclass on 15 October if any of these are true.\n\nI mean it. I spent years inviting people to webinars that weren't for them, and I'd rather not waste your Thursday.\n\nSkip it if:\n\n1. Your platform bill is small and flat\n2. Every cluster already has an owner, a tag and a timeout\n3. You already know your cost per job\n4. You're hoping for a product demo\n\nThat last one matters. It's 30 minutes of framework and 15 minutes of your questions. BigHammer.ai only comes up in the final minute.\n\nStill here? Then it's probably for you:\n\n→ Data leaders whose platform bill keeps climbing\n→ Platform owners with a renewal coming up\n→ FinOps teams asked to explain the spend\n→ Engineering managers planning a move to EMR or Dataproc\n\nOur founder and CEO, Srinath Reddy, is hosting it live. Swipe through, and the link is in the first comment.\n\n#Databricks #FinOps #DataEngineering",
@@ -700,5 +700,5 @@ window.STUDIO = {
   }
  ],
  "webinar_url": "https://webinar.bighammerai.com/",
- "sync_url": ""
+ "sync_url": "https://script.google.com/macros/s/AKfycbwkUPVvQv_Ye9O1IEu5Lt8ABtDzlAZZjprQUk4AFRMSOU1OiJcDPb4DVSBylaXHJ2UWWA/exec"
 };
