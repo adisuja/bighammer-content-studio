@@ -120,3 +120,4 @@ details.bnav a .cnt{font-size:11px;color:#0b6e4f;background:#E1F8EC;border-radiu
 
 .sv{font-style:normal;font-size:10.5px;font-weight:700;margin-left:4px;white-space:nowrap}
 .sv.ok{color:#0b6e4f}.sv.wait{color:#a15c00}
+details.bnav.act summary{background:#E7E0FF}

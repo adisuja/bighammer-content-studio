@@ -85,11 +85,11 @@
   function mediaHtml(p) {
     const m = p.media || {};
     if (m.type === "image") {
-      return `<div class="li-imgpost${m.tall ? " tall" : ""}"><img src="${esc(m.files[0])}" alt="${esc(p.id)}" data-lb="${esc(m.files[0])}" data-lb-caption="${esc(p.id)} · ${esc(p.idea)}"></div>`;
+      return `<div class="li-imgpost${m.tall ? " tall" : ""}"><img loading="lazy" src="${esc(m.files[0])}" alt="${esc(p.id)}" data-lb="${esc(m.files[0])}" data-lb-caption="${esc(p.id)} · ${esc(p.idea)}"></div>`;
     }
     if (m.type === "carousel") {
       const g = "car-" + p.key, n = m.files.length;
-      const slides = m.files.map((f, i) => `<div class="li-slide"><img src="${esc(f)}" alt="${esc(p.id)} page ${i + 1}" data-lb="${esc(f)}" data-lb-group="${g}" data-lb-caption="${esc(m.title || p.id)} · page ${i + 1} of ${n}"></div>`).join("");
+      const slides = m.files.map((f, i) => `<div class="li-slide"><img loading="lazy" src="${esc(f)}" alt="${esc(p.id)} page ${i + 1}" data-lb="${esc(f)}" data-lb-group="${g}" data-lb-caption="${esc(m.title || p.id)} · page ${i + 1} of ${n}"></div>`).join("");
       return `<div class="li-doc"><div class="li-doc-head"><span class="li-doc-title">${esc(m.title || p.idea)}</span><span class="li-doc-pages">${n} pages</span></div>
         <div class="li-doc-view"><div class="li-slides" data-pages="${n}">${slides}</div><span class="li-pg">1 / ${n}</span><span class="li-exp" title="View full screen">${LI_I().expand}</span><button class="li-arr prev" data-dir="-1" title="Previous slide">‹</button><button class="li-arr next" data-dir="1" title="Next slide">›</button></div></div>`;
     }
@@ -164,9 +164,15 @@
   function visible(p) { const r = rv(p.key); if (filter === "approved") return r.glenn && r.team; if (filter === "todo") return !(r.glenn && r.team); return true; }
   const batches = () => (S.batches && S.batches.length ? S.batches : [{ id: "2", title: "Batch 2" }]);
   const postsOf = (bid, prid) => S.posts.filter(p => (p.batch || "2") === bid && p.profile === prid).sort((a, b) => (a.date + a.time).localeCompare(b.date + b.time));
+  /* One batch on screen at a time (batches grow to 50 posts; all at once would be hundreds of phones).
+     Default = newest batch; a #bN-profile-x deep link or a sidebar click switches batch. */
+  const hashB = (location.hash.match(/^#b(\w+)-profile-/) || [])[1];
+  let active = [hashB, localStorage.getItem("bh-active-batch")].find(b => b && batches().some(x => x.id === b)) || batches()[batches().length - 1].id;
+  const inActive = (p) => (p.batch || "2") === active;
+  function setActive(b) { if (b === active) return false; active = b; localStorage.setItem("bh-active-batch", b); render(); fit(); return true; }
   function render() {
     const main = document.getElementById("main");
-    main.innerHTML = batches().map(bt => `<section class="batch" id="batch-${esc(bt.id)}">
+    main.innerHTML = batches().filter(bt => bt.id === active).map(bt => `<section class="batch" id="batch-${esc(bt.id)}">
       <div class="bhead"><h1>${esc(bt.title)}</h1><p>${esc(bt.dates || "")} · ${S.posts.filter(p => (p.batch || "2") === bt.id).length} posts across ${S.profiles.length} profiles</p></div>
       ${S.profiles.map((pr, i) => {
         const posts = postsOf(bt.id, pr.id);
@@ -185,16 +191,17 @@
   function nav() {
     document.getElementById("sidenav").innerHTML = batches().map((bt, bi) => {
       const isOpen = openB[bt.id] !== undefined ? openB[bt.id] : bi === batches().length - 1;
-      return `<details class="bnav" data-b="${esc(bt.id)}" ${isOpen ? "open" : ""}><summary>${esc(bt.title)}<small>${S.posts.filter(p => (p.batch || "2") === bt.id).length} posts</small></summary>` +
+      return `<details class="bnav${bt.id === active ? " act" : ""}" data-b="${esc(bt.id)}" ${isOpen || bt.id === active ? "open" : ""}><summary>${esc(bt.title)}<small>${S.posts.filter(p => (p.batch || "2") === bt.id).length} posts</small></summary>` +
         S.profiles.map(pr => {
           const posts = postsOf(bt.id, pr.id), done = posts.filter(p => { const r = rv(p.key); return r.glenn && r.team; }).length;
           return `<a href="#b${esc(bt.id)}-profile-${esc(pr.id)}" data-target="b${esc(bt.id)}-profile-${esc(pr.id)}"><span>${esc(pr.name)}</span><small class="cnt">${done}/${posts.length}</small></a>`;
         }).join("") + `</details>`;
     }).join("");
     document.querySelectorAll(".bnav").forEach(d => d.addEventListener("toggle", () => { openB[d.dataset.b] = d.open; localStorage.setItem("bh-nav-open", JSON.stringify(openB)); }));
+    document.querySelectorAll(".bnav summary").forEach(sm => sm.addEventListener("click", () => { const b = sm.parentElement.dataset.b; if (b !== active) { openB[b] = false; setActive(b); window.scrollTo(0, 0); } }));
   }
   function tally() {
-    const n = S.posts.length, g = S.posts.filter(p => rv(p.key).glenn).length, t = S.posts.filter(p => rv(p.key).team).length, b = S.posts.filter(p => rv(p.key).glenn && rv(p.key).team).length;
+    const L = S.posts.filter(inActive), n = L.length, g = L.filter(p => rv(p.key).glenn).length, t = L.filter(p => rv(p.key).team).length, b = L.filter(p => rv(p.key).glenn && rv(p.key).team).length;
     const el = document.getElementById("tally"); if (el) el.innerHTML = `Glenn <b>${g}/${n}</b> · Team <b>${t}/${n}</b> · Both <b>${b}</b>`;
   }
 
@@ -207,6 +214,10 @@
     add({ post: card.dataset.id, kind: "approve", role, value: ap.checked, name });
     refreshReviews(); C.toast(ap.checked ? "Approval stored, confirming…" : "Approval removed, confirming…");
   });
+  document.addEventListener("click", (e) => {
+    const nl = e.target.closest("#sidenav a[data-target]"), nb = nl && (nl.dataset.target.match(/^b(\w+)-profile-/) || [])[1];
+    if (nb && setActive(nb)) { e.preventDefault(); e.stopPropagation(); requestAnimationFrame(() => document.getElementById(nl.dataset.target).scrollIntoView({ behavior: "smooth" })); return; }
+  }, true);
   document.addEventListener("click", (e) => {
     const sv = e.target.closest("[data-addfb]");
     if (sv) {
