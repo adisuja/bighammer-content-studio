@@ -11,7 +11,7 @@
      Every approval and every feedback line is an event {id,t,post,kind,name,...}. Events live in
      localStorage and, when S.sync_url is set, in a shared Google Sheet (Apps Script web app) so every
      reviewer sees every other reviewer's feed. Share links carry the local log as a fallback. */
-  const KEY = "bh-batch3-events-v2", NAMEKEY = "bh-reviewer-name", SYNC = S.sync_url || "";
+  const KEY = "bh-review-events-v3", NAMEKEY = "bh-reviewer-name", SYNC = S.sync_url || "";
   let EV = loadEv();
   function loadEv() { try { return JSON.parse(localStorage.getItem(KEY) || "[]"); } catch { return []; } }
   function saveEv() { localStorage.setItem(KEY, JSON.stringify(EV)); tally(); }
@@ -61,7 +61,7 @@
       return `<div class="li-imgpost${m.tall ? " tall" : ""}"><img src="${esc(m.files[0])}" alt="${esc(p.id)}" data-lb="${esc(m.files[0])}" data-lb-caption="${esc(p.id)} · ${esc(p.idea)}"></div>`;
     }
     if (m.type === "carousel") {
-      const g = "car-" + p.id, n = m.files.length;
+      const g = "car-" + p.key, n = m.files.length;
       const slides = m.files.map((f, i) => `<div class="li-slide"><img src="${esc(f)}" alt="${esc(p.id)} page ${i + 1}" data-lb="${esc(f)}" data-lb-group="${g}" data-lb-caption="${esc(m.title || p.id)} · page ${i + 1} of ${n}"></div>`).join("");
       return `<div class="li-doc"><div class="li-doc-head"><span class="li-doc-title">${esc(m.title || p.idea)}</span><span class="li-doc-pages">${n} pages</span></div>
         <div class="li-doc-view"><div class="li-slides" data-pages="${n}">${slides}</div><span class="li-pg">1 / ${n}</span><span class="li-exp" title="View full screen">${LI_I().expand}</span><button class="li-arr prev" data-dir="-1" title="Previous slide">‹</button><button class="li-arr next" data-dir="1" title="Next slide">›</button></div></div>`;
@@ -96,16 +96,16 @@
 
   /* ---------- card = header + phone + review ---------- */
   function card(p) {
-    const w = when(p), r = rv(p.id);
+    const w = when(p), r = rv(p.key);
     const fmt = `<span class="badge fmt">${esc(p.media && p.media.type === "carousel" ? "Carousel" : p.media && p.media.type === "poll" ? "Poll" : p.media && p.media.type === "image" ? "Image" : "Post")}</span>`;
     const cta = p.cta ? `<span class="badge cta">Webinar CTA</span>` : "";
     const wip = p.status !== "ready" ? `<span class="badge wip">In production</span>` : "";
     const smp = p.sample || {};
-    return `<article class="pcard card" id="${esc(p.id)}" data-id="${esc(p.id)}">
+    return `<article class="pcard card" id="${esc(p.key)}" data-id="${esc(p.key)}">
       <header class="chead"><div class="crow"><span class="pid">${esc(p.id)}</span><span class="when">${esc(w.day)} <span>· ${esc(w.time)}</span></span></div>
         <div class="crow">${fmt}${cta}${wip}</div><div class="cidea">${esc(p.idea)}</div></header>
       ${C.phone(screen(p), "linkedin")}
-      <section class="rev" data-rev="${esc(p.id)}">${revHtml(p.id)}</section>
+      <section class="rev" data-rev="${esc(p.key)}">${revHtml(p.key)}</section>
       <details class="info"><summary>Sample, template, first comment and sources</summary><dl>
         <dt>Sample matched</dt><dd><b>${esc(smp.id || "")}</b> · ${esc(smp.creator || "")}${smp.url ? ` · <a href="${esc(smp.url)}" target="_blank" rel="noopener">view original post</a>` : ""}<br>${esc(smp.what || "")}${smp.thumb ? `<img class="sthumb" src="${esc(smp.thumb)}" data-lb="${esc(smp.thumb)}" data-lb-caption="Sample ${esc(smp.id || "")}">` : ""}</dd>
         <dt>Copy template</dt><dd>${esc(p.copy_basis || "")}</dd>
@@ -131,37 +131,43 @@
 
   /* ---------- page ---------- */
   let filter = "all";
-  function visible(p) { const r = rv(p.id); if (filter === "approved") return r.glenn && r.team; if (filter === "todo") return !(r.glenn && r.team); return true; }
+  function visible(p) { const r = rv(p.key); if (filter === "approved") return r.glenn && r.team; if (filter === "todo") return !(r.glenn && r.team); return true; }
+  const batches = () => (S.batches && S.batches.length ? S.batches : [{ id: "2", title: "Batch 2" }]);
+  const postsOf = (bid, prid) => S.posts.filter(p => (p.batch || "2") === bid && p.profile === prid).sort((a, b) => (a.date + a.time).localeCompare(b.date + b.time));
   function render() {
     const main = document.getElementById("main");
-    main.innerHTML = S.profiles.map((pr, i) => {
-      const posts = S.posts.filter(p => p.profile === pr.id).sort((a, b) => (a.date + a.time).localeCompare(b.date + b.time));
-      return `<section class="profile" id="profile-${esc(pr.id)}">
+    main.innerHTML = batches().map(bt => `<section class="batch" id="batch-${esc(bt.id)}">
+      <div class="bhead"><h1>${esc(bt.title)}</h1><p>${esc(bt.dates || "")} · ${S.posts.filter(p => (p.batch || "2") === bt.id).length} posts across ${S.profiles.length} profiles</p></div>
+      ${S.profiles.map((pr, i) => {
+        const posts = postsOf(bt.id, pr.id);
+        return `<section class="profile" id="b${esc(bt.id)}-profile-${esc(pr.id)}">
         <div class="phead">${pr.avatar_ok ? `<img class="${pr.kind === "company" ? "sq" : ""}" src="${esc(pr.avatar)}" alt="">` : ""}<div><h2>${esc(pr.name)}</h2><p>${esc(pr.headline)} · ${posts.length} posts · 10:00 ${pr.tz === "ET" ? "ET" : "UK time"}</p></div><span class="order">${i + 1} of ${S.profiles.length}</span></div>
-        ${pr.note ? `<div class="pnote">${esc(pr.note)}</div>` : ""}
         <div class="pgrid">${posts.length ? posts.map(card).join("") : `<div class="pnote">Posts for this profile are in production.</div>`}</div>
-      </section>`;
-    }).join("");
+      </section>`; }).join("")}
+    </section>`).join("");
     applyFilter();
     nav();
     if (window.LI && window.LI.afterRender) window.LI.afterRender();
     tally();
   }
-  function applyFilter() { document.querySelectorAll(".pcard").forEach(el => { const p = S.posts.find(x => x.id === el.dataset.id); el.classList.toggle("hide", !visible(p)); }); }
+  function applyFilter() { document.querySelectorAll(".pcard").forEach(el => { const p = S.posts.find(x => x.key === el.dataset.id); el.classList.toggle("hide", !visible(p)); }); }
+  const openB = JSON.parse(localStorage.getItem("bh-nav-open") || "{}");
   function nav() {
-    document.getElementById("sidenav").innerHTML = S.profiles.map(pr => {
-      const posts = S.posts.filter(p => p.profile === pr.id).sort((a, b) => (a.date + a.time).localeCompare(b.date + b.time));
-      return `<h4>${esc(pr.name)}</h4><a href="#profile-${esc(pr.id)}" data-target="profile-${esc(pr.id)}"><span>All ${esc(pr.name)} posts</span></a>` + posts.map(p => {
-        const r = rv(p.id), w = when(p);
-        return `<a href="#${esc(p.id)}" data-target="${esc(p.id)}"><span>${esc(p.id)} · ${esc(p.short || p.idea)}<small>${esc(w.day)}${p.cta ? " · CTA" : ""}</small></span><span class="dots" title="Glenn · Team"><i class="${r.glenn ? "on" : ""}"></i><i class="${r.team ? "on" : ""}"></i></span></a>`;
-      }).join("");
+    document.getElementById("sidenav").innerHTML = batches().map((bt, bi) => {
+      const isOpen = openB[bt.id] !== undefined ? openB[bt.id] : bi === batches().length - 1;
+      return `<details class="bnav" data-b="${esc(bt.id)}" ${isOpen ? "open" : ""}><summary>${esc(bt.title)}<small>${S.posts.filter(p => (p.batch || "2") === bt.id).length} posts</small></summary>` +
+        S.profiles.map(pr => {
+          const posts = postsOf(bt.id, pr.id), done = posts.filter(p => { const r = rv(p.key); return r.glenn && r.team; }).length;
+          return `<a href="#b${esc(bt.id)}-profile-${esc(pr.id)}" data-target="b${esc(bt.id)}-profile-${esc(pr.id)}"><span>${esc(pr.name)}</span><small class="cnt">${done}/${posts.length}</small></a>`;
+        }).join("") + `</details>`;
     }).join("") + `<h4>About</h4><a href="#how" data-target="how"><span>How review works</span></a>`;
+    document.querySelectorAll(".bnav").forEach(d => d.addEventListener("toggle", () => { openB[d.dataset.b] = d.open; localStorage.setItem("bh-nav-open", JSON.stringify(openB)); }));
     const how = document.getElementById("how") || Object.assign(document.createElement("section"), { id: "how", className: "profile" });
     how.innerHTML = `<div class="phead"><div><h2>How review works</h2><p>No login needed.</p></div></div><div class="pnote" style="background:#EFE9FF;color:#3D00AD">Type your name once, then tick <b>Approved by Glenn</b> or <b>Approved by BigHammer team</b>, or add as many feedback notes as you like under any post. Each note is saved with your name and the time, and appears in that post's feed. ${SYNC ? "Everyone's notes and approvals are shared: they appear for every reviewer within a minute." : "Notes save in this browser. Press <b>Share review link</b> to send your review to someone else, who can load it into their view."} <b>Export</b> downloads every note and approval as a CSV.</div>`;
     document.getElementById("main").appendChild(how);
   }
   function tally() {
-    const n = S.posts.length, g = S.posts.filter(p => rv(p.id).glenn).length, t = S.posts.filter(p => rv(p.id).team).length, b = S.posts.filter(p => rv(p.id).glenn && rv(p.id).team).length;
+    const n = S.posts.length, g = S.posts.filter(p => rv(p.key).glenn).length, t = S.posts.filter(p => rv(p.key).team).length, b = S.posts.filter(p => rv(p.key).glenn && rv(p.key).team).length;
     const el = document.getElementById("tally"); if (el) el.innerHTML = `Glenn <b>${g}/${n}</b> · Team <b>${t}/${n}</b> · Both <b>${b}</b>`;
   }
 
@@ -184,7 +190,7 @@
       card.querySelector("[data-fb]").value = ""; refreshReviews(); C.toast("Feedback saved"); return;
     }
     const ct = e.target.closest("[data-copyt]");
-    if (ct) { const p = S.posts.find(x => x.id === ct.closest(".pcard").dataset.id); navigator.clipboard.writeText(p[ct.dataset.copyt] || "").then(() => C.toast("Copied")); return; }
+    if (ct) { const p = S.posts.find(x => x.key === ct.closest(".pcard").dataset.id); navigator.clipboard.writeText(p[ct.dataset.copyt] || "").then(() => C.toast("Copied")); return; }
     const f = e.target.closest("[data-filter]");
     if (f) { f.parentElement.querySelectorAll("button").forEach(b => b.classList.toggle("on", b === f)); filter = f.dataset.filter; applyFilter(); return; }
     const poll = e.target.closest(".li-poll-o"); if (poll) { poll.parentElement.querySelectorAll(".li-poll-o").forEach(b => b.classList.toggle("voted", b === poll)); return; }
@@ -193,10 +199,10 @@
       navigator.clipboard.writeText(url).then(() => C.toast("Review link copied")); return;
     }
     if (e.target.id === "exportBtn") {
-      const rows = [["post", "profile", "date", "time", "kind", "name", "approval / feedback", "at"]];
-      S.posts.forEach(p => EV.filter(x => x.post === p.id).forEach(x => rows.push([p.id, p.profile, p.date, p.time, x.kind === "approve" ? "approval (" + x.role + ")" : "feedback", x.name, x.kind === "approve" ? (x.value ? "approved" : "unapproved") : x.text, x.t])));
+      const rows = [["batch", "post", "profile", "date", "time", "kind", "name", "approval / feedback", "at"]];
+      S.posts.forEach(p => EV.filter(x => x.post === p.key).forEach(x => rows.push(["Batch " + p.batch, p.id, p.profile, p.date, p.time, x.kind === "approve" ? "approval (" + x.role + ")" : "feedback", x.name, x.kind === "approve" ? (x.value ? "approved" : "unapproved") : x.text, x.t])));
       const csv = rows.map(r => r.map(x => `"${String(x ?? "").replace(/"/g, '""')}"`).join(",")).join("\n");
-      const a = Object.assign(document.createElement("a"), { href: URL.createObjectURL(new Blob([csv], { type: "text/csv" })), download: "bighammer-batch3-review.csv" }); a.click(); return;
+      const a = Object.assign(document.createElement("a"), { href: URL.createObjectURL(new Blob([csv], { type: "text/csv" })), download: "bighammer-linkedin-review.csv" }); a.click(); return;
     }
     if (e.target.id === "loadShared") { const n = merge(window.__shared.ev || []); saveEv(); (window.__shared.ev || []).forEach(push); hideBanner(); refreshReviews(); C.toast(n + " shared items loaded"); return; }
     if (e.target.id === "ignoreShared") { hideBanner(); return; }

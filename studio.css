@@ -104,3 +104,16 @@ details.info .row{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap}
 .fbe{font-size:12px;color:#8a8a8a;padding:4px 0}
 .fbin input{width:100%;margin-top:10px;border:1px solid #d6d3cc;border-radius:8px;padding:7px 10px;font:inherit;font-size:12.5px}
 .fbin textarea{margin-top:6px!important}
+
+.batch{border-bottom:3px solid #e3e1dc}
+.bhead{padding:22px 26px 4px}
+.bhead h1{margin:0;font-size:26px;letter-spacing:-.3px}
+.bhead p{margin:4px 0 0;font-size:13px;color:#6b6b6b}
+details.bnav{margin:4px 0 10px}
+details.bnav summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;padding:8px 8px;border-radius:8px;font-weight:800;font-size:14px;background:#efece6}
+details.bnav summary::-webkit-details-marker{display:none}
+details.bnav summary::before{content:"▸";margin-right:8px;transition:transform .15s}
+details.bnav[open] summary::before{transform:rotate(90deg)}
+details.bnav summary small{margin-left:auto;font-weight:500;color:#6b6b6b;font-size:11.5px}
+details.bnav a{margin-left:14px;align-items:center}
+details.bnav a .cnt{font-size:11px;color:#0b6e4f;background:#E1F8EC;border-radius:999px;padding:1px 7px}
