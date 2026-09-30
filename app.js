@@ -1,6 +1,6 @@
-/* app.js: BigHammer batch-3 review studio. Renders every post inside an iPhone LinkedIn iOS feed
+/* app.js: BigHammer review studio (batches 2+). Renders every post inside an iPhone LinkedIn iOS feed
    (via core.js + linkedin.js) with a review layer: Glenn / BigHammer team approvals and feedback,
-   persisted in localStorage and shareable as a link (#r=...). No backend. */
+   persisted in localStorage AND a shared Google Sheet (read-back confirmed), plus share links. */
 (function () {
   const C = window.CORE, esc = C.esc, S = window.STUDIO;
   const HASH = location.hash; // captured before core.js boot strips it
@@ -21,26 +21,49 @@
   function appr(post, role) { const l = EV.filter(e => e.post === post && e.kind === "approve" && e.role === role); return l.length ? l[l.length - 1] : null; }
   const rv = (id) => { const g = appr(id, "glenn"), t = appr(id, "team"); return { glenn: !!(g && g.value), team: !!(t && t.value), g, t }; };
   const fmtT = (t) => new Date(t).toLocaleString("en-GB", { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" });
-  let syncState = SYNC ? "connecting" : "local";
-  async function push(e) {
+  /* Durability: an event counts as saved only once it has been READ BACK from the shared sheet.
+     Until then it is "pending": kept in localStorage, re-sent with backoff, sent again by beacon if the
+     tab closes, and the tab warns before closing. Any browser that still holds an event the sheet has
+     lost re-sends it, so the sheet heals itself. */
+  let syncState = SYNC ? "connecting" : "local", REMOTE = new Set(JSON.parse(localStorage.getItem("bh-review-remote") || "[]")), retryT = null, backoff = 2000;
+  const pending = () => SYNC ? EV.filter(e => !REMOTE.has(e.id)) : [];
+  const saved = (e) => !SYNC || REMOTE.has(e.id);
+  const sent = {};
+  function push(e) {
     if (!SYNC) return;
-    try { await fetch(SYNC, { method: "POST", mode: "no-cors", headers: { "Content-Type": "text/plain;charset=utf-8" }, body: JSON.stringify(e) }); syncState = "live"; }
-    catch { syncState = "offline"; }
-    syncBadge();
+    sent[e.id] = Date.now();
+    fetch(SYNC, { method: "POST", mode: "no-cors", keepalive: true, headers: { "Content-Type": "text/plain;charset=utf-8" }, body: JSON.stringify(e) })
+      .catch(() => { syncState = "offline"; syncBadge(); });
   }
+  function schedule(ms) { clearTimeout(retryT); retryT = setTimeout(pull, ms); }
   async function pull() {
     if (!SYNC) return;
     try {
       const r = await fetch(SYNC + (SYNC.includes("?") ? "&" : "?") + "t=" + Date.now()); const remote = await r.json();
-      const ids = new Set(remote.map(x => x.id)); const mine = EV.filter(e => !ids.has(e.id));
+      const was = pending().map(e => e.id).join();
+      REMOTE = new Set(remote.map(x => x.id)); localStorage.setItem("bh-review-remote", JSON.stringify([...REMOTE]));
       const n = merge(remote); saveEv(); syncState = "live";
-      mine.forEach(push);                       // retry anything that never reached the sheet
-      if (n) refreshReviews();
+      pending().forEach(e => { if (!sent[e.id] || Date.now() - sent[e.id] > 4000) push(e); }); // retry anything not yet in the sheet
+      if (n || was !== pending().map(e => e.id).join()) refreshReviews(); if (n) C.toast(n + " new review item" + (n === 1 ? "" : "s"));
     } catch { syncState = "offline"; }
     syncBadge();
+    if (pending().length) { schedule(backoff); backoff = Math.min(backoff * 1.6, 30000); } else { backoff = 2000; schedule(45000); }
   }
-  function syncBadge() { const el = document.getElementById("sync"); if (!el) return; const m = { live: ["Shared · live", "ok"], connecting: ["Connecting…", ""], offline: ["Offline · saved here", "warn"], local: ["Saved in this browser", "warn"] }[syncState]; el.textContent = m[0]; el.className = "syncb " + m[1]; }
-  function add(e) { e.id = uid(); e.t = new Date().toISOString(); EV.push(e); saveEv(); push(e); return e; }
+  function syncBadge() {
+    const el = document.getElementById("sync"); if (!el) return; const k = pending().length;
+    const m = !SYNC ? ["Saved in this browser only", "warn"] : syncState === "offline" ? [`Offline · ${k} waiting, retrying`, "warn"]
+      : syncState === "connecting" ? ["Connecting…", ""] : k ? [`Saving ${k}…`, "warn"] : ["✓ All saved to shared sheet", "ok"];
+    el.textContent = m[0]; el.className = "syncb " + m[1];
+  }
+  function add(e) { e.id = uid(); e.t = new Date().toISOString(); EV.push(e); saveEv(); push(e); syncBadge(); backoff = 2000; schedule(1500); return e; }
+  window.addEventListener("online", () => { backoff = 2000; pull(); });
+  window.addEventListener("pagehide", () => { pending().forEach(e => { try { navigator.sendBeacon(SYNC, new Blob([JSON.stringify(e)], { type: "text/plain;charset=utf-8" })); } catch {} }); });
+  window.addEventListener("beforeunload", (ev) => { if (pending().length || document.querySelector("[data-fb]:not(:placeholder-shown)")) { ev.preventDefault(); ev.returnValue = ""; } });
+  /* unsent drafts survive reloads, crashes and restarts */
+  const DK = "bh-review-drafts", drafts = JSON.parse(localStorage.getItem(DK) || "{}");
+  const saveDraft = (post, v) => { if (v) drafts[post] = v; else delete drafts[post]; localStorage.setItem(DK, JSON.stringify(drafts)); };
+  document.addEventListener("input", (e) => { if (e.target.matches("[data-fb]")) saveDraft(e.target.closest(".pcard").dataset.id, e.target.value); if (e.target.matches("[data-name]")) localStorage.setItem(NAMEKEY, e.target.value.trim()); });
+  const mark = (e) => saved(e) ? `<em class="sv ok" title="Confirmed in the shared Google Sheet">✓ Saved</em>` : `<em class="sv wait" title="Stored in this browser, being sent to the shared sheet">Saving…</em>`;
   const enc = (o) => btoa(unescape(encodeURIComponent(JSON.stringify(o)))).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
   const dec = (s) => JSON.parse(decodeURIComponent(escape(atob(s.replace(/-/g, "+").replace(/_/g, "/")))));
 
@@ -119,15 +142,18 @@
 
   function revHtml(id) {
     const r = rv(id), cs = comments(id), me = localStorage.getItem(NAMEKEY) || "";
-    const who = (x) => x ? `<small>${esc(x.name || "")}${x.name ? " · " : ""}${esc(fmtT(x.t))}</small>` : "";
+    const who = (x) => x ? `<small>${esc(x.name || "")}${x.name ? " · " : ""}${esc(fmtT(x.t))} ${mark(x)}</small>` : "";
     return `<div class="appr">
         <label class="ck${r.glenn ? " on" : ""}"><input type="checkbox" data-appr="glenn" ${r.glenn ? "checked" : ""}><span>Approved by Glenn${r.g ? who(r.g) : ""}</span></label>
         <label class="ck${r.team ? " on" : ""}"><input type="checkbox" data-appr="team" ${r.team ? "checked" : ""}><span>Approved by BigHammer team${r.t ? who(r.t) : ""}</span></label>
       </div>
-      <div class="feed">${cs.length ? cs.map(c => `<div class="fbi"><span class="fav">${esc((c.name || "?").trim().slice(0, 1).toUpperCase())}</span><div><div class="fbh"><b>${esc(c.name || "Reviewer")}</b><span>${esc(fmtT(c.t))}</span></div><div class="fbt">${esc(c.text).replace(/\n/g, "<br>")}</div></div></div>`).join("") : `<div class="fbe">No feedback yet.</div>`}</div>
-      <div class="fbin"><input data-name placeholder="Your name" value="${esc(me)}"><textarea data-fb placeholder="Add feedback on copy, design or timing..."></textarea><div class="fbrow"><span class="saved">${cs.length} ${cs.length === 1 ? "note" : "notes"}</span><button class="btn" data-addfb>Add feedback</button></div></div>`;
+      <div class="feed">${cs.length ? cs.map(c => `<div class="fbi"><span class="fav">${esc((c.name || "?").trim().slice(0, 1).toUpperCase())}</span><div><div class="fbh"><b>${esc(c.name || "Reviewer")}</b><span>${esc(fmtT(c.t))} ${mark(c)}</span></div><div class="fbt">${esc(c.text).replace(/\n/g, "<br>")}</div></div></div>`).join("") : `<div class="fbe">No feedback yet.</div>`}</div>
+      <div class="fbin"><input data-name placeholder="Your name" value="${esc(me)}"><textarea data-fb placeholder="Add feedback on copy, design or timing...">${esc(drafts[id] || "")}</textarea><div class="fbrow"><span class="saved">${cs.length} ${cs.length === 1 ? "note" : "notes"}</span><button class="btn" data-addfb>Add feedback</button></div></div>`;
   }
-  function refreshReviews() { document.querySelectorAll("[data-rev]").forEach(el => { const ta = el.querySelector("[data-fb]"), draft = ta ? ta.value : ""; el.innerHTML = revHtml(el.dataset.rev); if (draft) el.querySelector("[data-fb]").value = draft; }); nav(); tally(); }
+  function refreshReviews() { const act = document.activeElement, host = act && act.closest && act.closest("[data-rev]"), sel = act && act.matches && (act.matches("[data-fb]") ? "[data-fb]" : act.matches("[data-name]") ? "[data-name]" : ""), pos = sel ? act.selectionStart : 0;
+    document.querySelectorAll("[data-rev]").forEach(el => { const ta = el.querySelector("[data-fb]"), draft = ta ? ta.value : ""; el.innerHTML = revHtml(el.dataset.rev); if (draft) el.querySelector("[data-fb]").value = draft; });
+    if (host && sel) { const f = document.querySelector(`[data-rev="${host.dataset.rev}"] ${sel}`); if (f) { f.focus(); try { f.setSelectionRange(pos, pos); } catch {} } }
+    nav(); tally(); }
 
   /* ---------- page ---------- */
   let filter = "all";
@@ -178,7 +204,7 @@
     const card = ap.closest(".pcard"), role = ap.dataset.appr;
     const name = myName(card) || (role === "glenn" ? "Glenn" : "BigHammer team");
     add({ post: card.dataset.id, kind: "approve", role, value: ap.checked, name });
-    refreshReviews(); C.toast(ap.checked ? "Approval saved" : "Approval removed");
+    refreshReviews(); C.toast(ap.checked ? "Approval stored, confirming…" : "Approval removed, confirming…");
   });
   document.addEventListener("click", (e) => {
     const sv = e.target.closest("[data-addfb]");
@@ -187,7 +213,7 @@
       if (!name) { card.querySelector("[data-name]").focus(); C.toast("Add your name first"); return; }
       if (!text) { card.querySelector("[data-fb]").focus(); return; }
       add({ post: card.dataset.id, kind: "comment", name, text });
-      card.querySelector("[data-fb]").value = ""; refreshReviews(); C.toast("Feedback saved"); return;
+      card.querySelector("[data-fb]").value = ""; saveDraft(card.dataset.id, ""); refreshReviews(); C.toast("Feedback stored, confirming with shared sheet…"); return;
     }
     const ct = e.target.closest("[data-copyt]");
     if (ct) { const p = S.posts.find(x => x.key === ct.closest(".pcard").dataset.id); navigator.clipboard.writeText(p[ct.dataset.copyt] || "").then(() => C.toast("Copied")); return; }
@@ -231,5 +257,5 @@
     if (e.target.closest('.seg button[data-set="scale"]')) { fit3 = false; document.getElementById("fit3").classList.remove("on"); }
     if (e.target.id === "fit3") { fit3 = true; e.target.classList.add("on"); document.querySelectorAll('.seg button[data-set="scale"]').forEach(b => b.classList.remove("on")); fit(); }
   });
-  document.addEventListener("DOMContentLoaded", () => { sharedBanner(); render(); fit(); syncBadge(); pull(); if (SYNC) setInterval(pull, 45000); });
+  document.addEventListener("DOMContentLoaded", () => { sharedBanner(); render(); fit(); syncBadge(); pull(); });
 })();

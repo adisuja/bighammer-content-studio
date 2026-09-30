@@ -117,3 +117,6 @@ details.bnav[open] summary::before{transform:rotate(90deg)}
 details.bnav summary small{margin-left:auto;font-weight:500;color:#6b6b6b;font-size:11.5px}
 details.bnav a{margin-left:14px;align-items:center}
 details.bnav a .cnt{font-size:11px;color:#0b6e4f;background:#E1F8EC;border-radius:999px;padding:1px 7px}
+
+.sv{font-style:normal;font-size:10.5px;font-weight:700;margin-left:4px;white-space:nowrap}
+.sv.ok{color:#0b6e4f}.sv.wait{color:#a15c00}
