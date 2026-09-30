@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BigHammer.ai · LinkedIn batch 3 · review</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="stylesheet" href="core.css?v=202610010010">
+<link rel="stylesheet" href="linkedin.css?v=202610010010">
+<link rel="stylesheet" href="studio.css?v=202610010010">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <span class="brand-mark">in</span>
+    <div>
+      <div class="brand-title">BigHammer.ai · LinkedIn batch 3</div>
+      <div class="brand-sub">24 posts across 4 profiles, rendered as they appear in the LinkedIn iOS app</div>
+    </div>
+  </div>
+  <div class="controls">
+    <div class="tally" id="tally"></div>
+    <div class="seg2" title="Which posts to show">
+      <button data-filter="all" class="on">All</button>
+      <button data-filter="todo">Needs review</button>
+      <button data-filter="approved">Approved</button>
+    </div>
+    <button id="fit3" class="btn ghost on" title="Scale phones so three sit side by side">3 per row</button>
+    <div class="seg" title="Phone size">
+      <button data-set="scale" data-val="1">100%</button>
+      <button data-set="scale" data-val="0.85">85%</button>
+      <button data-set="scale" data-val="0.7">70%</button>
+    </div>
+    <button class="btn" id="shareBtn" title="Copy a link that carries your approvals and feedback">Share review link</button>
+    <button class="btn ghost" id="exportBtn" title="Download approvals and feedback as CSV">Export</button>
+  </div>
+</header>
+<div class="banner" id="banner" hidden></div>
+<div class="layout">
+  <nav class="sidenav" id="sidenav" aria-label="Posts"></nav>
+  <main id="main"></main>
+</div>
+<div class="toast" id="toast">Saved</div>
+<script src="core.js?v=202610010010"></script>
+<script src="linkedin.js?v=202610010010"></script>
+<script src="data.js?v=202610010010"></script>
+<script src="app.js?v=202610010010"></script>
+</body>
+</html>
