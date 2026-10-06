@@ -133,6 +133,7 @@
         <div class="crow">${fmt}${cta}${wip}</div><div class="cidea">${esc(p.idea)}</div></header>
       ${C.phone(screen(p), "linkedin")}
       <section class="rev" data-rev="${esc(p.key)}">${revHtml(p.key)}</section>
+      ${dlHtml(p)}
       <details class="info"><summary>Sample, template, first comment and sources</summary><dl>
         <dt>Sample matched</dt><dd><b>${esc(smp.id || "")}</b> · ${esc(smp.creator || "")}${smp.url ? ` · <a href="${esc(smp.url)}" target="_blank" rel="noopener">view original post</a>` : ""}<br>${esc(smp.what || "")}${smp.thumb ? `<img class="sthumb" src="${esc(smp.thumb)}" data-lb="${esc(smp.thumb)}" data-lb-caption="Sample ${esc(smp.id || "")}">` : ""}</dd>
         <dt>Copy template</dt><dd>${esc(p.copy_basis || "")}</dd>
@@ -140,9 +141,25 @@
         <dt>Sources</dt><dd>${(p.sources || []).map(esc).join("<br>")}</dd>
         ${(p.flags || []).length ? `<dt>Needs confirmation</dt><dd style="color:#a15c00">${p.flags.map(esc).join("<br>")}</dd>` : ""}
         ${(p.numbers_for_signoff || []).length ? `<dt>Numbers needing Varadha sign-off</dt><dd>${p.numbers_for_signoff.map(esc).join(" · ")}</dd>` : ""}
-      </dl><div class="row"><button class="btn ghost" data-copyt="text">Copy post text</button>${p.first_comment ? '<button class="btn ghost" data-copyt="first_comment">Copy first comment</button>' : ""}</div></details>
+      </dl></details>
     </article>`;
   }
+  /* Ready-to-post strip under the review box: the full-quality upload file (original PNG, or the carousel as a
+     lossless PDF, never the on-screen JPG previews) plus one-click copy of the post copy and first comment. */
+  const mb = (n) => n >= 1048576 ? (n / 1048576).toFixed(1) + " MB" : Math.max(1, Math.round(n / 1024)) + " KB";
+  function dlHtml(p) {
+    const d = (p.media || {}).download;
+    const file = d ? `<a class="btn dlb" href="${esc(d.href)}" download="${esc(d.name)}">${d.ext === "pdf" ? `Download PDF · ${d.pages} slides` : "Download PNG"}</a>
+        <span class="dlm">${d.w} × ${d.h} px · full quality · ${mb(d.bytes)}</span>` : "";
+    const fc = p.first_comment ? `<button class="btn ghost" data-copyt="first_comment">Copy first comment</button>` : `<button class="btn ghost" disabled title="This post has no first comment">No first comment</button>`;
+    return `<section class="dl">${file ? `<div class="dlrow">${file}</div>` : ""}<div class="dlrow"><button class="btn ghost" data-copyt="text">Copy post copy</button>${fc}</div></section>`;
+  }
+  function copyLegacy(s) {
+    const ta = Object.assign(document.createElement("textarea"), { value: s }); ta.style.cssText = "position:fixed;top:0;opacity:0";
+    document.body.appendChild(ta); ta.select(); const ok = document.execCommand("copy"); ta.remove();
+    return ok ? Promise.resolve() : Promise.reject(new Error("copy blocked"));
+  }
+  const copyText = (s) => navigator.clipboard && window.isSecureContext ? navigator.clipboard.writeText(s).catch(() => copyLegacy(s)) : copyLegacy(s);
 
   function revHtml(id) {
     const r = rv(id), cs = comments(id), me = localStorage.getItem(NAMEKEY) || "";
@@ -228,7 +245,15 @@
       card.querySelector("[data-fb]").value = ""; saveDraft(card.dataset.id, ""); refreshReviews(); C.toast("Feedback stored, confirming with shared sheet…"); return;
     }
     const ct = e.target.closest("[data-copyt]");
-    if (ct) { const p = S.posts.find(x => x.key === ct.closest(".pcard").dataset.id); navigator.clipboard.writeText(p[ct.dataset.copyt] || "").then(() => C.toast("Copied")); return; }
+    if (ct) {
+      const p = S.posts.find(x => x.key === ct.closest(".pcard").dataset.id), what = ct.dataset.copyt === "text" ? "Post copy" : "First comment";
+      copyText(p[ct.dataset.copyt] || "").then(() => {
+        C.toast(what + " copied");
+        ct.dataset.label = ct.dataset.label || ct.textContent; ct.textContent = "✓ Copied"; ct.classList.add("done");
+        clearTimeout(ct._t); ct._t = setTimeout(() => { ct.textContent = ct.dataset.label; ct.classList.remove("done"); }, 1800);
+      }, () => C.toast("Copy blocked by the browser. Select the text in the post instead."));
+      return;
+    }
     const f = e.target.closest("[data-filter]");
     if (f) { f.parentElement.querySelectorAll("button").forEach(b => b.classList.toggle("on", b === f)); filter = f.dataset.filter; applyFilter(); return; }
     const poll = e.target.closest(".li-poll-o"); if (poll) { poll.parentElement.querySelectorAll(".li-poll-o").forEach(b => b.classList.toggle("voted", b === poll)); return; }

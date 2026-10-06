@@ -41,6 +41,13 @@
 .rev .fbrow{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:6px}
 .rev .saved{font-size:11.5px;color:#6b6b6b}
 .rev .btn{padding:5px 12px;font-size:12px}
+.dl{margin-top:10px;background:#fff;border:1px solid #e6e3dd;border-radius:12px;padding:10px 12px;font-size:12.5px;display:flex;flex-direction:column;gap:8px}
+.dl .dlrow{display:grid;grid-template-columns:1fr 1fr;gap:6px}
+.dl .btn{padding:7px 10px;font-size:12px;line-height:1.25;text-decoration:none;display:flex;align-items:center;justify-content:center;text-align:center}
+.dl .dlb{grid-column:1 / -1;background:var(--brand);border-color:var(--brand);font-weight:600}
+.dl .dlm{grid-column:1 / -1;font-size:11px;color:#6b6b6b;text-align:center}
+.dl .btn.done{background:#E1F8EC;border-color:#9fe2bd;color:#0b6e4f}
+.dl .btn:disabled{opacity:.45;cursor:default}
 details.info{margin-top:10px;background:#fbfaf8;border:1px solid #e6e3dd;border-radius:12px;padding:8px 12px;font-size:12.5px;line-height:1.45}
 details.info summary{cursor:pointer;font-weight:700;color:#141414}
 details.info dl{margin:8px 0 0}
