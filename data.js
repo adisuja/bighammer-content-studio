@@ -68,10 +68,10 @@ window.STUDIO = {
     "src": "C1",
     "tall": false,
     "files": [
-     "media/C1/image.jpg?v=202610062327"
+     "media/C1/image.jpg?v=202610062329"
     ],
     "download": {
-     "href": "media/C1/BigHammer-b2-C1-2026-10-05-company.png?v=202610062327",
+     "href": "media/C1/BigHammer-b2-C1-2026-10-05-company.png?v=202610062329",
      "name": "BigHammer-b2-C1-2026-10-05-company.png",
      "ext": "png",
      "bytes": 708828,
@@ -117,10 +117,10 @@ window.STUDIO = {
     "src": "C2",
     "tall": false,
     "files": [
-     "media/C2/image.jpg?v=202610062327"
+     "media/C2/image.jpg?v=202610062329"
     ],
     "download": {
-     "href": "media/C2/BigHammer-b2-C2-2026-10-06-company.png?v=202610062327",
+     "href": "media/C2/BigHammer-b2-C2-2026-10-06-company.png?v=202610062329",
      "name": "BigHammer-b2-C2-2026-10-06-company.png",
      "ext": "png",
      "bytes": 522910,
@@ -161,10 +161,10 @@ window.STUDIO = {
     "src": "C3",
     "tall": false,
     "files": [
-     "media/C3/image.jpg?v=202610062327"
+     "media/C3/image.jpg?v=202610062329"
     ],
     "download": {
-     "href": "media/C3/BigHammer-b2-C3-2026-10-07-company.png?v=202610062327",
+     "href": "media/C3/BigHammer-b2-C3-2026-10-07-company.png?v=202610062329",
      "name": "BigHammer-b2-C3-2026-10-07-company.png",
      "ext": "png",
      "bytes": 872565,
@@ -208,10 +208,10 @@ window.STUDIO = {
     "src": "C4",
     "tall": false,
     "files": [
-     "media/C4/image.jpg?v=202610062327"
+     "media/C4/image.jpg?v=202610062329"
     ],
     "download": {
-     "href": "media/C4/BigHammer-b2-C4-2026-10-03-company.png?v=202610062327",
+     "href": "media/C4/BigHammer-b2-C4-2026-10-03-company.png?v=202610062329",
      "name": "BigHammer-b2-C4-2026-10-03-company.png",
      "ext": "png",
      "bytes": 761800,
@@ -257,10 +257,10 @@ window.STUDIO = {
     "src": "C5",
     "tall": false,
     "files": [
-     "media/C5/image.jpg?v=202610062327"
+     "media/C5/image.jpg?v=202610062329"
     ],
     "download": {
-     "href": "media/C5/BigHammer-b2-C5-2026-10-04-company.png?v=202610062327",
+     "href": "media/C5/BigHammer-b2-C5-2026-10-04-company.png?v=202610062329",
      "name": "BigHammer-b2-C5-2026-10-04-company.png",
      "ext": "png",
      "bytes": 499414,
@@ -300,10 +300,10 @@ window.STUDIO = {
     "src": "C6",
     "tall": false,
     "files": [
-     "media/C6/image.jpg?v=202610062327"
+     "media/C6/image.jpg?v=202610062329"
     ],
     "download": {
-     "href": "media/C6/BigHammer-b2-C6-2026-10-02-company.png?v=202610062327",
+     "href": "media/C6/BigHammer-b2-C6-2026-10-02-company.png?v=202610062329",
      "name": "BigHammer-b2-C6-2026-10-02-company.png",
      "ext": "png",
      "bytes": 520267,
@@ -346,10 +346,10 @@ window.STUDIO = {
     "src": "S1",
     "tall": false,
     "files": [
-     "media/S1/image.jpg?v=202610062327"
+     "media/S1/image.jpg?v=202610062329"
     ],
     "download": {
-     "href": "media/S1/BigHammer-b2-S1-2026-10-02-srinath.png?v=202610062327",
+     "href": "media/S1/BigHammer-b2-S1-2026-10-02-srinath.png?v=202610062329",
      "name": "BigHammer-b2-S1-2026-10-02-srinath.png",
      "ext": "png",
      "bytes": 1147084,
@@ -390,10 +390,10 @@ window.STUDIO = {
     "src": "S2",
     "tall": false,
     "files": [
-     "media/S2/image.jpg?v=202610062327"
+     "media/S2/image.jpg?v=202610062329"
     ],
     "download": {
-     "href": "media/S2/BigHammer-b2-S2-2026-10-05-srinath.png?v=202610062327",
+     "href": "media/S2/BigHammer-b2-S2-2026-10-05-srinath.png?v=202610062329",
      "name": "BigHammer-b2-S2-2026-10-05-srinath.png",
      "ext": "png",
      "bytes": 611454,
@@ -437,10 +437,10 @@ window.STUDIO = {
     "src": "S3v2",
     "tall": false,
     "files": [
-     "media/S3v2/image.jpg?v=202610062327"
+     "media/S3v2/image.jpg?v=202610062329"
     ],
     "download": {
-     "href": "media/S3v2/BigHammer-b2-S3-2026-10-07-srinath.png?v=202610062327",
+     "href": "media/S3v2/BigHammer-b2-S3-2026-10-07-srinath.png?v=202610062329",
      "name": "BigHammer-b2-S3-2026-10-07-srinath.png",
      "ext": "png",
      "bytes": 1640866,
@@ -483,10 +483,10 @@ window.STUDIO = {
     "src": "S4",
     "tall": false,
     "files": [
-     "media/S4/image.jpg?v=202610062327"
+     "media/S4/image.jpg?v=202610062329"
     ],
     "download": {
-     "href": "media/S4/BigHammer-b2-S4-2026-10-03-srinath.png?v=202610062327",
+     "href": "media/S4/BigHammer-b2-S4-2026-10-03-srinath.png?v=202610062329",
      "name": "BigHammer-b2-S4-2026-10-03-srinath.png",
      "ext": "png",
      "bytes": 304607,
@@ -532,10 +532,10 @@ window.STUDIO = {
     "src": "S5",
     "tall": false,
     "files": [
-     "media/S5/image.jpg?v=202610062327"
+     "media/S5/image.jpg?v=202610062329"
     ],
     "download": {
-     "href": "media/S5/BigHammer-b2-S5-2026-10-04-srinath.png?v=202610062327",
+     "href": "media/S5/BigHammer-b2-S5-2026-10-04-srinath.png?v=202610062329",
      "name": "BigHammer-b2-S5-2026-10-04-srinath.png",
      "ext": "png",
      "bytes": 554340,
@@ -581,20 +581,20 @@ window.STUDIO = {
     "src": "S6",
     "title": "Spark 4.0: 3 silent migration risks + 5 parity checks",
     "files": [
-     "media/S6/p01.jpg?v=202610062327",
-     "media/S6/p02.jpg?v=202610062327",
-     "media/S6/p03.jpg?v=202610062327",
-     "media/S6/p04.jpg?v=202610062327",
-     "media/S6/p05.jpg?v=202610062327",
-     "media/S6/p06.jpg?v=202610062327",
-     "media/S6/p07.jpg?v=202610062327",
-     "media/S6/p08.jpg?v=202610062327"
+     "media/S6/p01.jpg?v=202610062329",
+     "media/S6/p02.jpg?v=202610062329",
+     "media/S6/p03.jpg?v=202610062329",
+     "media/S6/p04.jpg?v=202610062329",
+     "media/S6/p05.jpg?v=202610062329",
+     "media/S6/p06.jpg?v=202610062329",
+     "media/S6/p07.jpg?v=202610062329",
+     "media/S6/p08.jpg?v=202610062329"
     ],
     "download": {
-     "href": "media/S6/BigHammer-b2-S6-2026-10-06-srinath.pdf?v=202610062327",
+     "href": "media/S6/BigHammer-b2-S6-2026-10-06-srinath.pdf?v=202610062329",
      "name": "BigHammer-b2-S6-2026-10-06-srinath.pdf",
      "ext": "pdf",
-     "bytes": 2177668,
+     "bytes": 2177726,
      "pages": 8,
      "w": 1080,
      "h": 1350
@@ -634,10 +634,10 @@ window.STUDIO = {
     "src": "R4",
     "tall": false,
     "files": [
-     "media/R4/image.jpg?v=202610062327"
+     "media/R4/image.jpg?v=202610062329"
     ],
     "download": {
-     "href": "media/R4/BigHammer-b2-R4-2026-10-02-richard.png?v=202610062327",
+     "href": "media/R4/BigHammer-b2-R4-2026-10-02-richard.png?v=202610062329",
      "name": "BigHammer-b2-R4-2026-10-02-richard.png",
      "ext": "png",
      "bytes": 1483743,
@@ -678,10 +678,10 @@ window.STUDIO = {
     "src": "R2",
     "tall": false,
     "files": [
-     "media/R2/image.jpg?v=202610062327"
+     "media/R2/image.jpg?v=202610062329"
     ],
     "download": {
-     "href": "media/R2/BigHammer-b2-R2-2026-10-03-richard.png?v=202610062327",
+     "href": "media/R2/BigHammer-b2-R2-2026-10-03-richard.png?v=202610062329",
      "name": "BigHammer-b2-R2-2026-10-03-richard.png",
      "ext": "png",
      "bytes": 1336043,
@@ -722,22 +722,22 @@ window.STUDIO = {
     "src": "R3",
     "title": "The Worried vs The Curious",
     "files": [
-     "media/R3/p01.jpg?v=202610062327",
-     "media/R3/p02.jpg?v=202610062327",
-     "media/R3/p03.jpg?v=202610062327",
-     "media/R3/p04.jpg?v=202610062327",
-     "media/R3/p05.jpg?v=202610062327",
-     "media/R3/p06.jpg?v=202610062327",
-     "media/R3/p07.jpg?v=202610062327",
-     "media/R3/p08.jpg?v=202610062327",
-     "media/R3/p09.jpg?v=202610062327",
-     "media/R3/p10.jpg?v=202610062327"
+     "media/R3/p01.jpg?v=202610062329",
+     "media/R3/p02.jpg?v=202610062329",
+     "media/R3/p03.jpg?v=202610062329",
+     "media/R3/p04.jpg?v=202610062329",
+     "media/R3/p05.jpg?v=202610062329",
+     "media/R3/p06.jpg?v=202610062329",
+     "media/R3/p07.jpg?v=202610062329",
+     "media/R3/p08.jpg?v=202610062329",
+     "media/R3/p09.jpg?v=202610062329",
+     "media/R3/p10.jpg?v=202610062329"
     ],
     "download": {
-     "href": "media/R3/BigHammer-b2-R3-2026-10-04-richard.pdf?v=202610062327",
+     "href": "media/R3/BigHammer-b2-R3-2026-10-04-richard.pdf?v=202610062329",
      "name": "BigHammer-b2-R3-2026-10-04-richard.pdf",
      "ext": "pdf",
-     "bytes": 2132842,
+     "bytes": 2132900,
      "pages": 10,
      "w": 1080,
      "h": 1350
@@ -777,10 +777,10 @@ window.STUDIO = {
     "src": "R1",
     "tall": false,
     "files": [
-     "media/R1/image.jpg?v=202610062327"
+     "media/R1/image.jpg?v=202610062329"
     ],
     "download": {
-     "href": "media/R1/BigHammer-b2-R1-2026-10-05-richard.png?v=202610062327",
+     "href": "media/R1/BigHammer-b2-R1-2026-10-05-richard.png?v=202610062329",
      "name": "BigHammer-b2-R1-2026-10-05-richard.png",
      "ext": "png",
      "bytes": 1362940,
@@ -824,10 +824,10 @@ window.STUDIO = {
     "src": "R5",
     "tall": false,
     "files": [
-     "media/R5/image.jpg?v=202610062327"
+     "media/R5/image.jpg?v=202610062329"
     ],
     "download": {
-     "href": "media/R5/BigHammer-b2-R5-2026-10-06-richard.png?v=202610062327",
+     "href": "media/R5/BigHammer-b2-R5-2026-10-06-richard.png?v=202610062329",
      "name": "BigHammer-b2-R5-2026-10-06-richard.png",
      "ext": "png",
      "bytes": 470253,
@@ -872,19 +872,19 @@ window.STUDIO = {
     "src": "R6",
     "title": "Please don't come to our masterclass if...",
     "files": [
-     "media/R6/p01.jpg?v=202610062327",
-     "media/R6/p02.jpg?v=202610062327",
-     "media/R6/p03.jpg?v=202610062327",
-     "media/R6/p04.jpg?v=202610062327",
-     "media/R6/p05.jpg?v=202610062327",
-     "media/R6/p06.jpg?v=202610062327",
-     "media/R6/p07.jpg?v=202610062327"
+     "media/R6/p01.jpg?v=202610062329",
+     "media/R6/p02.jpg?v=202610062329",
+     "media/R6/p03.jpg?v=202610062329",
+     "media/R6/p04.jpg?v=202610062329",
+     "media/R6/p05.jpg?v=202610062329",
+     "media/R6/p06.jpg?v=202610062329",
+     "media/R6/p07.jpg?v=202610062329"
     ],
     "download": {
-     "href": "media/R6/BigHammer-b2-R6-2026-10-07-richard.pdf?v=202610062327",
+     "href": "media/R6/BigHammer-b2-R6-2026-10-07-richard.pdf?v=202610062329",
      "name": "BigHammer-b2-R6-2026-10-07-richard.pdf",
      "ext": "pdf",
-     "bytes": 4050853,
+     "bytes": 4050911,
      "pages": 7,
      "w": 1080,
      "h": 1350
@@ -925,10 +925,10 @@ window.STUDIO = {
     "src": "T4",
     "tall": false,
     "files": [
-     "media/T4/image.jpg?v=202610062327"
+     "media/T4/image.jpg?v=202610062329"
     ],
     "download": {
-     "href": "media/T4/BigHammer-b2-T4-2026-10-02-terry.png?v=202610062327",
+     "href": "media/T4/BigHammer-b2-T4-2026-10-02-terry.png?v=202610062329",
      "name": "BigHammer-b2-T4-2026-10-02-terry.png",
      "ext": "png",
      "bytes": 331206,
@@ -971,10 +971,10 @@ window.STUDIO = {
     "src": "T5",
     "tall": false,
     "files": [
-     "media/T5/image.jpg?v=202610062327"
+     "media/T5/image.jpg?v=202610062329"
     ],
     "download": {
-     "href": "media/T5/BigHammer-b2-T5-2026-10-03-terry.png?v=202610062327",
+     "href": "media/T5/BigHammer-b2-T5-2026-10-03-terry.png?v=202610062329",
      "name": "BigHammer-b2-T5-2026-10-03-terry.png",
      "ext": "png",
      "bytes": 424603,
@@ -1018,19 +1018,19 @@ window.STUDIO = {
     "src": "T6",
     "title": "AI agents move data. Transform?",
     "files": [
-     "media/T6/p01.jpg?v=202610062327",
-     "media/T6/p02.jpg?v=202610062327",
-     "media/T6/p03.jpg?v=202610062327",
-     "media/T6/p04.jpg?v=202610062327",
-     "media/T6/p05.jpg?v=202610062327",
-     "media/T6/p06.jpg?v=202610062327",
-     "media/T6/p07.jpg?v=202610062327"
+     "media/T6/p01.jpg?v=202610062329",
+     "media/T6/p02.jpg?v=202610062329",
+     "media/T6/p03.jpg?v=202610062329",
+     "media/T6/p04.jpg?v=202610062329",
+     "media/T6/p05.jpg?v=202610062329",
+     "media/T6/p06.jpg?v=202610062329",
+     "media/T6/p07.jpg?v=202610062329"
     ],
     "download": {
-     "href": "media/T6/BigHammer-b2-T6-2026-10-04-terry.pdf?v=202610062327",
+     "href": "media/T6/BigHammer-b2-T6-2026-10-04-terry.pdf?v=202610062329",
      "name": "BigHammer-b2-T6-2026-10-04-terry.pdf",
      "ext": "pdf",
-     "bytes": 3371797,
+     "bytes": 3371853,
      "pages": 7,
      "w": 1080,
      "h": 1350
@@ -1074,20 +1074,20 @@ window.STUDIO = {
     "src": "T1",
     "title": "Your cost per job report is missing the jobs that cost the most",
     "files": [
-     "media/T1/p01.jpg?v=202610062327",
-     "media/T1/p02.jpg?v=202610062327",
-     "media/T1/p03.jpg?v=202610062327",
-     "media/T1/p04.jpg?v=202610062327",
-     "media/T1/p05.jpg?v=202610062327",
-     "media/T1/p06.jpg?v=202610062327",
-     "media/T1/p07.jpg?v=202610062327",
-     "media/T1/p08.jpg?v=202610062327"
+     "media/T1/p01.jpg?v=202610062329",
+     "media/T1/p02.jpg?v=202610062329",
+     "media/T1/p03.jpg?v=202610062329",
+     "media/T1/p04.jpg?v=202610062329",
+     "media/T1/p05.jpg?v=202610062329",
+     "media/T1/p06.jpg?v=202610062329",
+     "media/T1/p07.jpg?v=202610062329",
+     "media/T1/p08.jpg?v=202610062329"
     ],
     "download": {
-     "href": "media/T1/BigHammer-b2-T1-2026-10-05-terry.pdf?v=202610062327",
+     "href": "media/T1/BigHammer-b2-T1-2026-10-05-terry.pdf?v=202610062329",
      "name": "BigHammer-b2-T1-2026-10-05-terry.pdf",
      "ext": "pdf",
-     "bytes": 1823670,
+     "bytes": 1823726,
      "pages": 8,
      "w": 1080,
      "h": 1350
@@ -1129,10 +1129,10 @@ window.STUDIO = {
     "src": "T2",
     "tall": false,
     "files": [
-     "media/T2/image.jpg?v=202610062327"
+     "media/T2/image.jpg?v=202610062329"
     ],
     "download": {
-     "href": "media/T2/BigHammer-b2-T2-2026-10-06-terry.png?v=202610062327",
+     "href": "media/T2/BigHammer-b2-T2-2026-10-06-terry.png?v=202610062329",
      "name": "BigHammer-b2-T2-2026-10-06-terry.png",
      "ext": "png",
      "bytes": 465983,
