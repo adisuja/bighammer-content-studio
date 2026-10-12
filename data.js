@@ -81,10 +81,10 @@ window.STUDIO = {
     "src": "C1",
     "tall": false,
     "files": [
-     "media/C1/image.jpg?v=202610121815"
+     "media/C1/image.jpg?v=202610121827"
     ],
     "download": {
-     "href": "media/C1/BigHammer-b2-C1-2026-10-05-company.png?v=202610121815",
+     "href": "media/C1/BigHammer-b2-C1-2026-10-05-company.png?v=202610121827",
      "name": "BigHammer-b2-C1-2026-10-05-company.png",
      "ext": "png",
      "bytes": 708828,
@@ -130,10 +130,10 @@ window.STUDIO = {
     "src": "C2",
     "tall": false,
     "files": [
-     "media/C2/image.jpg?v=202610121815"
+     "media/C2/image.jpg?v=202610121827"
     ],
     "download": {
-     "href": "media/C2/BigHammer-b2-C2-2026-10-06-company.png?v=202610121815",
+     "href": "media/C2/BigHammer-b2-C2-2026-10-06-company.png?v=202610121827",
      "name": "BigHammer-b2-C2-2026-10-06-company.png",
      "ext": "png",
      "bytes": 522910,
@@ -174,10 +174,10 @@ window.STUDIO = {
     "src": "C3",
     "tall": false,
     "files": [
-     "media/C3/image.jpg?v=202610121815"
+     "media/C3/image.jpg?v=202610121827"
     ],
     "download": {
-     "href": "media/C3/BigHammer-b2-C3-2026-10-07-company.png?v=202610121815",
+     "href": "media/C3/BigHammer-b2-C3-2026-10-07-company.png?v=202610121827",
      "name": "BigHammer-b2-C3-2026-10-07-company.png",
      "ext": "png",
      "bytes": 872565,
@@ -221,10 +221,10 @@ window.STUDIO = {
     "src": "C4",
     "tall": false,
     "files": [
-     "media/C4/image.jpg?v=202610121815"
+     "media/C4/image.jpg?v=202610121827"
     ],
     "download": {
-     "href": "media/C4/BigHammer-b2-C4-2026-10-03-company.png?v=202610121815",
+     "href": "media/C4/BigHammer-b2-C4-2026-10-03-company.png?v=202610121827",
      "name": "BigHammer-b2-C4-2026-10-03-company.png",
      "ext": "png",
      "bytes": 761800,
@@ -270,10 +270,10 @@ window.STUDIO = {
     "src": "C5",
     "tall": false,
     "files": [
-     "media/C5/image.jpg?v=202610121815"
+     "media/C5/image.jpg?v=202610121827"
     ],
     "download": {
-     "href": "media/C5/BigHammer-b2-C5-2026-10-04-company.png?v=202610121815",
+     "href": "media/C5/BigHammer-b2-C5-2026-10-04-company.png?v=202610121827",
      "name": "BigHammer-b2-C5-2026-10-04-company.png",
      "ext": "png",
      "bytes": 499414,
@@ -313,10 +313,10 @@ window.STUDIO = {
     "src": "C6",
     "tall": false,
     "files": [
-     "media/C6/image.jpg?v=202610121815"
+     "media/C6/image.jpg?v=202610121827"
     ],
     "download": {
-     "href": "media/C6/BigHammer-b2-C6-2026-10-02-company.png?v=202610121815",
+     "href": "media/C6/BigHammer-b2-C6-2026-10-02-company.png?v=202610121827",
      "name": "BigHammer-b2-C6-2026-10-02-company.png",
      "ext": "png",
      "bytes": 520267,
@@ -359,10 +359,10 @@ window.STUDIO = {
     "src": "S1",
     "tall": false,
     "files": [
-     "media/S1/image.jpg?v=202610121815"
+     "media/S1/image.jpg?v=202610121827"
     ],
     "download": {
-     "href": "media/S1/BigHammer-b2-S1-2026-10-02-srinath.png?v=202610121815",
+     "href": "media/S1/BigHammer-b2-S1-2026-10-02-srinath.png?v=202610121827",
      "name": "BigHammer-b2-S1-2026-10-02-srinath.png",
      "ext": "png",
      "bytes": 1147084,
@@ -403,10 +403,10 @@ window.STUDIO = {
     "src": "S2",
     "tall": false,
     "files": [
-     "media/S2/image.jpg?v=202610121815"
+     "media/S2/image.jpg?v=202610121827"
     ],
     "download": {
-     "href": "media/S2/BigHammer-b2-S2-2026-10-05-srinath.png?v=202610121815",
+     "href": "media/S2/BigHammer-b2-S2-2026-10-05-srinath.png?v=202610121827",
      "name": "BigHammer-b2-S2-2026-10-05-srinath.png",
      "ext": "png",
      "bytes": 611454,
@@ -450,10 +450,10 @@ window.STUDIO = {
     "src": "S3v2",
     "tall": false,
     "files": [
-     "media/S3v2/image.jpg?v=202610121815"
+     "media/S3v2/image.jpg?v=202610121827"
     ],
     "download": {
-     "href": "media/S3v2/BigHammer-b2-S3-2026-10-07-srinath.png?v=202610121815",
+     "href": "media/S3v2/BigHammer-b2-S3-2026-10-07-srinath.png?v=202610121827",
      "name": "BigHammer-b2-S3-2026-10-07-srinath.png",
      "ext": "png",
      "bytes": 1640866,
@@ -496,10 +496,10 @@ window.STUDIO = {
     "src": "S4",
     "tall": false,
     "files": [
-     "media/S4/image.jpg?v=202610121815"
+     "media/S4/image.jpg?v=202610121827"
     ],
     "download": {
-     "href": "media/S4/BigHammer-b2-S4-2026-10-03-srinath.png?v=202610121815",
+     "href": "media/S4/BigHammer-b2-S4-2026-10-03-srinath.png?v=202610121827",
      "name": "BigHammer-b2-S4-2026-10-03-srinath.png",
      "ext": "png",
      "bytes": 304607,
@@ -545,10 +545,10 @@ window.STUDIO = {
     "src": "S5",
     "tall": false,
     "files": [
-     "media/S5/image.jpg?v=202610121815"
+     "media/S5/image.jpg?v=202610121827"
     ],
     "download": {
-     "href": "media/S5/BigHammer-b2-S5-2026-10-04-srinath.png?v=202610121815",
+     "href": "media/S5/BigHammer-b2-S5-2026-10-04-srinath.png?v=202610121827",
      "name": "BigHammer-b2-S5-2026-10-04-srinath.png",
      "ext": "png",
      "bytes": 554340,
@@ -594,17 +594,17 @@ window.STUDIO = {
     "src": "S6",
     "title": "Spark 4.0: 3 silent migration risks + 5 parity checks",
     "files": [
-     "media/S6/p01.jpg?v=202610121815",
-     "media/S6/p02.jpg?v=202610121815",
-     "media/S6/p03.jpg?v=202610121815",
-     "media/S6/p04.jpg?v=202610121815",
-     "media/S6/p05.jpg?v=202610121815",
-     "media/S6/p06.jpg?v=202610121815",
-     "media/S6/p07.jpg?v=202610121815",
-     "media/S6/p08.jpg?v=202610121815"
+     "media/S6/p01.jpg?v=202610121827",
+     "media/S6/p02.jpg?v=202610121827",
+     "media/S6/p03.jpg?v=202610121827",
+     "media/S6/p04.jpg?v=202610121827",
+     "media/S6/p05.jpg?v=202610121827",
+     "media/S6/p06.jpg?v=202610121827",
+     "media/S6/p07.jpg?v=202610121827",
+     "media/S6/p08.jpg?v=202610121827"
     ],
     "download": {
-     "href": "media/S6/BigHammer-b2-S6-2026-10-06-srinath.pdf?v=202610121815",
+     "href": "media/S6/BigHammer-b2-S6-2026-10-06-srinath.pdf?v=202610121827",
      "name": "BigHammer-b2-S6-2026-10-06-srinath.pdf",
      "ext": "pdf",
      "bytes": 2177726,
@@ -647,10 +647,10 @@ window.STUDIO = {
     "src": "R4",
     "tall": false,
     "files": [
-     "media/R4/image.jpg?v=202610121815"
+     "media/R4/image.jpg?v=202610121827"
     ],
     "download": {
-     "href": "media/R4/BigHammer-b2-R4-2026-10-02-richard.png?v=202610121815",
+     "href": "media/R4/BigHammer-b2-R4-2026-10-02-richard.png?v=202610121827",
      "name": "BigHammer-b2-R4-2026-10-02-richard.png",
      "ext": "png",
      "bytes": 1483743,
@@ -691,10 +691,10 @@ window.STUDIO = {
     "src": "R2",
     "tall": false,
     "files": [
-     "media/R2/image.jpg?v=202610121815"
+     "media/R2/image.jpg?v=202610121827"
     ],
     "download": {
-     "href": "media/R2/BigHammer-b2-R2-2026-10-03-richard.png?v=202610121815",
+     "href": "media/R2/BigHammer-b2-R2-2026-10-03-richard.png?v=202610121827",
      "name": "BigHammer-b2-R2-2026-10-03-richard.png",
      "ext": "png",
      "bytes": 1336043,
@@ -735,19 +735,19 @@ window.STUDIO = {
     "src": "R3",
     "title": "The Worried vs The Curious",
     "files": [
-     "media/R3/p01.jpg?v=202610121815",
-     "media/R3/p02.jpg?v=202610121815",
-     "media/R3/p03.jpg?v=202610121815",
-     "media/R3/p04.jpg?v=202610121815",
-     "media/R3/p05.jpg?v=202610121815",
-     "media/R3/p06.jpg?v=202610121815",
-     "media/R3/p07.jpg?v=202610121815",
-     "media/R3/p08.jpg?v=202610121815",
-     "media/R3/p09.jpg?v=202610121815",
-     "media/R3/p10.jpg?v=202610121815"
+     "media/R3/p01.jpg?v=202610121827",
+     "media/R3/p02.jpg?v=202610121827",
+     "media/R3/p03.jpg?v=202610121827",
+     "media/R3/p04.jpg?v=202610121827",
+     "media/R3/p05.jpg?v=202610121827",
+     "media/R3/p06.jpg?v=202610121827",
+     "media/R3/p07.jpg?v=202610121827",
+     "media/R3/p08.jpg?v=202610121827",
+     "media/R3/p09.jpg?v=202610121827",
+     "media/R3/p10.jpg?v=202610121827"
     ],
     "download": {
-     "href": "media/R3/BigHammer-b2-R3-2026-10-04-richard.pdf?v=202610121815",
+     "href": "media/R3/BigHammer-b2-R3-2026-10-04-richard.pdf?v=202610121827",
      "name": "BigHammer-b2-R3-2026-10-04-richard.pdf",
      "ext": "pdf",
      "bytes": 2132900,
@@ -790,10 +790,10 @@ window.STUDIO = {
     "src": "R1",
     "tall": false,
     "files": [
-     "media/R1/image.jpg?v=202610121815"
+     "media/R1/image.jpg?v=202610121827"
     ],
     "download": {
-     "href": "media/R1/BigHammer-b2-R1-2026-10-05-richard.png?v=202610121815",
+     "href": "media/R1/BigHammer-b2-R1-2026-10-05-richard.png?v=202610121827",
      "name": "BigHammer-b2-R1-2026-10-05-richard.png",
      "ext": "png",
      "bytes": 1362940,
@@ -837,10 +837,10 @@ window.STUDIO = {
     "src": "R5",
     "tall": false,
     "files": [
-     "media/R5/image.jpg?v=202610121815"
+     "media/R5/image.jpg?v=202610121827"
     ],
     "download": {
-     "href": "media/R5/BigHammer-b2-R5-2026-10-06-richard.png?v=202610121815",
+     "href": "media/R5/BigHammer-b2-R5-2026-10-06-richard.png?v=202610121827",
      "name": "BigHammer-b2-R5-2026-10-06-richard.png",
      "ext": "png",
      "bytes": 470253,
@@ -885,16 +885,16 @@ window.STUDIO = {
     "src": "R6",
     "title": "Please don't come to our masterclass if...",
     "files": [
-     "media/R6/p01.jpg?v=202610121815",
-     "media/R6/p02.jpg?v=202610121815",
-     "media/R6/p03.jpg?v=202610121815",
-     "media/R6/p04.jpg?v=202610121815",
-     "media/R6/p05.jpg?v=202610121815",
-     "media/R6/p06.jpg?v=202610121815",
-     "media/R6/p07.jpg?v=202610121815"
+     "media/R6/p01.jpg?v=202610121827",
+     "media/R6/p02.jpg?v=202610121827",
+     "media/R6/p03.jpg?v=202610121827",
+     "media/R6/p04.jpg?v=202610121827",
+     "media/R6/p05.jpg?v=202610121827",
+     "media/R6/p06.jpg?v=202610121827",
+     "media/R6/p07.jpg?v=202610121827"
     ],
     "download": {
-     "href": "media/R6/BigHammer-b2-R6-2026-10-07-richard.pdf?v=202610121815",
+     "href": "media/R6/BigHammer-b2-R6-2026-10-07-richard.pdf?v=202610121827",
      "name": "BigHammer-b2-R6-2026-10-07-richard.pdf",
      "ext": "pdf",
      "bytes": 4050911,
@@ -938,10 +938,10 @@ window.STUDIO = {
     "src": "T4",
     "tall": false,
     "files": [
-     "media/T4/image.jpg?v=202610121815"
+     "media/T4/image.jpg?v=202610121827"
     ],
     "download": {
-     "href": "media/T4/BigHammer-b2-T4-2026-10-02-terry.png?v=202610121815",
+     "href": "media/T4/BigHammer-b2-T4-2026-10-02-terry.png?v=202610121827",
      "name": "BigHammer-b2-T4-2026-10-02-terry.png",
      "ext": "png",
      "bytes": 331206,
@@ -984,10 +984,10 @@ window.STUDIO = {
     "src": "T5",
     "tall": false,
     "files": [
-     "media/T5/image.jpg?v=202610121815"
+     "media/T5/image.jpg?v=202610121827"
     ],
     "download": {
-     "href": "media/T5/BigHammer-b2-T5-2026-10-03-terry.png?v=202610121815",
+     "href": "media/T5/BigHammer-b2-T5-2026-10-03-terry.png?v=202610121827",
      "name": "BigHammer-b2-T5-2026-10-03-terry.png",
      "ext": "png",
      "bytes": 424603,
@@ -1031,16 +1031,16 @@ window.STUDIO = {
     "src": "T6",
     "title": "AI agents move data. Transform?",
     "files": [
-     "media/T6/p01.jpg?v=202610121815",
-     "media/T6/p02.jpg?v=202610121815",
-     "media/T6/p03.jpg?v=202610121815",
-     "media/T6/p04.jpg?v=202610121815",
-     "media/T6/p05.jpg?v=202610121815",
-     "media/T6/p06.jpg?v=202610121815",
-     "media/T6/p07.jpg?v=202610121815"
+     "media/T6/p01.jpg?v=202610121827",
+     "media/T6/p02.jpg?v=202610121827",
+     "media/T6/p03.jpg?v=202610121827",
+     "media/T6/p04.jpg?v=202610121827",
+     "media/T6/p05.jpg?v=202610121827",
+     "media/T6/p06.jpg?v=202610121827",
+     "media/T6/p07.jpg?v=202610121827"
     ],
     "download": {
-     "href": "media/T6/BigHammer-b2-T6-2026-10-04-terry.pdf?v=202610121815",
+     "href": "media/T6/BigHammer-b2-T6-2026-10-04-terry.pdf?v=202610121827",
      "name": "BigHammer-b2-T6-2026-10-04-terry.pdf",
      "ext": "pdf",
      "bytes": 3371853,
@@ -1087,17 +1087,17 @@ window.STUDIO = {
     "src": "T1",
     "title": "Your cost per job report is missing the jobs that cost the most",
     "files": [
-     "media/T1/p01.jpg?v=202610121815",
-     "media/T1/p02.jpg?v=202610121815",
-     "media/T1/p03.jpg?v=202610121815",
-     "media/T1/p04.jpg?v=202610121815",
-     "media/T1/p05.jpg?v=202610121815",
-     "media/T1/p06.jpg?v=202610121815",
-     "media/T1/p07.jpg?v=202610121815",
-     "media/T1/p08.jpg?v=202610121815"
+     "media/T1/p01.jpg?v=202610121827",
+     "media/T1/p02.jpg?v=202610121827",
+     "media/T1/p03.jpg?v=202610121827",
+     "media/T1/p04.jpg?v=202610121827",
+     "media/T1/p05.jpg?v=202610121827",
+     "media/T1/p06.jpg?v=202610121827",
+     "media/T1/p07.jpg?v=202610121827",
+     "media/T1/p08.jpg?v=202610121827"
     ],
     "download": {
-     "href": "media/T1/BigHammer-b2-T1-2026-10-05-terry.pdf?v=202610121815",
+     "href": "media/T1/BigHammer-b2-T1-2026-10-05-terry.pdf?v=202610121827",
      "name": "BigHammer-b2-T1-2026-10-05-terry.pdf",
      "ext": "pdf",
      "bytes": 1823726,
@@ -1142,10 +1142,10 @@ window.STUDIO = {
     "src": "T2",
     "tall": false,
     "files": [
-     "media/T2/image.jpg?v=202610121815"
+     "media/T2/image.jpg?v=202610121827"
     ],
     "download": {
-     "href": "media/T2/BigHammer-b2-T2-2026-10-06-terry.png?v=202610121815",
+     "href": "media/T2/BigHammer-b2-T2-2026-10-06-terry.png?v=202610121827",
      "name": "BigHammer-b2-T2-2026-10-06-terry.png",
      "ext": "png",
      "bytes": 465983,
@@ -1230,11 +1230,11 @@ window.STUDIO = {
     "type": "image",
     "src": "x/S1",
     "files": [
-     "media/x/S1/image.jpg?v=202610121815"
+     "media/x/S1/image.jpg?v=202610121827"
     ],
     "tall": false,
     "download": {
-     "href": "media/x/S1/BigHammer-bx1-XS1-2026-10-13-srinath.png?v=202610121815",
+     "href": "media/x/S1/BigHammer-bx1-XS1-2026-10-13-srinath.png?v=202610121827",
      "name": "BigHammer-bx1-XS1-2026-10-13-srinath.png",
      "ext": "png",
      "bytes": 963622,
@@ -1283,11 +1283,11 @@ window.STUDIO = {
     "type": "image",
     "src": "x/S2",
     "files": [
-     "media/x/S2/image.jpg?v=202610121815"
+     "media/x/S2/image.jpg?v=202610121827"
     ],
     "tall": false,
     "download": {
-     "href": "media/x/S2/BigHammer-bx1-XS2-2026-10-14-srinath.png?v=202610121815",
+     "href": "media/x/S2/BigHammer-bx1-XS2-2026-10-14-srinath.png?v=202610121827",
      "name": "BigHammer-bx1-XS2-2026-10-14-srinath.png",
      "ext": "png",
      "bytes": 518055,
@@ -1339,11 +1339,11 @@ window.STUDIO = {
     "type": "image",
     "src": "x/S3",
     "files": [
-     "media/x/S3/image.jpg?v=202610121815"
+     "media/x/S3/image.jpg?v=202610121827"
     ],
     "tall": false,
     "download": {
-     "href": "media/x/S3/BigHammer-bx1-XS3-2026-10-15-srinath.png?v=202610121815",
+     "href": "media/x/S3/BigHammer-bx1-XS3-2026-10-15-srinath.png?v=202610121827",
      "name": "BigHammer-bx1-XS3-2026-10-15-srinath.png",
      "ext": "png",
      "bytes": 1640860,
@@ -1356,17 +1356,14 @@ window.STUDIO = {
    "thread": [
     "Some of them told me straight. They stayed for the giveaway, not the content.\n\nSo when we planned our own masterclass, I kept thinking about them.\n\nRichard Lawrence, who works with me at BigHammer.ai, said it best:\n\n\"If it comes in the middle, this is just a product pitch.\"",
     "He was right. So we flipped it.\n\n30 minutes of the framework we actually use to bring Databricks costs down. Real numbers. Then 15 minutes of your questions. BigHammer only shows up at the very end.",
-    "There is still a prize. The three best questions win a $50 Amazon gift card. I would rather reward a good question than a long attention span.",
-    "If you own a Databricks bill, join me today at 12 PM ET to learn how to reduce your Databricks costs up to 75%. Bring your hardest question.\nhttps://webinar.bighammerai.com/"
+    "If you own a Databricks bill, join Richard and me today at 12 PM ET to learn how to reduce your Databricks costs up to 75%. Bring your hardest question.\nhttps://webinar.bighammerai.com/"
    ],
    "first_comment": "",
    "sources": [
     "10 Jun planning call transcript: Srinath on team attending webinars for free AirPods / gift cards; Richard: 'if it comes in the middle, this is just a product pitch'",
     "Webinar page: structure, $50 gift card for top 3 questions"
    ],
-   "numbers_for_signoff": [
-    "$50 gift card, top 3 questions"
-   ],
+   "numbers_for_signoff": [],
    "key": "bx1-XS3"
   },
   {
@@ -1393,11 +1390,11 @@ window.STUDIO = {
     "type": "image",
     "src": "x/S4",
     "files": [
-     "media/x/S4/image.jpg?v=202610121815"
+     "media/x/S4/image.jpg?v=202610121827"
     ],
     "tall": false,
     "download": {
-     "href": "media/x/S4/BigHammer-bx1-XS4-2026-10-17-srinath.png?v=202610121815",
+     "href": "media/x/S4/BigHammer-bx1-XS4-2026-10-17-srinath.png?v=202610121827",
      "name": "BigHammer-bx1-XS4-2026-10-17-srinath.png",
      "ext": "png",
      "bytes": 362352,
@@ -1449,11 +1446,11 @@ window.STUDIO = {
     "type": "image",
     "src": "x/S5",
     "files": [
-     "media/x/S5/image.jpg?v=202610121815"
+     "media/x/S5/image.jpg?v=202610121827"
     ],
     "tall": false,
     "download": {
-     "href": "media/x/S5/BigHammer-bx1-XS5-2026-10-18-srinath.png?v=202610121815",
+     "href": "media/x/S5/BigHammer-bx1-XS5-2026-10-18-srinath.png?v=202610121827",
      "name": "BigHammer-bx1-XS5-2026-10-18-srinath.png",
      "ext": "png",
      "bytes": 550503,
@@ -1507,16 +1504,16 @@ window.STUDIO = {
     "placement": "thread",
     "title": "Spark 4.0: 3 silent migration risks + 5 parity checks",
     "files": [
-     "media/x/S6/p01.jpg?v=202610121815",
-     "media/x/S6/p02.jpg?v=202610121815",
-     "media/x/S6/p03.jpg?v=202610121815",
-     "media/x/S6/p04.jpg?v=202610121815",
-     "media/x/S6/p05.jpg?v=202610121815",
-     "media/x/S6/p06.jpg?v=202610121815"
+     "media/x/S6/p01.jpg?v=202610121827",
+     "media/x/S6/p02.jpg?v=202610121827",
+     "media/x/S6/p03.jpg?v=202610121827",
+     "media/x/S6/p04.jpg?v=202610121827",
+     "media/x/S6/p05.jpg?v=202610121827",
+     "media/x/S6/p06.jpg?v=202610121827"
     ],
     "downloads": [
      {
-      "href": "media/x/S6/BigHammer-bx1-XS6-2026-10-16-srinath-1.png?v=202610121815",
+      "href": "media/x/S6/BigHammer-bx1-XS6-2026-10-16-srinath-1.png?v=202610121827",
       "name": "BigHammer-bx1-XS6-2026-10-16-srinath-1.png",
       "ext": "png",
       "bytes": 280992,
@@ -1525,7 +1522,7 @@ window.STUDIO = {
       "h": 900
      },
      {
-      "href": "media/x/S6/BigHammer-bx1-XS6-2026-10-16-srinath-2.png?v=202610121815",
+      "href": "media/x/S6/BigHammer-bx1-XS6-2026-10-16-srinath-2.png?v=202610121827",
       "name": "BigHammer-bx1-XS6-2026-10-16-srinath-2.png",
       "ext": "png",
       "bytes": 282856,
@@ -1534,7 +1531,7 @@ window.STUDIO = {
       "h": 900
      },
      {
-      "href": "media/x/S6/BigHammer-bx1-XS6-2026-10-16-srinath-3.png?v=202610121815",
+      "href": "media/x/S6/BigHammer-bx1-XS6-2026-10-16-srinath-3.png?v=202610121827",
       "name": "BigHammer-bx1-XS6-2026-10-16-srinath-3.png",
       "ext": "png",
       "bytes": 272794,
@@ -1543,7 +1540,7 @@ window.STUDIO = {
       "h": 900
      },
      {
-      "href": "media/x/S6/BigHammer-bx1-XS6-2026-10-16-srinath-4.png?v=202610121815",
+      "href": "media/x/S6/BigHammer-bx1-XS6-2026-10-16-srinath-4.png?v=202610121827",
       "name": "BigHammer-bx1-XS6-2026-10-16-srinath-4.png",
       "ext": "png",
       "bytes": 317597,
@@ -1552,7 +1549,7 @@ window.STUDIO = {
       "h": 900
      },
      {
-      "href": "media/x/S6/BigHammer-bx1-XS6-2026-10-16-srinath-5.png?v=202610121815",
+      "href": "media/x/S6/BigHammer-bx1-XS6-2026-10-16-srinath-5.png?v=202610121827",
       "name": "BigHammer-bx1-XS6-2026-10-16-srinath-5.png",
       "ext": "png",
       "bytes": 259587,
@@ -1561,7 +1558,7 @@ window.STUDIO = {
       "h": 900
      },
      {
-      "href": "media/x/S6/BigHammer-bx1-XS6-2026-10-16-srinath-6.png?v=202610121815",
+      "href": "media/x/S6/BigHammer-bx1-XS6-2026-10-16-srinath-6.png?v=202610121827",
       "name": "BigHammer-bx1-XS6-2026-10-16-srinath-6.png",
       "ext": "png",
       "bytes": 279524,
@@ -1590,271 +1587,6 @@ window.STUDIO = {
    "key": "bx1-XS6"
   },
   {
-   "id": "C1",
-   "batch": "3",
-   "profile": "company",
-   "status": "ready",
-   "date": "2026-10-12",
-   "time": "10:00",
-   "short": "Make failure cheap and loud",
-   "idea": "Failed runs are one of the quickest Databricks cost savings: 4 configuration-only guardrails (timeouts from real runtime, retries with a ceiling and interval, fail-fast pre-check, alerts with cost and owner)",
-   "format": "Carousel · 6 slides, cover with vertical violet panel + 3D icons, one guardrail per slide (tilted title bar, annotated config/chart card), webinar CTA last",
-   "sample": {
-    "id": "PC50",
-    "creator": "Patrick James Cumming",
-    "what": "KlientBoost 'Kitchen' step carousel: cover with vertical colour panel + big title + 3D icons; consistent light body slides with tilted numbered title bar, short body, annotated screenshot with hand-drawn arrows",
-    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7428045317301862400"
-   },
-   "copy_basis": "Sample PC50's own copy structure (problem framing, why it happens, numbered how-to steps, result, question), which suits a tactical guide better than the prompt-doc Carousel template. Content from nurture e08/e09.",
-   "cta": true,
-   "media": {
-    "type": "carousel",
-    "src": "b3/C1",
-    "title": "Make failure cheap and loud: 4 guardrails for Databricks jobs",
-    "files": [
-     "media/b3/C1/p01.jpg?v=202610121815",
-     "media/b3/C1/p02.jpg?v=202610121815",
-     "media/b3/C1/p03.jpg?v=202610121815",
-     "media/b3/C1/p04.jpg?v=202610121815",
-     "media/b3/C1/p05.jpg?v=202610121815",
-     "media/b3/C1/p06.jpg?v=202610121815"
-    ],
-    "download": {
-     "href": "media/b3/C1/BigHammer-b3-C1-2026-10-12-company.pdf?v=202610121815",
-     "name": "BigHammer-b3-C1-2026-10-12-company.pdf",
-     "ext": "pdf",
-     "bytes": 2449895,
-     "pages": 6,
-     "w": 1080,
-     "h": 1350
-    }
-   },
-   "text": "Failed runs are one of the quickest Databricks cost savings to find.\n\nA nightly job fails at 3 AM. Someone re-runs it. It times out. The third run succeeds and the incident closes.\n\nThe compute from the first two runs is still on your Databricks bill.\n\nThe defaults don't help. In the Databricks Jobs API, a job has no timeout unless you set one. Retries fire straight away unless you add an interval. And set retries to -1, and it tries forever.\n\nSo here are 4 guardrails that make failure cheap and loud. All configuration. No migration.\n\n1. Timeouts set from real runtime\n\nUse each job's own history, for example 2x the median. A 45-minute job then stops at 90 minutes instead of running until morning.\n\n2. Retries with a ceiling and an interval\n\nRetries help with flaky sources. With bad code they just repeat the bill. Two is a sensible cap. Space them out, and agree when a failure needs a human instead of another go.\n\n3. A cheap check before the expensive work\n\nIs the input there, is it the right shape, is it non-empty? Failing at minute one costs pennies. Failing at minute fifty costs the whole run.\n\n4. Alerts that include the cost and the owner\n\n\"nightly_orders_etl failed\" gets acknowledged. \"Failed after two retries and burned $312\" gets fixed. (The $312 is illustrative.)\n\nThe result: failures stop early, cost less, and land with someone who can fix them. That's money off your Databricks bill without moving a single job.\n\nThis Thursday, BigHammer.ai founder and CEO Srinath Reddy runs a free live masterclass: \"Reduce your Databricks costs up to 75%\". Failed-run cost is where a lot of teams start.\n\nDo your job alerts include the cost today?\n\n#Databricks #FinOps #DataEngineering",
-   "first_comment": "If failed runs are quietly adding to your Databricks bill, bring your list to Thursday. In our free live masterclass (Thu 15 Oct, 12:00 PM ET / 5 PM UK), BigHammer.ai founder and CEO Srinath Reddy shows how teams reduce their Databricks costs up to 75%, starting with fixes like these that need no migration. Save a seat:\nhttps://webinar.bighammerai.com/\n\nWant the queries to find your failed and retried runs first? They're in our free Databricks Cost Field Guide, no form:\nhttps://adisuja.github.io/bighammer-cost-field-guide/",
-   "sources": [
-    "corpus/nurture/sequence.md e08, e09 (guardrails, 2x median example, $312 illustrative alert)",
-    "https://docs.databricks.com/api/workspace/jobs/create (timeout_seconds default 0 = no timeout; max_retries default 0, -1 = retry forever; retries immediate unless min_retry_interval_millis set), via corpus/research/2026-09-30-verified-facts.md",
-    "corpus/facts.md (webinar title, host, Thu 15 Oct 2026 12:00 PM ET)",
-    "https://webinar.bighammerai.com/",
-    "https://adisuja.github.io/bighammer-cost-field-guide/ (failed/retried run queries)"
-   ],
-   "numbers_for_signoff": [],
-   "key": "b3-C1"
-  },
-  {
-   "id": "R1",
-   "batch": "3",
-   "profile": "richard",
-   "status": "ready",
-   "date": "2026-10-12",
-   "time": "10:00",
-   "short": "Renewals are won six months early",
-   "idea": "Renewal timing, not content: what to have ready at 180, 120, 90, 60 and 30 days before a Databricks commit, from an ex-vendor who saw renewals planned early on the seller's side",
-   "format": "Single image · dark winding roadmap board, 5 stops + start + goal",
-   "sample": {
-    "id": "AV10",
-    "creator": "Alex Vacca",
-    "what": "Dark serpentine game-board roadmap: winding road through numbered level cards, START walker with avatar chip, GOAL flag, dotted track, highlight-box headline",
-    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7475848854374920192"
-   },
-   "copy_basis": "Experiential Story template (hook, ex-vendor context, tension, the turning point as a timeline, value, CTA, engagement question), built on nurture e10 structure. New angle vs Batch 2 R1 (that post was WHAT to bring; this one is WHEN).",
-   "cta": true,
-   "media": {
-    "type": "image",
-    "src": "b3/R1",
-    "title": "Renewals are won six months early: the 180 to 30 day roadmap",
-    "tall": false,
-    "files": [
-     "media/b3/R1/image.jpg?v=202610121815"
-    ],
-    "download": {
-     "href": "media/b3/R1/BigHammer-b3-R1-2026-10-12-richard.png?v=202610121815",
-     "name": "BigHammer-b3-R1-2026-10-12-richard.png",
-     "ext": "png",
-     "bytes": 707721,
-     "pages": 1,
-     "w": 1080,
-     "h": 1350
-    }
-   },
-   "text": "Renewals are won six months early.\n\nI learned that from the other side of the table. I spent years selling data software (Talend, Pentaho, StreamSets), and on the vendor side a renewal was planned long before the paperwork went out.\n\nOn the buyer side, the work often started when the quote landed. By then the clock had nearly run out.\n\nThirty days out, you can only argue about price.\nSix months out, you can change what you're committing to.\n\nThe difference is the time it takes to build evidence. It doesn't appear in a week. Here's the timeline I'd give anyone with a Databricks renewal or commit on the calendar:\n\n180 days out: a 90-day cost baseline, and the share of spend you can trace to a job.\n120 days out: your top 10 jobs, each with a named owner, and what failed runs cost you.\n90 days out: a full assessment, with measured and estimated figures kept apart.\n60 days out: a job-by-job list of what to keep and what to move.\n30 days out: a negotiation pack built on that evidence, not on the invoice.\n\nEach stop needs the one before it. Skip the baseline and every number after it is a guess.\n\nNone of this is about squeezing your vendor. Databricks is a good platform. It's about knowing what your spend buys, and cutting the Databricks cost you can't justify, before you commit to more of it.\n\nThis Thursday, BigHammer.ai founder and CEO Srinath Reddy is running a free live masterclass, \"Reduce your Databricks costs up to 75%\", at 12 PM ET / 5 PM UK. If a renewal is on your calendar, it's a good place to start the clock.\n\nHow many days out are you right now?\n\n#Databricks #FinOps #DataLeadership",
-   "first_comment": "If your Databricks renewal or commit is inside the next six months, this is the moment to cut the bill, not just negotiate it. Bring the date to Thursday's masterclass and ask Srinath which cost savings to evidence first. Save a seat:\nhttps://webinar.bighammerai.com/",
-   "sources": [
-    "corpus/nurture/sequence.md e10 'Renewals are won six months early' (180/120/90/60/30 timeline, price vs commitment line), https://adisuja.github.io/bighammer-webinar-nurture/",
-    "corpus/nurture/sequence.md e01 ('Databricks is genuinely good at what it does')",
-    "corpus/richard/switch-to-startup.md (Talend, Pentaho, StreamSets sales career)",
-    "Webinar: Reduce your Databricks costs up to 75%, Thu 15 Oct 2026, 12:00 PM ET / 5 PM UK, https://webinar.bighammerai.com/"
-   ],
-   "numbers_for_signoff": [],
-   "key": "b3-R1"
-  },
-  {
-   "id": "S1",
-   "batch": "3",
-   "profile": "srinath",
-   "status": "ready",
-   "date": "2026-10-12",
-   "time": "10:00",
-   "short": "3 AM failure is on your bill",
-   "idea": "Failed-run cost is the one Databricks number with zero assumptions: a 3 AM story, then how to measure it this week (C1 covers the fixes)",
-   "format": "Carousel · 9 slides, dark starfield tweet-style story (repeated tweet header), last slide = webinar CTA",
-   "sample": {
-    "id": "AB50",
-    "creator": "Austin Belcak",
-    "what": "Dark starfield tweet-style carousel: the same tweet header (round avatar + name) on every slide, large plain sentences with underlined keywords, one story beat per slide, result first, then the numbered steps, then the CTA.",
-    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7468286937829789696"
-   },
-   "copy_basis": "Experiential Story template (5 to 8 word hook, short story beats, lesson, CTA) shaped to Srinath's problem > how we fix it > result rule; the carousel follows AB50's own structure (story slide first, then the mechanism, then the numbered fixes).",
-   "cta": true,
-   "media": {
-    "type": "carousel",
-    "src": "b3/S1",
-    "title": "The 3 AM failure is still on your bill",
-    "files": [
-     "media/b3/S1/p01.jpg?v=202610121815",
-     "media/b3/S1/p02.jpg?v=202610121815",
-     "media/b3/S1/p03.jpg?v=202610121815",
-     "media/b3/S1/p04.jpg?v=202610121815",
-     "media/b3/S1/p05.jpg?v=202610121815",
-     "media/b3/S1/p06.jpg?v=202610121815",
-     "media/b3/S1/p07.jpg?v=202610121815"
-    ],
-    "download": {
-     "href": "media/b3/S1/BigHammer-b3-S1-2026-10-12-srinath.pdf?v=202610121815",
-     "name": "BigHammer-b3-S1-2026-10-12-srinath.pdf",
-     "ext": "pdf",
-     "bytes": 1542213,
-     "pages": 7,
-     "w": 1080,
-     "h": 1350
-    }
-   },
-   "text": "A nightly job failed at 3 AM.\n\nSomeone re-ran it. It failed again.\n\nThe third run worked. The incident was closed by breakfast, and everyone moved on.\n\nAll three runs are on your Databricks bill.\n\nI like this story because it is so ordinary. Nobody did anything wrong. Nobody asked what the two failed runs cost, either.\n\nThat's the gap. Your monitoring tracks the failure. It almost never tracks what the failure cost. So the number finance cares about never reaches the people who could fix it.\n\nAnd it's a shame, because failed-run cost is the most defensible number you can put in front of a CFO. It needs no guesses about savings. The runs happened, they failed, and they were billed.\n\nYou can measure it this week. Take every run that ended FAILED, TIMED_OUT or ERROR in the last 90 days, join system.lakeflow.job_run_timeline to your billing usage, and price it at list. One query. Nothing to install.\n\nYou'll see three things:\n\n1. What failure cost you last quarter\n2. The few jobs that fail the most\n3. Which of them have no timeout at all\n\nThat's usually the quickest Databricks cost saving a team can find, and nobody can argue with it.\n\nThis Thursday I'm hosting a free live masterclass on how to reduce your Databricks costs by up to 75%: where the spend leaks, and what to fix first. Link in the first comment.\n\nWhen did your team last ask what a failed run cost?\n\n#Databricks #FinOps #DataEngineering",
-   "first_comment": "If your team has ever re-run a job at 3 AM, that cost is sitting in your Databricks bill. This Thursday at 12:00 PM ET / 5 PM UK, I'll show how to find it, where else Databricks spend leaks, and how to reduce your Databricks costs by up to 75%. Save a seat:\nhttps://webinar.bighammerai.com/",
-   "sources": [
-    "corpus/nurture/sequence.md e08 (failed-run cost, 3 AM story, most defensible number, job_run_timeline + billing.usage query) and e09 (four guardrails: timeout ~2x median, retries capped at two, fail-fast check, cost in the alert, $312 example alert)",
-    "https://docs.databricks.com/api/workspace/jobs/create (timeout_seconds default 0 = no timeout; max_retries default 0, -1 = retry indefinitely), via corpus/research/2026-09-30-verified-facts.md",
-    "https://docs.databricks.com/aws/en/admin/system-tables/ (system.lakeflow.job_run_timeline, system.billing.usage), via corpus/research/2026-09-30-verified-facts.md",
-    "https://webinar.bighammerai.com/ (title 'up to 75%', Thu 15 Oct 2026 12:00 PM ET / 5 PM UK, free, 'where your Databricks spend leaks and what to fix first'), corpus/facts.md"
-   ],
-   "numbers_for_signoff": [
-    "3 AM (story time, illustrative)",
-    "three runs: two failed, the third worked (illustrative story)",
-    "last 90 days (measurement window, system tables)",
-    "up to 75% (webinar title)",
-    "Thu 15 Oct, 12:00 PM ET / 5 PM UK (webinar time)"
-   ],
-   "key": "b3-S1"
-  },
-  {
-   "id": "R2",
-   "batch": "3",
-   "profile": "richard",
-   "status": "ready",
-   "date": "2026-10-13",
-   "time": "10:00",
-   "short": "Bring whoever owns the bill",
-   "idea": "The person who owns the Databricks bill should be in the room when you decide how to cut it. When I sold software, meetings without the bill owner went nowhere. Bring them to Thursday's masterclass on reducing Databricks costs.",
-   "format": "Carousel · 7 slides, candid photos with white caption bubbles",
-   "sample": {
-    "id": "HD10",
-    "creator": "Harry Dry",
-    "what": "Multi-image carousel of full-bleed candid photos, each overlaid with bold black text in white rounded caption bubbles anchored bottom-left and stacked; raw photo, minimal furniture",
-    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7476208063239208967"
-   },
-   "copy_basis": "Prompt doc Experiential Story template (hook, context, struggle, turning point, value, outcome, close) in Richard's first-person seller's-side voice; HD10's own copy is a one-line confession, too thin for the argument, so its confessional opener is kept as the hook and the slides carry the story beat by beat.",
-   "cta": true,
-   "media": {
-    "type": "carousel",
-    "src": "b3/R2",
-    "title": "The person who owned the bill wasn't in the room",
-    "files": [
-     "media/b3/R2/p01.jpg?v=202610121815",
-     "media/b3/R2/p02.jpg?v=202610121815",
-     "media/b3/R2/p03.jpg?v=202610121815",
-     "media/b3/R2/p04.jpg?v=202610121815",
-     "media/b3/R2/p05.jpg?v=202610121815",
-     "media/b3/R2/p06.jpg?v=202610121815",
-     "media/b3/R2/p07.jpg?v=202610121815"
-    ],
-    "download": {
-     "href": "media/b3/R2/BigHammer-b3-R2-2026-10-13-richard.pdf?v=202610121815",
-     "name": "BigHammer-b3-R2-2026-10-13-richard.pdf",
-     "ext": "pdf",
-     "bytes": 17032300,
-     "pages": 7,
-     "w": 1080,
-     "h": 1350
-    }
-   },
-   "text": "When I sold software, the meetings that went nowhere had one thing in common.\n\nThe person who owned the bill wasn't in the room.\n\nThe meeting itself usually went well. Good engineers, good questions, plenty of nodding. Then three weeks of silence, and an email: \"we've decided to hold off for now.\"\n\nIt took me a while to see why.\n\nWhoever pays for a platform has to defend that spend at renewal. If they never heard the reasoning, they're being asked to sign off on something they can't explain. So they do the sensible thing. They wait.\n\nWhen the bill owner was in the room, three things changed.\n\nThe questions got sharper. Less \"is this clever?\", more \"what will I be able to show in a year?\"\n\nDoubts came up on the spot, not in an email chain afterwards.\n\nAnd the decision was made by the person who'd have to stand behind it.\n\nDatabricks cost work is exactly the same.\n\nAn engineer can find the savings: the jobs on the wrong compute, the clusters nobody switched off, the failed runs that keep getting re-run. But the person who owns the Databricks bill is the one who has to defend the cut, and the new number, at renewal. If they weren't there when the reasoning was laid out, the savings sit in a spreadsheet.\n\nOn Thursday, BigHammer.ai founder and CEO Srinath Reddy is running a free live masterclass on how to reduce your Databricks costs by up to 75%. If you're going, bring whoever owns your Databricks bill: your platform lead, your FinOps lead, whoever has to explain the number when renewal comes round.\n\nYou'll both hear the same reasoning at the same time. In my experience, that's what turns a good hour into a decision on how to cut the bill.\n\nLink in the comments.\n\n#Databricks #FinOps #DataLeadership",
-   "first_comment": "If you own your Databricks bill, or sit next to the person who does, this one is for both of you: a free live masterclass on how to reduce your Databricks costs (up to 75%), with BigHammer.ai founder and CEO Srinath Reddy. Thursday 15 October, 12:00 PM ET / 5 PM UK. Save two seats:\nhttps://webinar.bighammerai.com/",
-   "sources": [
-    "corpus/nurture/sequence.md e04 ('Bring whoever owns the bill. The conversation is most useful when the person who has to defend the spend is in the room.')",
-    "corpus/richard/switch-to-startup.md (Richard sold Talend, Pentaho, StreamSets; forecast-driven selling)",
-    "corpus/facts.md (webinar title 'up to 75%', host Srinath Reddy, Thu 15 Oct 2026 12:00 PM ET)",
-    "queue/BUILD_STATE_B3.md (5 PM UK, Tue wording 'on Thursday', https://webinar.bighammerai.com/)",
-    "corpus/nurture/sequence.md e07/e08/e09 (All-Purpose vs Jobs compute, idle clusters, failed-run cost as Databricks cost drivers)"
-   ],
-   "numbers_for_signoff": [],
-   "key": "b3-R2"
-  },
-  {
-   "id": "R3",
-   "batch": "3",
-   "profile": "richard",
-   "status": "ready",
-   "date": "2026-10-14",
-   "time": "10:00",
-   "short": "5 questions for Srinath tomorrow",
-   "idea": "5 questions worth asking Srinath live tomorrow: what a buyer should ask about any plan to reduce their Databricks costs (measured vs assumed, what's excluded, double counting, which jobs belong on Databricks, how parity is proven).",
-   "format": "Carousel · 8 slides, dark fake-tweet cards with numbered steps",
-   "sample": {
-    "id": "AB02",
-    "creator": "Austin Belcak",
-    "what": "Pure-black fake-tweet card carousel: avatar + name chrome on every slide, system sans white text, titled cover then one numbered step per slide; here Richard's stored headshot pose is the tweet avatar and the CTA is a tweet with a link-preview card",
-    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7479883353731555328"
-   },
-   "copy_basis": "Sample AB02's own copy structure (title line, then each numbered step restated with a short explanation, then the CTA), which mirrors the slides one to one; Richard's buyer-side framing from nurture e14 ('Run this test on our numbers too').",
-   "cta": true,
-   "media": {
-    "type": "carousel",
-    "src": "b3/R3",
-    "title": "5 questions worth asking Srinath live tomorrow",
-    "files": [
-     "media/b3/R3/p01.jpg?v=202610121815",
-     "media/b3/R3/p02.jpg?v=202610121815",
-     "media/b3/R3/p03.jpg?v=202610121815",
-     "media/b3/R3/p04.jpg?v=202610121815",
-     "media/b3/R3/p05.jpg?v=202610121815",
-     "media/b3/R3/p06.jpg?v=202610121815",
-     "media/b3/R3/p07.jpg?v=202610121815",
-     "media/b3/R3/p08.jpg?v=202610121815"
-    ],
-    "download": {
-     "href": "media/b3/R3/BigHammer-b3-R3-2026-10-14-richard.pdf?v=202610121815",
-     "name": "BigHammer-b3-R3-2026-10-14-richard.pdf",
-     "ext": "pdf",
-     "bytes": 1678431,
-     "pages": 8,
-     "w": 1080,
-     "h": 1350
-    }
-   },
-   "text": "5 questions worth asking Srinath live tomorrow.\n\nTomorrow, BigHammer.ai founder and CEO Srinath Reddy is running a free live masterclass on how to reduce your Databricks costs by up to 75%, with live Q&A at the end.\n\nI spent years on the selling side of these conversations. If I were on your side of the table, these are the five questions I'd ask about any plan to cut my Databricks bill:\n\n1. What was measured from my own data, and what was assumed?\n\nMeasured comes straight from your billing and run history. Assumed is a rate someone chose. A number worth trusting keeps the two apart and shows the rule behind every estimate.\n\n2. What's been left out?\n\nContract discounts, cloud VM costs, and spend nobody can trace to a job or a team. A savings figure at list price on a heavily discounted contract can be wildly optimistic.\n\n3. Could the savings add up to more than I actually spend?\n\nIf the answer isn't an obvious no, something has been counted twice. Moving a job to cheaper compute and then right-sizing it are not two savings on the same spend. The second only applies to what's left after the first.\n\n4. Which of my jobs actually belong on Databricks?\n\nNot \"should we leave?\" That forces an all-or-nothing answer, and neither answer is right. Ask which jobs use what makes the platform special, and which would run happily anywhere.\n\n5. How do you prove the migrated job matches before I switch off the old one?\n\nA changed join or a one-hour timezone shift won't fail the run. It fails the business, usually weeks later. A green tick says the job finished. It doesn't say it was right.\n\nAsk them of any plan to cut your Databricks bill, including ours. We'd rather you trusted a smaller figure than doubted a bigger one.\n\nThe link to save a seat is in the comments.\n\n#Databricks #FinOps #DataEngineering",
-   "first_comment": "Bring one of these five, or your own, and put it to BigHammer.ai founder and CEO Srinath Reddy live tomorrow: a free masterclass on how to reduce your Databricks costs (up to 75%), Thursday 15 October, 12:00 PM ET / 5 PM UK. The best three questions win a $50 Amazon gift card. Save a seat:\nhttps://webinar.bighammerai.com/",
-   "sources": [
-    "corpus/nurture/sequence.md e13 (measured vs estimated; contract discounts, cloud VM costs, untraced spend)",
-    "corpus/nurture/sequence.md e14 (four questions incl. double counting; 'We'd rather you trusted a smaller figure than doubted a bigger one.')",
-    "corpus/nurture/sequence.md e17 ('which jobs?', not all-or-nothing)",
-    "corpus/nurture/sequence.md e20 (parity: changed join, null rule, timezone shift; green tick quote)",
-    "corpus/facts.md (webinar title 'up to 75%', host, live Q&A, top 3 questions win $50 Amazon gift cards)",
-    "queue/BUILD_STATE_B3.md (Thu 15 Oct 2026 12:00 PM ET / 5 PM UK; Wed wording 'tomorrow'; https://webinar.bighammerai.com/)"
-   ],
-   "numbers_for_signoff": [],
-   "key": "b3-R3"
-  },
-  {
    "id": "R4",
    "batch": "3",
    "profile": "richard",
@@ -1878,10 +1610,10 @@ window.STUDIO = {
     "title": "What's the data project that has been next quarter the longest?",
     "tall": false,
     "files": [
-     "media/b3/R4/image.jpg?v=202610121815"
+     "media/b3/R4/image.jpg?v=202610121827"
     ],
     "download": {
-     "href": "media/b3/R4/BigHammer-b3-R4-2026-10-15-richard.png?v=202610121815",
+     "href": "media/b3/R4/BigHammer-b3-R4-2026-10-15-richard.png?v=202610121827",
      "name": "BigHammer-b3-R4-2026-10-15-richard.png",
      "ext": "png",
      "bytes": 1391308,
@@ -1924,16 +1656,16 @@ window.STUDIO = {
     "src": "b3/R5",
     "title": "What actually happens on a 30-minute call with us",
     "files": [
-     "media/b3/R5/p01.jpg?v=202610121815",
-     "media/b3/R5/p02.jpg?v=202610121815",
-     "media/b3/R5/p03.jpg?v=202610121815",
-     "media/b3/R5/p04.jpg?v=202610121815",
-     "media/b3/R5/p05.jpg?v=202610121815",
-     "media/b3/R5/p06.jpg?v=202610121815",
-     "media/b3/R5/p07.jpg?v=202610121815"
+     "media/b3/R5/p01.jpg?v=202610121827",
+     "media/b3/R5/p02.jpg?v=202610121827",
+     "media/b3/R5/p03.jpg?v=202610121827",
+     "media/b3/R5/p04.jpg?v=202610121827",
+     "media/b3/R5/p05.jpg?v=202610121827",
+     "media/b3/R5/p06.jpg?v=202610121827",
+     "media/b3/R5/p07.jpg?v=202610121827"
     ],
     "download": {
-     "href": "media/b3/R5/BigHammer-b3-R5-2026-10-16-richard.pdf?v=202610121815",
+     "href": "media/b3/R5/BigHammer-b3-R5-2026-10-16-richard.pdf?v=202610121827",
      "name": "BigHammer-b3-R5-2026-10-16-richard.pdf",
      "ext": "pdf",
      "bytes": 3840862,
@@ -1977,10 +1709,10 @@ window.STUDIO = {
     "title": "Mocked Slack #security-review thread: four questions, four answers, approved",
     "tall": false,
     "files": [
-     "media/b3/S2/image.jpg?v=202610121815"
+     "media/b3/S2/image.jpg?v=202610121827"
     ],
     "download": {
-     "href": "media/b3/S2/BigHammer-b3-S2-2026-10-13-srinath.png?v=202610121815",
+     "href": "media/b3/S2/BigHammer-b3-S2-2026-10-13-srinath.png?v=202610121827",
      "name": "BigHammer-b3-S2-2026-10-13-srinath.png",
      "ext": "png",
      "bytes": 385172,
@@ -2030,15 +1762,15 @@ window.STUDIO = {
     "src": "b3/S3",
     "title": "Both runs succeeded. The data didn't match: 3 silent differences, 5 parity checks",
     "files": [
-     "media/b3/S3/p01.jpg?v=202610121815",
-     "media/b3/S3/p02.jpg?v=202610121815",
-     "media/b3/S3/p03.jpg?v=202610121815",
-     "media/b3/S3/p04.jpg?v=202610121815",
-     "media/b3/S3/p05.jpg?v=202610121815",
-     "media/b3/S3/p06.jpg?v=202610121815"
+     "media/b3/S3/p01.jpg?v=202610121827",
+     "media/b3/S3/p02.jpg?v=202610121827",
+     "media/b3/S3/p03.jpg?v=202610121827",
+     "media/b3/S3/p04.jpg?v=202610121827",
+     "media/b3/S3/p05.jpg?v=202610121827",
+     "media/b3/S3/p06.jpg?v=202610121827"
     ],
     "download": {
-     "href": "media/b3/S3/BigHammer-b3-S3-2026-10-14-srinath.pdf?v=202610121815",
+     "href": "media/b3/S3/BigHammer-b3-S3-2026-10-14-srinath.pdf?v=202610121827",
      "name": "BigHammer-b3-S3-2026-10-14-srinath.pdf",
      "ext": "pdf",
      "bytes": 1039335,
@@ -2089,10 +1821,10 @@ window.STUDIO = {
     "title": "The room went quiet: a visibility problem, not a people problem",
     "tall": false,
     "files": [
-     "media/b3/S4/image.jpg?v=202610121815"
+     "media/b3/S4/image.jpg?v=202610121827"
     ],
     "download": {
-     "href": "media/b3/S4/BigHammer-b3-S4-2026-10-15-srinath.png?v=202610121815",
+     "href": "media/b3/S4/BigHammer-b3-S4-2026-10-15-srinath.png?v=202610121827",
      "name": "BigHammer-b3-S4-2026-10-15-srinath.png",
      "ext": "png",
      "bytes": 814912,
@@ -2116,6 +1848,496 @@ window.STUDIO = {
     "Jobs compute billed at a lower rate than interactive (All-Purpose) compute: directional claim from Databricks list prices, no number used"
    ],
    "key": "b3-S4"
+  },
+  {
+   "id": "C1",
+   "batch": "3",
+   "profile": "company",
+   "status": "ready",
+   "date": "2026-10-12",
+   "time": "10:00",
+   "short": "Make failure cheap and loud",
+   "idea": "Failed runs are one of the quickest Databricks cost savings: 4 configuration-only guardrails (timeouts from real runtime, retries with a ceiling and interval, fail-fast pre-check, alerts with cost and owner)",
+   "format": "Carousel · 6 slides, cover with vertical violet panel + 3D icons, one guardrail per slide (tilted title bar, annotated config/chart card), webinar CTA last",
+   "sample": {
+    "id": "PC50",
+    "creator": "Patrick James Cumming",
+    "what": "KlientBoost 'Kitchen' step carousel: cover with vertical colour panel + big title + 3D icons; consistent light body slides with tilted numbered title bar, short body, annotated screenshot with hand-drawn arrows",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7428045317301862400"
+   },
+   "copy_basis": "Sample PC50's own copy structure (problem framing, why it happens, numbered how-to steps, result, question), which suits a tactical guide better than the prompt-doc Carousel template. Content from nurture e08/e09.",
+   "cta": true,
+   "media": {
+    "type": "carousel",
+    "src": "b3/C1",
+    "title": "Make failure cheap and loud: 4 guardrails for Databricks jobs",
+    "files": [
+     "media/b3/C1/p01.jpg?v=202610121827",
+     "media/b3/C1/p02.jpg?v=202610121827",
+     "media/b3/C1/p03.jpg?v=202610121827",
+     "media/b3/C1/p04.jpg?v=202610121827",
+     "media/b3/C1/p05.jpg?v=202610121827",
+     "media/b3/C1/p06.jpg?v=202610121827"
+    ],
+    "download": {
+     "href": "media/b3/C1/BigHammer-b3-C1-2026-10-12-company.pdf?v=202610121827",
+     "name": "BigHammer-b3-C1-2026-10-12-company.pdf",
+     "ext": "pdf",
+     "bytes": 2452346,
+     "pages": 6,
+     "w": 1080,
+     "h": 1350
+    }
+   },
+   "text": "Failed runs are one of the quickest Databricks cost savings to find.\n\nThe defaults don't help. In the Databricks Jobs API, a job has no timeout unless you set one. Retries fire straight away unless you add an interval. Set retries to -1 and it tries forever.\n\nSo here are 4 guardrails that make failure cheap and loud. All configuration. No migration.\n\n1. Timeouts set from real runtime\n\nUse each job's own history, for example 2x the median. A 45-minute job then stops at 90 minutes instead of running until morning.\n\n2. Retries with a ceiling and an interval\n\nRetries help with flaky sources. With bad code they just repeat the bill. Two is a sensible cap. Space them out, and agree when a failure needs a human instead of another go.\n\n3. A cheap check before the expensive work\n\nIs the input there, is it the right shape, is it non-empty? Failing at minute one costs pennies. Failing at minute fifty costs the whole run.\n\n4. Alerts that include the cost and the owner\n\n\"nightly_orders_etl failed\" gets acknowledged. \"Failed after two retries and burned $312\" gets fixed. (The $312 is illustrative.)\n\nThe result: failures stop early, cost less, and land with someone who can fix them. That's money off your Databricks bill without moving a single job.\n\nThis Thursday, BigHammer.ai founder and CEO Srinath Reddy runs a free live masterclass: \"Reduce your Databricks costs up to 75%\". Failed-run cost is where a lot of teams start. Link in the first comment.\n\nDo your job alerts include the cost today?\n\n#Databricks #FinOps #DataEngineering",
+   "first_comment": "If failed runs are quietly adding to your Databricks bill, bring your list to Thursday. In our free live masterclass (Thu 15 Oct, 12:00 PM ET / 5 PM UK), BigHammer.ai founder and CEO Srinath Reddy shows how teams reduce their Databricks costs up to 75%, starting with fixes like these that need no migration. Save a seat:\nhttps://webinar.bighammerai.com/\n\nWant the queries to find your failed and retried runs first? They're in our free Databricks Cost Field Guide, no form:\nhttps://adisuja.github.io/bighammer-cost-field-guide/",
+   "sources": [
+    "corpus/nurture/sequence.md e08, e09 (guardrails, 2x median example, $312 illustrative alert)",
+    "https://docs.databricks.com/api/workspace/jobs/create (timeout_seconds default 0 = no timeout; max_retries default 0, -1 = retry forever; retries immediate unless min_retry_interval_millis set), via corpus/research/2026-09-30-verified-facts.md",
+    "corpus/facts.md (webinar title, host, Thu 15 Oct 2026 12:00 PM ET)",
+    "https://webinar.bighammerai.com/",
+    "https://adisuja.github.io/bighammer-cost-field-guide/ (failed/retried run queries)"
+   ],
+   "numbers_for_signoff": [],
+   "key": "b3-C1"
+  },
+  {
+   "id": "S1",
+   "batch": "3",
+   "profile": "srinath",
+   "status": "ready",
+   "date": "2026-10-12",
+   "time": "10:00",
+   "short": "3 AM failure is on your bill",
+   "idea": "Failed-run cost is the one Databricks number with zero assumptions: a 3 AM story, then how to measure it this week (C1 covers the fixes)",
+   "format": "Carousel · 7 slides, tweet-style story (AB50)",
+   "sample": {
+    "id": "AB50",
+    "creator": "Austin Belcak",
+    "what": "Dark starfield tweet-style carousel: the same tweet header (round avatar + name) on every slide, large plain sentences with underlined keywords, one story beat per slide, result first, then the numbered steps, then the CTA.",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7468286937829789696"
+   },
+   "copy_basis": "Experiential Story template (5 to 8 word hook, short story beats, lesson, CTA) shaped to Srinath's problem > how we fix it > result rule; the carousel follows AB50's own structure (story slide first, then the mechanism, then the numbered fixes).",
+   "cta": true,
+   "media": {
+    "type": "carousel",
+    "src": "b3/S1",
+    "title": "The 3 AM failure is still on your bill",
+    "files": [
+     "media/b3/S1/p01.jpg?v=202610121827",
+     "media/b3/S1/p02.jpg?v=202610121827",
+     "media/b3/S1/p03.jpg?v=202610121827",
+     "media/b3/S1/p04.jpg?v=202610121827",
+     "media/b3/S1/p05.jpg?v=202610121827",
+     "media/b3/S1/p06.jpg?v=202610121827",
+     "media/b3/S1/p07.jpg?v=202610121827"
+    ],
+    "download": {
+     "href": "media/b3/S1/BigHammer-b3-S1-2026-10-12-srinath.pdf?v=202610121827",
+     "name": "BigHammer-b3-S1-2026-10-12-srinath.pdf",
+     "ext": "pdf",
+     "bytes": 1536084,
+     "pages": 7,
+     "w": 1080,
+     "h": 1350
+    }
+   },
+   "text": "A nightly job failed at 3 AM.\n\nSomeone re-ran it. It failed again.\n\nThe third run worked. The incident was closed by breakfast, and everyone moved on.\n\nAll three runs are on your Databricks bill.\n\nI like this story because it is so ordinary. Nobody did anything wrong. Nobody asked what the two failed runs cost, either.\n\nThat's the gap. Your monitoring tracks the failure. It almost never tracks what the failure cost. So the number finance cares about never reaches the people who could fix it.\n\nAnd it's a shame, because failed-run cost is the most defensible number you can put in front of a CFO. It needs no guesses about savings. The runs happened, they failed, and they were billed.\n\nYou can measure it this week. Take every run that ended FAILED, TIMED_OUT or ERROR in the last 90 days, join system.lakeflow.job_run_timeline to your billing usage, and price it at list. One query. Nothing to install.\n\nYou'll see three things:\n\n1. What failure cost you last quarter\n2. The few jobs that fail the most\n3. Which of them have no timeout at all\n\nIt's the one Databricks number nobody can argue with, and the place to start cutting the bill.\n\nThis Thursday I'm hosting a free live masterclass on how to reduce your Databricks costs by up to 75%: where the spend leaks, and what to fix first. Link in the first comment.\n\nWhen did your team last ask what a failed run cost?\n\n#Databricks #FinOps #DataEngineering",
+   "first_comment": "If your team has ever re-run a job at 3 AM, that cost is sitting in your Databricks bill. This Thursday at 12:00 PM ET / 5 PM UK, I'll show how to find it, where else Databricks spend leaks, and how to reduce your Databricks costs by up to 75%. Save a seat:\nhttps://webinar.bighammerai.com/",
+   "sources": [
+    "corpus/nurture/sequence.md e08 (failed-run cost, 3 AM story, most defensible number, job_run_timeline + billing.usage query) and e09 (four guardrails: timeout ~2x median, retries capped at two, fail-fast check, cost in the alert, $312 example alert)",
+    "https://docs.databricks.com/api/workspace/jobs/create (timeout_seconds default 0 = no timeout; max_retries default 0, -1 = retry indefinitely), via corpus/research/2026-09-30-verified-facts.md",
+    "https://docs.databricks.com/aws/en/admin/system-tables/ (system.lakeflow.job_run_timeline, system.billing.usage), via corpus/research/2026-09-30-verified-facts.md",
+    "https://webinar.bighammerai.com/ (title 'up to 75%', Thu 15 Oct 2026 12:00 PM ET / 5 PM UK, free, 'where your Databricks spend leaks and what to fix first'), corpus/facts.md"
+   ],
+   "numbers_for_signoff": [
+    "3 AM (story time, illustrative)",
+    "three runs: two failed, the third worked (illustrative story)",
+    "last 90 days (measurement window, system tables)",
+    "up to 75% (webinar title)",
+    "Thu 15 Oct, 12:00 PM ET / 5 PM UK (webinar time)"
+   ],
+   "key": "b3-S1"
+  },
+  {
+   "id": "C4",
+   "batch": "3",
+   "profile": "company",
+   "status": "ready",
+   "date": "2026-10-15",
+   "time": "10:00",
+   "short": "8 steps: where are you standing?",
+   "idea": "A self-check staircase: the 8 steps from a Databricks invoice total to a cost reduction you can defend (see, trace, measure, assess, report, right-size, classify, prove). Tick only what you could evidence today; score bands 0 to 2, 3 to 5, 6 to 8 with next steps.",
+   "format": "Single image · hand-drawn blue-sketch staircase with milestone labels on each riser",
+   "sample": {
+    "id": "HD01",
+    "creator": "Harry Dry",
+    "what": "Hand-drawn white-paper illustration, monochrome blue crayon-shaded diagonal staircase climbing bottom-left to top-right, one milestone per step, brush-marker headline with the key word in blue and a hand-drawn underline, hand-lettered boxed annotations with sketched arrows at the start and the summit, a small caption legend. Character replaced by an invoice pile (start) and a flag (summit); illustration from kie.ai with no text, every word is real HTML text skewed to each riser.",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7480124457072640000"
+   },
+   "copy_basis": "Nurture e22 self-check structure (tick only what you could evidence today, 8 numbered steps, score bands), framed by the sample's one-line aphorism hook and question. Steps from e01.",
+   "cta": false,
+   "media": {
+    "type": "image",
+    "src": "b3/C4",
+    "title": "Hand-drawn staircase: 8 steps from a Databricks invoice total to evidence you can defend",
+    "tall": false,
+    "files": [
+     "media/b3/C4/image.jpg?v=202610121827"
+    ],
+    "download": {
+     "href": "media/b3/C4/BigHammer-b3-C4-2026-10-15-company.png?v=202610121827",
+     "name": "BigHammer-b3-C4-2026-10-15-company.png",
+     "ext": "png",
+     "bytes": 1093145,
+     "pages": 1,
+     "w": 1080,
+     "h": 1350
+    }
+   },
+   "text": "8 steps from an invoice total to evidence you can defend.\n\nWhere are you standing?\n\nMost Databricks cost conversations start with one number: the invoice total. It tells you what you spent. It can't tell you what to cut, or show that the cut is safe.\n\nHere's the path we see work best to a Databricks cost reduction you can defend. Tick a step only if you could show the evidence today, not if you could produce it with a week's notice.\n\n1. See it: you have a 90-day baseline by product and SKU.\n\n2. Trace it: you know what share of spend belongs to a job.\n\n3. Measure it: you know what failed runs cost last quarter.\n\n4. Assess it: you've run a read-only assessment of your workspace.\n\n5. Report it: your figures are split into measured and estimated.\n\n6. Right-size it: your largest clusters are sized from real CPU data.\n\n7. Classify it: every expensive job has a keep, optimise or move decision, made job by job.\n\n8. Prove it: you have a parity process for anything that moves, before anything is switched off.\n\nHow to read your score:\n\n→ 0 to 2: start with steps 1 to 3. They're read-only queries on your own system tables, and an afternoon gets you there.\n\n→ 3 to 5: you have the data. A read-only assessment turns it into one report your finance team can check.\n\n→ 6 to 8: you're ahead of nearly everyone we speak to. The open question is usually which jobs to move, and proving them when you do.\n\nWherever you landed, resist skipping ahead. A saving you can't evidence is hard to defend when the renewal arrives.\n\nWhat did you score? Tell us in the comments.\n\n#Databricks #FinOps #DataEngineering",
+   "first_comment": "Scored 0 to 2? The free Databricks Cost Field Guide is the quickest way up the first three steps: copy-paste, read-only queries for the 90-day baseline, traced spend and failed-run cost, each with what good looks like. No form:\nhttps://adisuja.github.io/bighammer-cost-field-guide/",
+   "sources": [
+    "corpus/nurture/sequence.md e01 (the 8 steps: see, trace, measure, assess, report, right-size, classify, prove)",
+    "corpus/nurture/sequence.md e22 (self-check wording, score bands 0 to 2 / 3 to 5 / 6 to 8 and next steps, 'an afternoon gets you to step 3', 'ahead of nearly everyone we speak to')",
+    "https://adisuja.github.io/bighammer-cost-field-guide/ (free, no form; 13 read-only queries, chapters from see it to prove it; read 2026-10-12)",
+    "Illustration: pipeline/kie.py (nano-banana-pro), no text in the generated art; assets/b3/C4/stairs-clean.png"
+   ],
+   "numbers_for_signoff": [
+    "8 steps",
+    "90-day baseline",
+    "score bands 0 to 2, 3 to 5, 6 to 8"
+   ],
+   "key": "b3-C4"
+  },
+  {
+   "id": "R1",
+   "batch": "3",
+   "profile": "richard",
+   "status": "ready",
+   "date": "2026-10-12",
+   "time": "10:00",
+   "short": "Renewals are won six months early",
+   "idea": "Renewal timing, not content: what to have ready at 180, 120, 90, 60 and 30 days before a Databricks commit, from an ex-vendor who saw renewals planned early on the seller's side",
+   "format": "Single image · dark winding roadmap board, 5 stops + start + goal",
+   "sample": {
+    "id": "AV10",
+    "creator": "Alex Vacca",
+    "what": "Dark serpentine game-board roadmap: winding road through numbered level cards, START walker with avatar chip, GOAL flag, dotted track, highlight-box headline",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7475848854374920192"
+   },
+   "copy_basis": "Experiential Story template (hook, ex-vendor context, tension, the turning point as a timeline, value, CTA, engagement question), built on nurture e10 structure. New angle vs Batch 2 R1 (that post was WHAT to bring; this one is WHEN).",
+   "cta": true,
+   "media": {
+    "type": "image",
+    "src": "b3/R1",
+    "title": "Renewals are won six months early: the 180 to 30 day roadmap",
+    "tall": false,
+    "files": [
+     "media/b3/R1/image.jpg?v=202610121827"
+    ],
+    "download": {
+     "href": "media/b3/R1/BigHammer-b3-R1-2026-10-12-richard.png?v=202610121827",
+     "name": "BigHammer-b3-R1-2026-10-12-richard.png",
+     "ext": "png",
+     "bytes": 738723,
+     "pages": 1,
+     "w": 1080,
+     "h": 1350
+    }
+   },
+   "text": "Renewals are won six months early.\n\nI spent years on the vendor side (Talend, Pentaho, StreamSets). Renewals were planned months before the paperwork went out.\n\nOn the buyer side, the work often started when the quote landed. By then the clock had nearly run out.\n\nThirty days out, you can only argue about price.\nSix months out, you can change what you're committing to.\n\nThe difference is the time it takes to build evidence. It doesn't appear in a week. Here's the timeline I'd give anyone with a Databricks renewal or commit on the calendar:\n\n180 days out: a 90-day cost baseline, and the share of spend you can trace to a job.\n120 days out: your top 10 jobs, each with a named owner, and what failed runs cost you.\n90 days out: a full assessment, with measured and estimated figures kept apart.\n60 days out: a job-by-job list of what to keep and what to move.\n30 days out: a negotiation pack built on that evidence, not on the invoice.\n\nEach stop needs the one before it. Skip the baseline and every number after it is a guess.\n\nNone of this is about squeezing your vendor. Databricks is a good platform. It's about knowing what your spend buys, and cutting the Databricks cost you can't justify, before you commit to more of it.\n\nThis Thursday, Srinath Reddy (BigHammer.ai founder and CEO) and I are running a free live masterclass, \"Reduce your Databricks costs up to 75%\", at 12 PM ET / 5 PM UK. If a renewal is on your calendar, it's a good place to start the clock. Bring your questions; Srinath and I will answer them live. Link in the first comment.\n\nHow many days out are you right now?\n\n#Databricks #FinOps #DataLeadership",
+   "first_comment": "If your Databricks renewal or commit is inside the next six months, this is the moment to cut your Databricks bill, not just negotiate it. Bring the date to Thursday's masterclass, where BigHammer.ai founder and CEO Srinath Reddy and I will answer your questions live, and ask which savings to evidence first. Save a seat:\nhttps://webinar.bighammerai.com/",
+   "sources": [
+    "corpus/nurture/sequence.md e10 'Renewals are won six months early' (180/120/90/60/30 timeline, price vs commitment line), https://adisuja.github.io/bighammer-webinar-nurture/",
+    "corpus/nurture/sequence.md e01 ('Databricks is genuinely good at what it does')",
+    "corpus/richard/switch-to-startup.md (Talend, Pentaho, StreamSets sales career)",
+    "Webinar: Reduce your Databricks costs up to 75%, Thu 15 Oct 2026, 12:00 PM ET / 5 PM UK, https://webinar.bighammerai.com/"
+   ],
+   "numbers_for_signoff": [],
+   "key": "b3-R1"
+  },
+  {
+   "id": "R2",
+   "batch": "3",
+   "profile": "richard",
+   "status": "ready",
+   "date": "2026-10-13",
+   "time": "10:00",
+   "short": "Bring whoever owns the bill",
+   "idea": "The person who owns the Databricks bill should be in the room when you decide how to cut it. When I sold software, meetings without the bill owner went nowhere. Bring them to Thursday's masterclass on reducing Databricks costs.",
+   "format": "Carousel · 7 slides, candid photos with white caption bubbles",
+   "sample": {
+    "id": "HD10",
+    "creator": "Harry Dry",
+    "what": "Multi-image carousel of full-bleed candid photos, each overlaid with bold black text in white rounded caption bubbles anchored bottom-left and stacked; raw photo, minimal furniture",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7476208063239208967"
+   },
+   "copy_basis": "Prompt doc Experiential Story template (hook, context, struggle, turning point, value, outcome, close) in Richard's first-person seller's-side voice; HD10's own copy is a one-line confession, too thin for the argument, so its confessional opener is kept as the hook and the slides carry the story beat by beat.",
+   "cta": true,
+   "media": {
+    "type": "carousel",
+    "src": "b3/R2",
+    "title": "The person who owned the bill wasn't in the room",
+    "files": [
+     "media/b3/R2/p01.jpg?v=202610121827",
+     "media/b3/R2/p02.jpg?v=202610121827",
+     "media/b3/R2/p03.jpg?v=202610121827",
+     "media/b3/R2/p04.jpg?v=202610121827",
+     "media/b3/R2/p05.jpg?v=202610121827",
+     "media/b3/R2/p06.jpg?v=202610121827",
+     "media/b3/R2/p07.jpg?v=202610121827"
+    ],
+    "download": {
+     "href": "media/b3/R2/BigHammer-b3-R2-2026-10-13-richard.pdf?v=202610121827",
+     "name": "BigHammer-b3-R2-2026-10-13-richard.pdf",
+     "ext": "pdf",
+     "bytes": 17046483,
+     "pages": 7,
+     "w": 1080,
+     "h": 1350
+    }
+   },
+   "text": "When I sold software, the meetings that went nowhere had one thing in common.\n\nThe person who owned the bill wasn't in the room.\n\nThe meeting itself usually went well. Good engineers, good questions, plenty of nodding. Then three weeks of silence, and an email: \"we've decided to hold off for now.\"\n\nIt took me a while to see why.\n\nWhoever pays the platform bill has to defend that spend at renewal. If they never heard the reasoning, they're being asked to sign off on something they can't explain. So they do the sensible thing. They wait.\n\nWhen the bill owner was in the room, three things changed.\n\nThe questions got sharper. Less \"is this clever?\", more \"what will I be able to show in a year?\"\n\nDoubts came up on the spot, not in an email chain afterwards.\n\nAnd the decision was made by the person who'd have to stand behind it.\n\nDatabricks cost work is exactly the same.\n\nAn engineer can find the savings: the jobs on the wrong compute, the clusters nobody switched off, the failed runs that keep getting re-run. But the person who owns the Databricks bill is the one who has to defend the cut, and the new number, at renewal. If they weren't there when the reasoning was laid out, the savings sit in a spreadsheet.\n\nOn Thursday, Srinath Reddy (BigHammer.ai founder and CEO) and I are running a free live masterclass on how to reduce your Databricks costs by up to 75%. If you're joining us, bring whoever owns your Databricks bill: your platform lead, your FinOps lead, whoever has to explain the number when renewal comes round.\n\nYou'll both hear the same reasoning at the same time. In my experience, that's what turns a good hour into a decision on how to cut the bill. Bring your questions; Srinath and I will answer them live.\n\nLink in the comments.\n\n#Databricks #FinOps #DataLeadership",
+   "first_comment": "If you own your Databricks bill, or sit next to the person who does, this one is for both of you: a free live masterclass on how to reduce your Databricks costs (up to 75%), co-hosted by BigHammer.ai founder and CEO Srinath Reddy and me, Thursday 15 October, 12:00 PM ET / 5 PM UK. Bring your questions; we'll answer them live. Save two seats:\nhttps://webinar.bighammerai.com/",
+   "sources": [
+    "corpus/nurture/sequence.md e04 ('Bring whoever owns the bill. The conversation is most useful when the person who has to defend the spend is in the room.')",
+    "corpus/richard/switch-to-startup.md (Richard sold Talend, Pentaho, StreamSets; forecast-driven selling)",
+    "https://webinar.bighammerai.com/ verified 2026-10-12 (title 'up to 75%', co-hosted by Srinath Reddy and Richard Lawrence, Thu 15 Oct 2026 12:00 PM ET / 5 PM UK, live Q&A)",
+    "queue/BUILD_STATE_B3.md (5 PM UK, Tue wording 'on Thursday', https://webinar.bighammerai.com/)",
+    "corpus/nurture/sequence.md e07/e08/e09 (All-Purpose vs Jobs compute, idle clusters, failed-run cost as Databricks cost drivers)"
+   ],
+   "numbers_for_signoff": [],
+   "key": "b3-R2"
+  },
+  {
+   "id": "R3",
+   "batch": "3",
+   "profile": "richard",
+   "status": "ready",
+   "date": "2026-10-14",
+   "time": "10:00",
+   "short": "5 questions to ask us live tomorrow",
+   "idea": "5 questions worth asking Srinath and Richard live tomorrow: what a buyer should ask about any plan to reduce their Databricks costs (measured vs assumed, what's excluded, double counting, which jobs belong on Databricks, how parity is proven).",
+   "format": "Carousel · 8 slides, dark fake-tweet cards with numbered steps",
+   "sample": {
+    "id": "AB02",
+    "creator": "Austin Belcak",
+    "what": "Pure-black fake-tweet card carousel: avatar + name chrome on every slide, system sans white text, titled cover then one numbered step per slide; here Richard's stored headshot pose is the tweet avatar and the CTA is a tweet with a link-preview card",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7479883353731555328"
+   },
+   "copy_basis": "Sample AB02's own copy structure (title line, then each numbered step restated with a short explanation, then the CTA), which mirrors the slides one to one; Richard's buyer-side framing from nurture e14 ('Run this test on our numbers too').",
+   "cta": true,
+   "media": {
+    "type": "carousel",
+    "src": "b3/R3",
+    "title": "5 questions worth asking live tomorrow",
+    "files": [
+     "media/b3/R3/p01.jpg?v=202610121827",
+     "media/b3/R3/p02.jpg?v=202610121827",
+     "media/b3/R3/p03.jpg?v=202610121827",
+     "media/b3/R3/p04.jpg?v=202610121827",
+     "media/b3/R3/p05.jpg?v=202610121827",
+     "media/b3/R3/p06.jpg?v=202610121827",
+     "media/b3/R3/p07.jpg?v=202610121827",
+     "media/b3/R3/p08.jpg?v=202610121827"
+    ],
+    "download": {
+     "href": "media/b3/R3/BigHammer-b3-R3-2026-10-14-richard.pdf?v=202610121827",
+     "name": "BigHammer-b3-R3-2026-10-14-richard.pdf",
+     "ext": "pdf",
+     "bytes": 1692961,
+     "pages": 8,
+     "w": 1080,
+     "h": 1350
+    }
+   },
+   "text": "5 questions worth asking live tomorrow.\n\nTomorrow, Srinath Reddy (BigHammer.ai founder and CEO) and I are running a free live masterclass on how to reduce your Databricks costs by up to 75%, with live Q&A at the end.\n\nI spent years on the selling side of these conversations. If I were on your side of the table, these are the five questions I'd ask about any plan to cut my Databricks bill:\n\n1. What was measured from my own data, and what was assumed?\n\nMeasured comes straight from your billing and run history. Assumed is a rate someone chose. A number worth trusting keeps the two apart and shows the rule behind every estimate.\n\n2. What's been left out?\n\nContract discounts, cloud VM costs, and spend nobody can trace to a job or a team. A savings figure at list price on a heavily discounted contract can be wildly optimistic.\n\n3. Could the savings add up to more than I actually spend?\n\nIf the answer isn't an obvious no, something has been counted twice. Moving a job to cheaper compute and then right-sizing it are not two savings on the same spend. The second only applies to what's left after the first.\n\n4. Which of my jobs actually belong on Databricks?\n\nNot \"should we leave?\" That forces an all-or-nothing answer, and neither answer is right. Ask which jobs use what makes the platform special, and which would run happily anywhere.\n\n5. How do you prove the migrated job matches before I switch off the old one?\n\nA changed join or a one-hour timezone shift won't fail the run. It fails the business, usually weeks later. A green tick says the job finished. It doesn't say it was right.\n\nAsk them of any plan to cut your Databricks bill, including ours. We'd rather you trusted a smaller figure than doubted a bigger one.\n\nBring your questions; Srinath and I will answer them live. The link to save a seat is in the comments.\n\n#Databricks #FinOps #DataEngineering",
+   "first_comment": "Bring one of these five, or your own, and put it to BigHammer.ai founder and CEO Srinath Reddy and me live tomorrow: a free masterclass on how to reduce your Databricks costs (up to 75%), Thursday 15 October, 12:00 PM ET / 5 PM UK. Save a seat:\nhttps://webinar.bighammerai.com/",
+   "sources": [
+    "corpus/nurture/sequence.md e13 (measured vs estimated; contract discounts, cloud VM costs, untraced spend)",
+    "corpus/nurture/sequence.md e14 (four questions incl. double counting; 'We'd rather you trusted a smaller figure than doubted a bigger one.')",
+    "corpus/nurture/sequence.md e17 ('which jobs?', not all-or-nothing)",
+    "corpus/nurture/sequence.md e20 (parity: changed join, null rule, timezone shift; green tick quote)",
+    "https://webinar.bighammerai.com/ verified 2026-10-12 (title 'up to 75%', co-hosted by Srinath Reddy and Richard Lawrence, live Q&A; no gift card or prize on the page)",
+    "queue/BUILD_STATE_B3.md (Thu 15 Oct 2026 12:00 PM ET / 5 PM UK; Wed wording 'tomorrow'; https://webinar.bighammerai.com/)"
+   ],
+   "numbers_for_signoff": [],
+   "key": "b3-R3"
+  },
+  {
+   "id": "C2",
+   "batch": "3",
+   "profile": "company",
+   "status": "ready",
+   "date": "2026-10-13",
+   "time": "10:00",
+   "short": "Same notebook, 3.67x the price",
+   "idea": "Cut your Databricks bill without migrating: a scheduled notebook on All-Purpose compute vs the same work as a job on Jobs compute (AWS Premium list $0.55 vs $0.15 per DBU, 3.67x; 3.25x on Enterprise), plus the job/run ID traceability loss and 3 required tags enforced by cluster policy.",
+   "format": "Single image · two stacked tinted comparison panels with chevron stat flows",
+   "sample": {
+    "id": "AV45",
+    "creator": "Alex Vacca",
+    "what": "Two stacked rounded mega-panels on near-black, whole-panel semantic tint (magenta = costly path, green = fixed path), a row of tapering chevron 'flag' chips each topped by a big coloured stat and a down-triangle marker, an evidence row under each panel (x-marked cards top, tag cards bottom), one centred verdict line",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7458091064248352770"
+   },
+   "copy_basis": "Sample AV45's own copy structure (two-line claim hook, the mechanism, arrow list of what to do, closing reframe, question), with the measured-first caveats from nurture e07. Beats the Thought Leadership template for a promise-vs-reality comparison.",
+   "cta": true,
+   "media": {
+    "type": "image",
+    "src": "b3/C2",
+    "title": "All-Purpose vs Jobs compute: same notebook, 3.67x the list price per DBU, and three required tags",
+    "tall": false,
+    "files": [
+     "media/b3/C2/image.jpg?v=202610121827"
+    ],
+    "download": {
+     "href": "media/b3/C2/BigHammer-b3-C2-2026-10-13-company.png?v=202610121827",
+     "name": "BigHammer-b3-C2-2026-10-13-company.png",
+     "ext": "png",
+     "bytes": 677639,
+     "pages": 1,
+     "w": 1080,
+     "h": 1350
+    }
+   },
+   "text": "Same notebook. Same data. 3.67x the Databricks rate.\n\nIf you want to cut your Databricks bill without migrating anything, start here. (Cloud VM cost is the same either way. The gap is the Databricks DBU rate, not your whole bill.)\n\nA notebook scheduled on an All-Purpose cluster is billed at $0.55 per DBU (AWS Premium list price).\n\nThe same work, run as a job on Jobs compute, is billed at $0.15.\n\nThe code doesn't change. Only where it runs.\n\nAnd the rate isn't the only cost. Jobs on All-Purpose compute don't write a job ID or run ID into billing usage. So that spend has no name on it, and nobody can say which pipeline it belongs to.\n\nTwo fixes. Both are configuration, not migration:\n\n→ Fix 1: move scheduled production work to Jobs compute. Every run becomes traceable, and it's billed at the lower rate.\n\n→ Fix 2: make three tags required in a cluster policy: owner, cost_centre, env. Set it once in the policy.\n\nThree honest caveats:\n\n→ These are list prices. Your discount changes the numbers, so check your own rate card.\n→ On the Enterprise tier the gap is 3.25x, not 3.67x.\n→ Interactive work belongs on All-Purpose. This is about the scheduled jobs that drifted there.\n\nOn Thursday, BigHammer.ai founder and CEO Srinath Reddy runs a free live masterclass: Reduce your Databricks costs up to 75%. He'll show where Databricks spend leaks and what to fix first.\n\nHow many of your scheduled notebooks still run on All-Purpose clusters?\n\n#Databricks #FinOps #DataEngineering",
+   "first_comment": "Cutting your Databricks bill this quarter? Bring your list of scheduled notebooks on All-Purpose clusters to Thursday's free masterclass, Reduce your Databricks costs up to 75%, with BigHammer.ai founder and CEO Srinath Reddy. Thu 15 Oct, 12:00 PM ET / 5 PM UK. Save a seat:\nhttps://webinar.bighammerai.com/\n\nWant that list before then? The free Databricks Cost Field Guide has the query (Q11: scheduled work running on All-Purpose compute):\nhttps://adisuja.github.io/bighammer-cost-field-guide/",
+   "sources": [
+    "https://www.databricks.com/product/pricing/lakeflow-jobs (Jobs Classic $0.15 Premium / $0.20 Enterprise per DBU, AWS list; read 2026-09-30)",
+    "https://www.databricks.com/product/pricing/datascience-ml (All-Purpose Classic $0.55 Premium / $0.65 Enterprise per DBU, AWS list; read 2026-09-30)",
+    "corpus/research/2026-09-30-verified-facts.md: ratio 3.67x Premium, 3.25x Enterprise; usage_metadata.job_id/job_run_id not populated for jobs on all-purpose compute (https://docs.databricks.com/aws/en/admin/system-tables/billing); cluster policy can require tags (https://docs.databricks.com/aws/en/admin/clusters/policy-definition)",
+    "corpus/nurture/sequence.md e07 (Fix 1 Jobs compute, Fix 2 owner/cost_centre/env enforced by cluster policy, 'check your own rate card', 'Nobody did anything wrong')",
+    "https://adisuja.github.io/bighammer-cost-field-guide/ (Q11 'Scheduled work running on all-purpose compute', read 2026-10-12)",
+    "https://webinar.bighammerai.com/ (title, Thu 15 Oct 2026 12:00 PM ET / 5 PM UK; read 2026-10-12)"
+   ],
+   "numbers_for_signoff": [
+    "$0.55 per DBU All-Purpose Classic, AWS Premium list",
+    "$0.15 per DBU Jobs Classic, AWS Premium list",
+    "3.67x Premium ratio",
+    "3.25x Enterprise ratio",
+    "3 required tags",
+    "up to 75% (webinar title)",
+    "Thu 15 Oct, 12:00 PM ET / 5 PM UK"
+   ],
+   "key": "b3-C2"
+  },
+  {
+   "id": "C3",
+   "batch": "3",
+   "profile": "company",
+   "status": "ready",
+   "date": "2026-10-14",
+   "time": "10:00",
+   "short": "Tomorrow: cut your Databricks bill",
+   "idea": "Day-before promo for the 'Reduce your Databricks costs up to 75%' masterclass: date/time, the 3 things you leave with (six waste patterns, assess/migrate/monitor framework, 7 read-only queries), Srinath's real photo kept modest.",
+   "format": "Single image · light event promo (live pill, date line, big headline, numbered benefits, full-width URL bar, modest host cutout, time-zone strip)",
+   "sample": {
+    "id": "AB14",
+    "creator": "Austin Belcak",
+    "what": "'LIVE TODAY' landing-page-hero promo: red live pill + divider + date/time line, oversized coloured headline, underlined sub-headline with a bracketed second line, bulleted benefits, 'save your free seat' prompt, full-width solid URL bar, host cutout beside the copy, grey bottom proof strip (ours carries time zones, not logos). Emoji bullets replaced with numbered violet squares.",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7473360372138168320"
+   },
+   "copy_basis": "Sample AB14's own copy structure (pain question, 'join live' line, 'here's the thing' reframe, what the session covers as arrows, free/live/time close, link pointer). Facts from the webinar page and nurture e01.",
+   "cta": true,
+   "media": {
+    "type": "image",
+    "src": "b3/C3",
+    "title": "Tomorrow: Reduce your Databricks costs up to 75%, live masterclass with Srinath Reddy",
+    "tall": false,
+    "files": [
+     "media/b3/C3/image.jpg?v=202610121827"
+    ],
+    "download": {
+     "href": "media/b3/C3/BigHammer-b3-C3-2026-10-14-company.png?v=202610121827",
+     "name": "BigHammer-b3-C3-2026-10-14-company.png",
+     "ext": "png",
+     "bytes": 451118,
+     "pages": 1,
+     "w": 1080,
+     "h": 1350
+    }
+   },
+   "text": "Is your Databricks bill growing faster than the value it delivers?\n\nThen join us tomorrow for a free live masterclass: Reduce your Databricks costs up to 75%.\n\nBigHammer.ai founder and CEO Srinath Reddy and Enterprise Growth Lead Richard Lawrence host it on Thursday 15 October, 12:00 PM ET / 5 PM UK.\n\nHere's the thing about a rising Databricks bill:\n\nIt's rarely the platform. Databricks is genuinely good at what it does.\n\nIt's that most teams can't say, with evidence, what their spend is buying. So when the renewal arrives, the only number on the table is the invoice total.\n\nIn 45 minutes, Srinath and Richard will show you where Databricks spend leaks and what to fix first:\n\n→ The six patterns that inflate a Databricks bill (always-on clusters, Photon on everything, failed-run leakage and three more), and how to spot each one in your own usage data\n\n→ Assess, migrate, monitor: the framework to cut Databricks cost without breaking production\n\n→ A live Q&A with Srinath and Richard Lawrence, our Enterprise Growth Lead. Bring your hardest Databricks cost question.\n\nEvery registrant also gets 7 read-only queries over 90 days of your usage. Nothing to install, no credentials shared.\n\nIt's free, it's live, and it starts tomorrow at 12:00 PM ET / 5 PM UK.\n\nThe link to save your seat is in the first comment.\n\n#Databricks #FinOps #DataEngineering",
+   "first_comment": "If a Databricks bill or renewal sits on your desk, block out 45 minutes tomorrow, Thu 15 Oct at 12:00 PM ET / 5 PM UK. BigHammer.ai founder and CEO Srinath Reddy shows how to reduce your Databricks costs up to 75%, and you leave with 7 read-only queries to run on your own workspace. Save a seat:\nhttps://webinar.bighammerai.com/",
+   "sources": [
+    "https://webinar.bighammerai.com/ (read via r.jina.ai 2026-10-12: title, Thu 15 Oct 2026 12:00 PM ET, 5 PM UK / 6 PM Central Europe / 9 AM Pacific / 9:30 PM India, 45 min + live Q&A, hosts Srinath Reddy (Founder & CEO) and Richard Lawrence (Enterprise Growth Lead), six patterns incl. always-on clusters, Photon on everything, failed-run leakage, spin-up overhead, small-file drag, no guardrails; assess/migrate/monitor 'to cut cost without breaking production'; free Cost Assessment: seven read-only queries over 90 days, read-only, nothing to install, no credentials shared; 'where your Databricks spend leaks and what to fix first')",
+    "corpus/nurture/sequence.md e01 ('Databricks is genuinely good at what it does', invoice total at renewal)",
+    "corpus/deck-masterclass-v3.md"
+   ],
+   "numbers_for_signoff": [
+    "up to 75% (webinar title)",
+    "Thu 15 Oct, 12:00 PM ET / 5 PM UK / 9 AM PT / 6 PM CEST / 9:30 PM IST",
+    "45 minutes",
+    "six patterns",
+    "7 read-only queries",
+    "90 days"
+   ],
+   "key": "b3-C3"
+  },
+  {
+   "id": "C5",
+   "batch": "3",
+   "profile": "company",
+   "status": "ready",
+   "date": "2026-10-16",
+   "time": "10:00",
+   "short": "5 cost changes from the last 30 days",
+   "idea": "Monthly 'State of your Databricks & Snowflake bill': 5 verified changes from mid-Sep to mid-Oct 2026, each led by what it means for the bill, what changed and one action: Snowflake per-user credit limits can overshoot (100 to 130, not pooled); Snowflake legacy Notebooks and EXECUTE NOTEBOOK jobs stop in Nov 2026; deleting a Databricks pipeline keeps its tables (storage keeps billing); Databricks query history GA + SQL warehouse query tags; Talend 7.3 extended support purchasable only through Dec 2026. Close on cost optimisation, soft book-a-demo line.",
+   "format": "Carousel · 8 slides, editorial masthead cover + insight slides with violet knockout label boxes and source lines",
+   "sample": {
+    "id": "AB29",
+    "creator": "Austin Belcak",
+    "what": "Editorial 'The State of ...' masthead cover with a filled knockout edition box ('October 2026:' in italic serif) and a small-caps bracketed dek; a 'This Month:' intro slide; one insight per slide with a boxed knockout kicker opening the bold headline, plain paragraphs, an underlined 'Start here:' callout and a grey source line; light speckled paper. Blue swapped for BigHammer violet, author avatar replaced by the logo.",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7478131812469198848"
+   },
+   "copy_basis": "Sample AB29's own copy structure (stacked stat-style opening lines, the shared pattern, what the winners do differently, closing question), combined with the News Post template's one-item-per-change format. Every change from corpus/research/2026-10-12-verified-facts.md (VERIFIED rows only).",
+   "cta": false,
+   "media": {
+    "type": "carousel",
+    "src": "b3/C5",
+    "title": "The State of Your Databricks & Snowflake Bill, October 2026: 5 cost changes",
+    "files": [
+     "media/b3/C5/p01.jpg?v=202610121827",
+     "media/b3/C5/p02.jpg?v=202610121827",
+     "media/b3/C5/p03.jpg?v=202610121827",
+     "media/b3/C5/p04.jpg?v=202610121827",
+     "media/b3/C5/p05.jpg?v=202610121827",
+     "media/b3/C5/p06.jpg?v=202610121827",
+     "media/b3/C5/p07.jpg?v=202610121827",
+     "media/b3/C5/p08.jpg?v=202610121827"
+    ],
+    "download": {
+     "href": "media/b3/C5/BigHammer-b3-C5-2026-10-16-company.pdf?v=202610121827",
+     "name": "BigHammer-b3-C5-2026-10-16-company.pdf",
+     "ext": "pdf",
+     "bytes": 2212714,
+     "pages": 8,
+     "w": 1080,
+     "h": 1350
+    }
+   },
+   "text": "5 changes your platform team should know about this autumn: four that touch your Databricks and Snowflake bills, and one ETL deadline that belongs in the same budget.\n\nNone of them is a price rise. Each one can change what you pay, or how clearly you can see it.\n\n1. A 100-credit Snowflake limit can end at 130.\nPer-user weekly credit limits went GA on 16 September. Enforcement isn't instant, and limits are per user, never pooled. Treat a limit as a speed bump and keep a budget alert behind it.\n\n2. Snowflake legacy Notebooks stop in November.\nScheduled Tasks and pipelines that call EXECUTE NOTEBOOK stop with them. The replacements run on a compute pool, so the same work lands on a different line of your bill. Find them this week.\n\n3. Deleting a Databricks pipeline now keeps its tables.\nSince 25 September, the tables stay unless you delete with cascade=true. A retired pipeline can leave storage billing with nobody who owns it.\n\n4. You can now see which queries drive your Databricks SQL spend.\nQuery history went GA on 21 September, and query tags for SQL warehouses followed on 30 September. Tag by team or cost centre and you can see which queries, teams and dashboards drive a warehouse's spend.\n\n5. Talend 7.3 extended support can be bought only through December 2026.\nUpgrading and moving both cost time and money. Budget for the choice before your 2027 plan closes.\n\nThe pattern is the same most months. Cost changes rarely arrive as a new price list. They arrive as a default, a deadline or a new way to see your spend.\n\nThe teams that keep their Databricks and Snowflake costs down aren't running bigger optimisation projects. They notice changes like these early, and they have the evidence to act on them.\n\nWhich of the five reaches your platform first?\n\n#Databricks #Snowflake #FinOps",
+   "first_comment": "Change 4 is about putting names on spend. To see how much of your own Databricks spend has a name today, the free Cost X-Ray takes three read-only query results and builds a 90-day cost report, measured and estimated labelled. It runs in your browser and your CSVs are never uploaded:\nhttps://adisuja.github.io/bighammer-cost-xray/",
+   "sources": [
+    "https://docs.snowflake.com/en/user-guide/budgets/per-user-quotas and https://docs.snowflake.com/en/release-notes/new-features (per-user weekly credit quotas GA 2026-09-16; not pooled; docs example 100-credit limit ending at 130) VERIFIED",
+    "https://docs.snowflake.com/en/release-notes/bcr-bundles/un-bundled/bcr-disable-legacy-notebooks and https://docs.snowflake.com/en/user-guide/ui-snowsight/notebooks (no new legacy Notebooks since 2026-09-01; Nov 2026 cannot be executed or edited; scheduled EXECUTE NOTEBOOK stops; replacements on Container Runtime / SPCS compute pool) VERIFIED",
+    "https://docs.databricks.com/aws/en/release-notes/product/2026/september (UC pipeline delete retains tables by default, cascade=true, 2026-09-25; system.query.history GA 2026-09-21; SQL warehouse query tags GA 2026-09-30) VERIFIED",
+    "https://help.qlik.com/talend/en-US/customer-support-statements/Cloud/product-end-of-life-planning (Talend 7.3 extended support for purchase only through December 2026; Talend 8 only supported on-prem version; updated 2026-10-08) VERIFIED",
+    "https://adisuja.github.io/bighammer-cost-xray/ (three read-only queries, 90-day report, Measured/Estimated labels, runs in browser, CSVs never uploaded; read 2026-10-12)",
+    "https://bighammer.ai/book-demo/ (closing slide)"
+   ],
+   "numbers_for_signoff": [
+    "100-credit limit ending at 130",
+    "10 users x 100 credits = 1,000 credits",
+    "16 Sep 2026",
+    "1 Sep / Nov 2026",
+    "25 Sep 2026",
+    "21 Sep and 30 Sep 2026",
+    "Talend 7.3 through Dec 2026; Qlik page updated 8 Oct 2026",
+    "5 changes, last 30 days"
+   ],
+   "key": "b3-C5"
   }
  ],
  "webinar_url": "https://webinar.bighammerai.com/",
