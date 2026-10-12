@@ -123,21 +123,24 @@
 
   /* ---------- card = header + phone + review ---------- */
   function card(p) {
-    const w = when(p), r = rv(p.key);
-    const fmt = `<span class="badge fmt">${esc(p.media && p.media.type === "carousel" ? "Carousel" : p.media && p.media.type === "poll" ? "Poll" : p.media && p.media.type === "image" ? "Image" : "Post")}</span>`;
+    const w = when(p), r = rv(p.key), isX = p.platform === "x";
+    const nThread = 1 + (p.thread || []).length, mt = p.media && p.media.type;
+    const fmt = isX ? `<span class="badge xb">X</span><span class="badge fmt">${esc(nThread > 1 ? `Thread · ${nThread} posts` : "Single post")}${mt === "image" || mt === "images" ? ` · ${(p.media.files || []).length} image${(p.media.files || []).length === 1 ? "" : "s"}` : ""}</span>`
+      : `<span class="badge fmt">${esc(mt === "carousel" ? "Carousel" : mt === "poll" ? "Poll" : mt === "image" ? "Image" : "Post")}</span>`;
     const cta = p.cta ? `<span class="badge cta">Webinar CTA</span>` : "";
     const wip = p.status !== "ready" ? `<span class="badge wip">In production</span>` : "";
     const smp = p.sample || {};
     return `<article class="pcard card" id="${esc(p.key)}" data-id="${esc(p.key)}">
       <header class="chead"><div class="crow"><span class="pid">${esc(p.id)}</span><span class="when">${esc(w.day)} <span>· ${esc(w.time)}</span></span></div>
         <div class="crow">${fmt}${cta}${wip}</div><div class="cidea">${esc(p.idea)}</div></header>
-      ${C.phone(screen(p), "linkedin")}
+      ${isX ? C.phone(window.XV.screen(p, prof(p.profile)), "x") : C.phone(screen(p), "linkedin")}
       <section class="rev" data-rev="${esc(p.key)}">${revHtml(p.key)}</section>
       ${dlHtml(p)}
       <details class="info"><summary>Sample, template, first comment and sources</summary><dl>
         <dt>Sample matched</dt><dd><b>${esc(smp.id || "")}</b> · ${esc(smp.creator || "")}${smp.url ? ` · <a href="${esc(smp.url)}" target="_blank" rel="noopener">view original post</a>` : ""}<br>${esc(smp.what || "")}${smp.thumb ? `<img class="sthumb" src="${esc(smp.thumb)}" data-lb="${esc(smp.thumb)}" data-lb-caption="Sample ${esc(smp.id || "")}">` : ""}</dd>
         <dt>Copy template</dt><dd>${esc(p.copy_basis || "")}</dd>
-        <dt>First comment</dt><dd>${p.first_comment ? `<div class="fc">${esc(p.first_comment)}</div>` : "None (not a CTA post)"}</dd>
+        ${p.repurposed_from ? `<dt>Repurposed from</dt><dd>${esc(p.repurposed_from)} (approved LinkedIn post) · ${esc(p.format || "")}</dd>` : ""}
+        <dt>First comment</dt><dd>${isX ? "Not used on X: the CTA link is inside the post or the last thread post" : p.first_comment ? `<div class="fc">${esc(p.first_comment)}</div>` : "None (not a CTA post)"}</dd>
         <dt>Sources</dt><dd>${(p.sources || []).map(esc).join("<br>")}</dd>
         ${(p.flags || []).length ? `<dt>Needs confirmation</dt><dd style="color:#a15c00">${p.flags.map(esc).join("<br>")}</dd>` : ""}
         ${(p.numbers_for_signoff || []).length ? `<dt>Numbers needing Varadha sign-off</dt><dd>${p.numbers_for_signoff.map(esc).join(" · ")}</dd>` : ""}
@@ -148,11 +151,15 @@
      lossless PDF, never the on-screen JPG previews) plus one-click copy of the post copy and first comment. */
   const mb = (n) => n >= 1048576 ? (n / 1048576).toFixed(1) + " MB" : Math.max(1, Math.round(n / 1024)) + " KB";
   function dlHtml(p) {
-    const d = (p.media || {}).download;
+    const d = (p.media || {}).download, many = (p.media || {}).downloads || [];
+    if (many.length) {
+      const btns = many.map((x, i) => `<a class="btn dlb" href="${esc(x.href)}" download="${esc(x.name)}" title="${x.w} × ${x.h} px · full quality · ${mb(x.bytes)}">Download PNG ${i + 1} of ${many.length}</a>`).join("");
+      return `<section class="dl"><div class="dlrow dlmany">${btns}</div><div class="dlrow"><span class="dlm">${many[0].w} × ${many[0].h} px each · full quality</span></div><div class="dlrow"><button class="btn ghost" data-copyt="text">Copy post copy${(p.thread || []).length ? " (whole thread)" : ""}</button><button class="btn ghost" disabled title="X has no first comment">No first comment on X</button></div></section>`;
+    }
     const file = d ? `<a class="btn dlb" href="${esc(d.href)}" download="${esc(d.name)}">${d.ext === "pdf" ? `Download PDF · ${d.pages} slides` : "Download PNG"}</a>
         <span class="dlm">${d.w} × ${d.h} px · full quality · ${mb(d.bytes)}</span>` : "";
-    const fc = p.first_comment ? `<button class="btn ghost" data-copyt="first_comment">Copy first comment</button>` : `<button class="btn ghost" disabled title="This post has no first comment">No first comment</button>`;
-    return `<section class="dl">${file ? `<div class="dlrow">${file}</div>` : ""}<div class="dlrow"><button class="btn ghost" data-copyt="text">Copy post copy</button>${fc}</div></section>`;
+    const fc = p.first_comment ? `<button class="btn ghost" data-copyt="first_comment">Copy first comment</button>` : p.platform === "x" ? `<button class="btn ghost" disabled title="X has no first comment">No first comment on X</button>` : `<button class="btn ghost" disabled title="This post has no first comment">No first comment</button>`;
+    return `<section class="dl">${file ? `<div class="dlrow">${file}</div>` : ""}<div class="dlrow"><button class="btn ghost" data-copyt="text">Copy post copy${(p.thread || []).length ? " (whole thread)" : ""}</button>${fc}</div></section>`;
   }
   function copyLegacy(s) {
     const ta = Object.assign(document.createElement("textarea"), { value: s }); ta.style.cssText = "position:fixed;top:0;opacity:0";
@@ -180,6 +187,7 @@
   let filter = "all";
   function visible(p) { const r = rv(p.key); if (filter === "approved") return r.glenn && r.team; if (filter === "todo") return !(r.glenn && r.team); return true; }
   const batches = () => (S.batches && S.batches.length ? S.batches : [{ id: "2", title: "Batch 2" }]);
+  const profsOf = (bid) => { const l = S.profiles.filter(pr => S.posts.some(p => (p.batch || "2") === bid && p.profile === pr.id)); return l.length ? l : S.profiles; };
   const postsOf = (bid, prid) => S.posts.filter(p => (p.batch || "2") === bid && p.profile === prid).sort((a, b) => (a.date + a.time).localeCompare(b.date + b.time));
   /* One batch on screen at a time (batches grow to 50 posts; all at once would be hundreds of phones).
      Default = newest batch; a #bN-profile-x deep link or a sidebar click switches batch. */
@@ -190,11 +198,11 @@
   function render() {
     const main = document.getElementById("main");
     main.innerHTML = batches().filter(bt => bt.id === active).map(bt => `<section class="batch" id="batch-${esc(bt.id)}">
-      <div class="bhead"><h1>${esc(bt.title)}</h1><p>${esc(bt.dates || "")} · ${S.posts.filter(p => (p.batch || "2") === bt.id).length} posts across ${S.profiles.length} profiles</p></div>
-      ${S.profiles.map((pr, i) => {
+      <div class="bhead"><h1>${esc(bt.title)}</h1><p>${esc(bt.dates || "")} · ${S.posts.filter(p => (p.batch || "2") === bt.id).length} posts across ${profsOf(bt.id).length} profile${profsOf(bt.id).length === 1 ? "" : "s"}${bt.platform === "x" ? " · X (Twitter)" : ""}</p></div>
+      ${profsOf(bt.id).map((pr, i, all) => {
         const posts = postsOf(bt.id, pr.id);
         return `<section class="profile" id="b${esc(bt.id)}-profile-${esc(pr.id)}">
-        <div class="phead">${pr.avatar_ok ? `<img class="${pr.kind === "company" ? "sq" : ""}" src="${esc(pr.avatar)}" alt="">` : ""}<div><h2>${esc(pr.name)}</h2><p>${esc(pr.headline)} · ${posts.length} posts · 10:00 ${pr.tz === "ET" ? "ET" : "UK time"}</p></div><span class="order">${i + 1} of ${S.profiles.length}</span></div>
+        <div class="phead">${pr.avatar_ok ? `<img class="${pr.kind === "company" ? "sq" : ""}" src="${esc(pr.avatar)}" alt="">` : ""}<div><h2>${esc(pr.name)}</h2><p>${esc(pr.headline)} · ${posts.length} posts · 10:00 ${pr.tz === "ET" ? "ET" : "UK time"}</p></div><span class="order">${i + 1} of ${all.length}</span></div>
         <div class="pgrid">${posts.length ? posts.map(card).join("") : `<div class="pnote">Posts for this profile are in production.</div>`}</div>
       </section>`; }).join("")}
     </section>`).join("");
@@ -209,7 +217,7 @@
     document.getElementById("sidenav").innerHTML = batches().map((bt, bi) => {
       const isOpen = openB[bt.id] !== undefined ? openB[bt.id] : bi === batches().length - 1;
       return `<details class="bnav${bt.id === active ? " act" : ""}" data-b="${esc(bt.id)}" ${isOpen || bt.id === active ? "open" : ""}><summary>${esc(bt.title)}<small>${S.posts.filter(p => (p.batch || "2") === bt.id).length} posts</small></summary>` +
-        S.profiles.map(pr => {
+        profsOf(bt.id).map(pr => {
           const posts = postsOf(bt.id, pr.id), done = posts.filter(p => { const r = rv(p.key); return r.glenn && r.team; }).length;
           return `<a href="#b${esc(bt.id)}-profile-${esc(pr.id)}" data-target="b${esc(bt.id)}-profile-${esc(pr.id)}"><span>${esc(pr.name)}</span><small class="cnt">${done}/${posts.length}</small></a>`;
         }).join("") + `</details>`;
@@ -247,7 +255,8 @@
     const ct = e.target.closest("[data-copyt]");
     if (ct) {
       const p = S.posts.find(x => x.key === ct.closest(".pcard").dataset.id), what = ct.dataset.copyt === "text" ? "Post copy" : "First comment";
-      copyText(p[ct.dataset.copyt] || "").then(() => {
+      const val = ct.dataset.copyt === "text" ? [p.text, ...(p.thread || [])].join("\n\n") : p[ct.dataset.copyt];  // X: the whole thread, posts separated by a blank line
+      copyText(val || "").then(() => {
         C.toast(what + " copied");
         ct.dataset.label = ct.dataset.label || ct.textContent; ct.textContent = "✓ Copied"; ct.classList.add("done");
         clearTimeout(ct._t); ct._t = setTimeout(() => { ct.textContent = ct.dataset.label; ct.classList.remove("done"); }, 1800);
