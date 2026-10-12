@@ -81,10 +81,10 @@ window.STUDIO = {
     "src": "C1",
     "tall": false,
     "files": [
-     "media/C1/image.jpg?v=202610121827"
+     "media/C1/image.jpg?v=202610121828"
     ],
     "download": {
-     "href": "media/C1/BigHammer-b2-C1-2026-10-05-company.png?v=202610121827",
+     "href": "media/C1/BigHammer-b2-C1-2026-10-05-company.png?v=202610121828",
      "name": "BigHammer-b2-C1-2026-10-05-company.png",
      "ext": "png",
      "bytes": 708828,
@@ -130,10 +130,10 @@ window.STUDIO = {
     "src": "C2",
     "tall": false,
     "files": [
-     "media/C2/image.jpg?v=202610121827"
+     "media/C2/image.jpg?v=202610121828"
     ],
     "download": {
-     "href": "media/C2/BigHammer-b2-C2-2026-10-06-company.png?v=202610121827",
+     "href": "media/C2/BigHammer-b2-C2-2026-10-06-company.png?v=202610121828",
      "name": "BigHammer-b2-C2-2026-10-06-company.png",
      "ext": "png",
      "bytes": 522910,
@@ -174,10 +174,10 @@ window.STUDIO = {
     "src": "C3",
     "tall": false,
     "files": [
-     "media/C3/image.jpg?v=202610121827"
+     "media/C3/image.jpg?v=202610121828"
     ],
     "download": {
-     "href": "media/C3/BigHammer-b2-C3-2026-10-07-company.png?v=202610121827",
+     "href": "media/C3/BigHammer-b2-C3-2026-10-07-company.png?v=202610121828",
      "name": "BigHammer-b2-C3-2026-10-07-company.png",
      "ext": "png",
      "bytes": 872565,
@@ -221,10 +221,10 @@ window.STUDIO = {
     "src": "C4",
     "tall": false,
     "files": [
-     "media/C4/image.jpg?v=202610121827"
+     "media/C4/image.jpg?v=202610121828"
     ],
     "download": {
-     "href": "media/C4/BigHammer-b2-C4-2026-10-03-company.png?v=202610121827",
+     "href": "media/C4/BigHammer-b2-C4-2026-10-03-company.png?v=202610121828",
      "name": "BigHammer-b2-C4-2026-10-03-company.png",
      "ext": "png",
      "bytes": 761800,
@@ -270,10 +270,10 @@ window.STUDIO = {
     "src": "C5",
     "tall": false,
     "files": [
-     "media/C5/image.jpg?v=202610121827"
+     "media/C5/image.jpg?v=202610121828"
     ],
     "download": {
-     "href": "media/C5/BigHammer-b2-C5-2026-10-04-company.png?v=202610121827",
+     "href": "media/C5/BigHammer-b2-C5-2026-10-04-company.png?v=202610121828",
      "name": "BigHammer-b2-C5-2026-10-04-company.png",
      "ext": "png",
      "bytes": 499414,
@@ -313,10 +313,10 @@ window.STUDIO = {
     "src": "C6",
     "tall": false,
     "files": [
-     "media/C6/image.jpg?v=202610121827"
+     "media/C6/image.jpg?v=202610121828"
     ],
     "download": {
-     "href": "media/C6/BigHammer-b2-C6-2026-10-02-company.png?v=202610121827",
+     "href": "media/C6/BigHammer-b2-C6-2026-10-02-company.png?v=202610121828",
      "name": "BigHammer-b2-C6-2026-10-02-company.png",
      "ext": "png",
      "bytes": 520267,
@@ -359,10 +359,10 @@ window.STUDIO = {
     "src": "S1",
     "tall": false,
     "files": [
-     "media/S1/image.jpg?v=202610121827"
+     "media/S1/image.jpg?v=202610121828"
     ],
     "download": {
-     "href": "media/S1/BigHammer-b2-S1-2026-10-02-srinath.png?v=202610121827",
+     "href": "media/S1/BigHammer-b2-S1-2026-10-02-srinath.png?v=202610121828",
      "name": "BigHammer-b2-S1-2026-10-02-srinath.png",
      "ext": "png",
      "bytes": 1147084,
@@ -403,10 +403,10 @@ window.STUDIO = {
     "src": "S2",
     "tall": false,
     "files": [
-     "media/S2/image.jpg?v=202610121827"
+     "media/S2/image.jpg?v=202610121828"
     ],
     "download": {
-     "href": "media/S2/BigHammer-b2-S2-2026-10-05-srinath.png?v=202610121827",
+     "href": "media/S2/BigHammer-b2-S2-2026-10-05-srinath.png?v=202610121828",
      "name": "BigHammer-b2-S2-2026-10-05-srinath.png",
      "ext": "png",
      "bytes": 611454,
@@ -450,10 +450,10 @@ window.STUDIO = {
     "src": "S3v2",
     "tall": false,
     "files": [
-     "media/S3v2/image.jpg?v=202610121827"
+     "media/S3v2/image.jpg?v=202610121828"
     ],
     "download": {
-     "href": "media/S3v2/BigHammer-b2-S3-2026-10-07-srinath.png?v=202610121827",
+     "href": "media/S3v2/BigHammer-b2-S3-2026-10-07-srinath.png?v=202610121828",
      "name": "BigHammer-b2-S3-2026-10-07-srinath.png",
      "ext": "png",
      "bytes": 1640866,
@@ -496,10 +496,10 @@ window.STUDIO = {
     "src": "S4",
     "tall": false,
     "files": [
-     "media/S4/image.jpg?v=202610121827"
+     "media/S4/image.jpg?v=202610121828"
     ],
     "download": {
-     "href": "media/S4/BigHammer-b2-S4-2026-10-03-srinath.png?v=202610121827",
+     "href": "media/S4/BigHammer-b2-S4-2026-10-03-srinath.png?v=202610121828",
      "name": "BigHammer-b2-S4-2026-10-03-srinath.png",
      "ext": "png",
      "bytes": 304607,
@@ -545,10 +545,10 @@ window.STUDIO = {
     "src": "S5",
     "tall": false,
     "files": [
-     "media/S5/image.jpg?v=202610121827"
+     "media/S5/image.jpg?v=202610121828"
     ],
     "download": {
-     "href": "media/S5/BigHammer-b2-S5-2026-10-04-srinath.png?v=202610121827",
+     "href": "media/S5/BigHammer-b2-S5-2026-10-04-srinath.png?v=202610121828",
      "name": "BigHammer-b2-S5-2026-10-04-srinath.png",
      "ext": "png",
      "bytes": 554340,
@@ -594,17 +594,17 @@ window.STUDIO = {
     "src": "S6",
     "title": "Spark 4.0: 3 silent migration risks + 5 parity checks",
     "files": [
-     "media/S6/p01.jpg?v=202610121827",
-     "media/S6/p02.jpg?v=202610121827",
-     "media/S6/p03.jpg?v=202610121827",
-     "media/S6/p04.jpg?v=202610121827",
-     "media/S6/p05.jpg?v=202610121827",
-     "media/S6/p06.jpg?v=202610121827",
-     "media/S6/p07.jpg?v=202610121827",
-     "media/S6/p08.jpg?v=202610121827"
+     "media/S6/p01.jpg?v=202610121828",
+     "media/S6/p02.jpg?v=202610121828",
+     "media/S6/p03.jpg?v=202610121828",
+     "media/S6/p04.jpg?v=202610121828",
+     "media/S6/p05.jpg?v=202610121828",
+     "media/S6/p06.jpg?v=202610121828",
+     "media/S6/p07.jpg?v=202610121828",
+     "media/S6/p08.jpg?v=202610121828"
     ],
     "download": {
-     "href": "media/S6/BigHammer-b2-S6-2026-10-06-srinath.pdf?v=202610121827",
+     "href": "media/S6/BigHammer-b2-S6-2026-10-06-srinath.pdf?v=202610121828",
      "name": "BigHammer-b2-S6-2026-10-06-srinath.pdf",
      "ext": "pdf",
      "bytes": 2177726,
@@ -647,10 +647,10 @@ window.STUDIO = {
     "src": "R4",
     "tall": false,
     "files": [
-     "media/R4/image.jpg?v=202610121827"
+     "media/R4/image.jpg?v=202610121828"
     ],
     "download": {
-     "href": "media/R4/BigHammer-b2-R4-2026-10-02-richard.png?v=202610121827",
+     "href": "media/R4/BigHammer-b2-R4-2026-10-02-richard.png?v=202610121828",
      "name": "BigHammer-b2-R4-2026-10-02-richard.png",
      "ext": "png",
      "bytes": 1483743,
@@ -691,10 +691,10 @@ window.STUDIO = {
     "src": "R2",
     "tall": false,
     "files": [
-     "media/R2/image.jpg?v=202610121827"
+     "media/R2/image.jpg?v=202610121828"
     ],
     "download": {
-     "href": "media/R2/BigHammer-b2-R2-2026-10-03-richard.png?v=202610121827",
+     "href": "media/R2/BigHammer-b2-R2-2026-10-03-richard.png?v=202610121828",
      "name": "BigHammer-b2-R2-2026-10-03-richard.png",
      "ext": "png",
      "bytes": 1336043,
@@ -735,19 +735,19 @@ window.STUDIO = {
     "src": "R3",
     "title": "The Worried vs The Curious",
     "files": [
-     "media/R3/p01.jpg?v=202610121827",
-     "media/R3/p02.jpg?v=202610121827",
-     "media/R3/p03.jpg?v=202610121827",
-     "media/R3/p04.jpg?v=202610121827",
-     "media/R3/p05.jpg?v=202610121827",
-     "media/R3/p06.jpg?v=202610121827",
-     "media/R3/p07.jpg?v=202610121827",
-     "media/R3/p08.jpg?v=202610121827",
-     "media/R3/p09.jpg?v=202610121827",
-     "media/R3/p10.jpg?v=202610121827"
+     "media/R3/p01.jpg?v=202610121828",
+     "media/R3/p02.jpg?v=202610121828",
+     "media/R3/p03.jpg?v=202610121828",
+     "media/R3/p04.jpg?v=202610121828",
+     "media/R3/p05.jpg?v=202610121828",
+     "media/R3/p06.jpg?v=202610121828",
+     "media/R3/p07.jpg?v=202610121828",
+     "media/R3/p08.jpg?v=202610121828",
+     "media/R3/p09.jpg?v=202610121828",
+     "media/R3/p10.jpg?v=202610121828"
     ],
     "download": {
-     "href": "media/R3/BigHammer-b2-R3-2026-10-04-richard.pdf?v=202610121827",
+     "href": "media/R3/BigHammer-b2-R3-2026-10-04-richard.pdf?v=202610121828",
      "name": "BigHammer-b2-R3-2026-10-04-richard.pdf",
      "ext": "pdf",
      "bytes": 2132900,
@@ -790,10 +790,10 @@ window.STUDIO = {
     "src": "R1",
     "tall": false,
     "files": [
-     "media/R1/image.jpg?v=202610121827"
+     "media/R1/image.jpg?v=202610121828"
     ],
     "download": {
-     "href": "media/R1/BigHammer-b2-R1-2026-10-05-richard.png?v=202610121827",
+     "href": "media/R1/BigHammer-b2-R1-2026-10-05-richard.png?v=202610121828",
      "name": "BigHammer-b2-R1-2026-10-05-richard.png",
      "ext": "png",
      "bytes": 1362940,
@@ -837,10 +837,10 @@ window.STUDIO = {
     "src": "R5",
     "tall": false,
     "files": [
-     "media/R5/image.jpg?v=202610121827"
+     "media/R5/image.jpg?v=202610121828"
     ],
     "download": {
-     "href": "media/R5/BigHammer-b2-R5-2026-10-06-richard.png?v=202610121827",
+     "href": "media/R5/BigHammer-b2-R5-2026-10-06-richard.png?v=202610121828",
      "name": "BigHammer-b2-R5-2026-10-06-richard.png",
      "ext": "png",
      "bytes": 470253,
@@ -885,16 +885,16 @@ window.STUDIO = {
     "src": "R6",
     "title": "Please don't come to our masterclass if...",
     "files": [
-     "media/R6/p01.jpg?v=202610121827",
-     "media/R6/p02.jpg?v=202610121827",
-     "media/R6/p03.jpg?v=202610121827",
-     "media/R6/p04.jpg?v=202610121827",
-     "media/R6/p05.jpg?v=202610121827",
-     "media/R6/p06.jpg?v=202610121827",
-     "media/R6/p07.jpg?v=202610121827"
+     "media/R6/p01.jpg?v=202610121828",
+     "media/R6/p02.jpg?v=202610121828",
+     "media/R6/p03.jpg?v=202610121828",
+     "media/R6/p04.jpg?v=202610121828",
+     "media/R6/p05.jpg?v=202610121828",
+     "media/R6/p06.jpg?v=202610121828",
+     "media/R6/p07.jpg?v=202610121828"
     ],
     "download": {
-     "href": "media/R6/BigHammer-b2-R6-2026-10-07-richard.pdf?v=202610121827",
+     "href": "media/R6/BigHammer-b2-R6-2026-10-07-richard.pdf?v=202610121828",
      "name": "BigHammer-b2-R6-2026-10-07-richard.pdf",
      "ext": "pdf",
      "bytes": 4050911,
@@ -938,10 +938,10 @@ window.STUDIO = {
     "src": "T4",
     "tall": false,
     "files": [
-     "media/T4/image.jpg?v=202610121827"
+     "media/T4/image.jpg?v=202610121828"
     ],
     "download": {
-     "href": "media/T4/BigHammer-b2-T4-2026-10-02-terry.png?v=202610121827",
+     "href": "media/T4/BigHammer-b2-T4-2026-10-02-terry.png?v=202610121828",
      "name": "BigHammer-b2-T4-2026-10-02-terry.png",
      "ext": "png",
      "bytes": 331206,
@@ -984,10 +984,10 @@ window.STUDIO = {
     "src": "T5",
     "tall": false,
     "files": [
-     "media/T5/image.jpg?v=202610121827"
+     "media/T5/image.jpg?v=202610121828"
     ],
     "download": {
-     "href": "media/T5/BigHammer-b2-T5-2026-10-03-terry.png?v=202610121827",
+     "href": "media/T5/BigHammer-b2-T5-2026-10-03-terry.png?v=202610121828",
      "name": "BigHammer-b2-T5-2026-10-03-terry.png",
      "ext": "png",
      "bytes": 424603,
@@ -1031,16 +1031,16 @@ window.STUDIO = {
     "src": "T6",
     "title": "AI agents move data. Transform?",
     "files": [
-     "media/T6/p01.jpg?v=202610121827",
-     "media/T6/p02.jpg?v=202610121827",
-     "media/T6/p03.jpg?v=202610121827",
-     "media/T6/p04.jpg?v=202610121827",
-     "media/T6/p05.jpg?v=202610121827",
-     "media/T6/p06.jpg?v=202610121827",
-     "media/T6/p07.jpg?v=202610121827"
+     "media/T6/p01.jpg?v=202610121828",
+     "media/T6/p02.jpg?v=202610121828",
+     "media/T6/p03.jpg?v=202610121828",
+     "media/T6/p04.jpg?v=202610121828",
+     "media/T6/p05.jpg?v=202610121828",
+     "media/T6/p06.jpg?v=202610121828",
+     "media/T6/p07.jpg?v=202610121828"
     ],
     "download": {
-     "href": "media/T6/BigHammer-b2-T6-2026-10-04-terry.pdf?v=202610121827",
+     "href": "media/T6/BigHammer-b2-T6-2026-10-04-terry.pdf?v=202610121828",
      "name": "BigHammer-b2-T6-2026-10-04-terry.pdf",
      "ext": "pdf",
      "bytes": 3371853,
@@ -1087,17 +1087,17 @@ window.STUDIO = {
     "src": "T1",
     "title": "Your cost per job report is missing the jobs that cost the most",
     "files": [
-     "media/T1/p01.jpg?v=202610121827",
-     "media/T1/p02.jpg?v=202610121827",
-     "media/T1/p03.jpg?v=202610121827",
-     "media/T1/p04.jpg?v=202610121827",
-     "media/T1/p05.jpg?v=202610121827",
-     "media/T1/p06.jpg?v=202610121827",
-     "media/T1/p07.jpg?v=202610121827",
-     "media/T1/p08.jpg?v=202610121827"
+     "media/T1/p01.jpg?v=202610121828",
+     "media/T1/p02.jpg?v=202610121828",
+     "media/T1/p03.jpg?v=202610121828",
+     "media/T1/p04.jpg?v=202610121828",
+     "media/T1/p05.jpg?v=202610121828",
+     "media/T1/p06.jpg?v=202610121828",
+     "media/T1/p07.jpg?v=202610121828",
+     "media/T1/p08.jpg?v=202610121828"
     ],
     "download": {
-     "href": "media/T1/BigHammer-b2-T1-2026-10-05-terry.pdf?v=202610121827",
+     "href": "media/T1/BigHammer-b2-T1-2026-10-05-terry.pdf?v=202610121828",
      "name": "BigHammer-b2-T1-2026-10-05-terry.pdf",
      "ext": "pdf",
      "bytes": 1823726,
@@ -1142,10 +1142,10 @@ window.STUDIO = {
     "src": "T2",
     "tall": false,
     "files": [
-     "media/T2/image.jpg?v=202610121827"
+     "media/T2/image.jpg?v=202610121828"
     ],
     "download": {
-     "href": "media/T2/BigHammer-b2-T2-2026-10-06-terry.png?v=202610121827",
+     "href": "media/T2/BigHammer-b2-T2-2026-10-06-terry.png?v=202610121828",
      "name": "BigHammer-b2-T2-2026-10-06-terry.png",
      "ext": "png",
      "bytes": 465983,
@@ -1230,11 +1230,11 @@ window.STUDIO = {
     "type": "image",
     "src": "x/S1",
     "files": [
-     "media/x/S1/image.jpg?v=202610121827"
+     "media/x/S1/image.jpg?v=202610121828"
     ],
     "tall": false,
     "download": {
-     "href": "media/x/S1/BigHammer-bx1-XS1-2026-10-13-srinath.png?v=202610121827",
+     "href": "media/x/S1/BigHammer-bx1-XS1-2026-10-13-srinath.png?v=202610121828",
      "name": "BigHammer-bx1-XS1-2026-10-13-srinath.png",
      "ext": "png",
      "bytes": 963622,
@@ -1283,11 +1283,11 @@ window.STUDIO = {
     "type": "image",
     "src": "x/S2",
     "files": [
-     "media/x/S2/image.jpg?v=202610121827"
+     "media/x/S2/image.jpg?v=202610121828"
     ],
     "tall": false,
     "download": {
-     "href": "media/x/S2/BigHammer-bx1-XS2-2026-10-14-srinath.png?v=202610121827",
+     "href": "media/x/S2/BigHammer-bx1-XS2-2026-10-14-srinath.png?v=202610121828",
      "name": "BigHammer-bx1-XS2-2026-10-14-srinath.png",
      "ext": "png",
      "bytes": 518055,
@@ -1339,11 +1339,11 @@ window.STUDIO = {
     "type": "image",
     "src": "x/S3",
     "files": [
-     "media/x/S3/image.jpg?v=202610121827"
+     "media/x/S3/image.jpg?v=202610121828"
     ],
     "tall": false,
     "download": {
-     "href": "media/x/S3/BigHammer-bx1-XS3-2026-10-15-srinath.png?v=202610121827",
+     "href": "media/x/S3/BigHammer-bx1-XS3-2026-10-15-srinath.png?v=202610121828",
      "name": "BigHammer-bx1-XS3-2026-10-15-srinath.png",
      "ext": "png",
      "bytes": 1640860,
@@ -1352,7 +1352,7 @@ window.STUDIO = {
      "h": 1350
     }
    },
-   "text": "Half my old team signed up for webinars for the free AirPods.\n\nI never blamed them.\n\nMost of those webinars were a sales pitch with a title slide. Forty minutes about the product, five minutes of anything useful, and a gift card at the end.",
+   "text": "Half my old team signed up for webinars for the free AirPods.\n\nI never blamed them.\n\nMost of those webinars were a sales pitch with a title slide. Forty minutes about the product, five minutes of anything useful, and a freebie at the end.",
    "thread": [
     "Some of them told me straight. They stayed for the giveaway, not the content.\n\nSo when we planned our own masterclass, I kept thinking about them.\n\nRichard Lawrence, who works with me at BigHammer.ai, said it best:\n\n\"If it comes in the middle, this is just a product pitch.\"",
     "He was right. So we flipped it.\n\n30 minutes of the framework we actually use to bring Databricks costs down. Real numbers. Then 15 minutes of your questions. BigHammer only shows up at the very end.",
@@ -1360,8 +1360,8 @@ window.STUDIO = {
    ],
    "first_comment": "",
    "sources": [
-    "10 Jun planning call transcript: Srinath on team attending webinars for free AirPods / gift cards; Richard: 'if it comes in the middle, this is just a product pitch'",
-    "Webinar page: structure, $50 gift card for top 3 questions"
+    "10 Jun planning call transcript: Srinath on team attending webinars for free AirPods; Richard: 'if it comes in the middle, this is just a product pitch'",
+    "Webinar page: structure"
    ],
    "numbers_for_signoff": [],
    "key": "bx1-XS3"
@@ -1390,11 +1390,11 @@ window.STUDIO = {
     "type": "image",
     "src": "x/S4",
     "files": [
-     "media/x/S4/image.jpg?v=202610121827"
+     "media/x/S4/image.jpg?v=202610121828"
     ],
     "tall": false,
     "download": {
-     "href": "media/x/S4/BigHammer-bx1-XS4-2026-10-17-srinath.png?v=202610121827",
+     "href": "media/x/S4/BigHammer-bx1-XS4-2026-10-17-srinath.png?v=202610121828",
      "name": "BigHammer-bx1-XS4-2026-10-17-srinath.png",
      "ext": "png",
      "bytes": 362352,
@@ -1446,11 +1446,11 @@ window.STUDIO = {
     "type": "image",
     "src": "x/S5",
     "files": [
-     "media/x/S5/image.jpg?v=202610121827"
+     "media/x/S5/image.jpg?v=202610121828"
     ],
     "tall": false,
     "download": {
-     "href": "media/x/S5/BigHammer-bx1-XS5-2026-10-18-srinath.png?v=202610121827",
+     "href": "media/x/S5/BigHammer-bx1-XS5-2026-10-18-srinath.png?v=202610121828",
      "name": "BigHammer-bx1-XS5-2026-10-18-srinath.png",
      "ext": "png",
      "bytes": 550503,
@@ -1504,16 +1504,16 @@ window.STUDIO = {
     "placement": "thread",
     "title": "Spark 4.0: 3 silent migration risks + 5 parity checks",
     "files": [
-     "media/x/S6/p01.jpg?v=202610121827",
-     "media/x/S6/p02.jpg?v=202610121827",
-     "media/x/S6/p03.jpg?v=202610121827",
-     "media/x/S6/p04.jpg?v=202610121827",
-     "media/x/S6/p05.jpg?v=202610121827",
-     "media/x/S6/p06.jpg?v=202610121827"
+     "media/x/S6/p01.jpg?v=202610121828",
+     "media/x/S6/p02.jpg?v=202610121828",
+     "media/x/S6/p03.jpg?v=202610121828",
+     "media/x/S6/p04.jpg?v=202610121828",
+     "media/x/S6/p05.jpg?v=202610121828",
+     "media/x/S6/p06.jpg?v=202610121828"
     ],
     "downloads": [
      {
-      "href": "media/x/S6/BigHammer-bx1-XS6-2026-10-16-srinath-1.png?v=202610121827",
+      "href": "media/x/S6/BigHammer-bx1-XS6-2026-10-16-srinath-1.png?v=202610121828",
       "name": "BigHammer-bx1-XS6-2026-10-16-srinath-1.png",
       "ext": "png",
       "bytes": 280992,
@@ -1522,7 +1522,7 @@ window.STUDIO = {
       "h": 900
      },
      {
-      "href": "media/x/S6/BigHammer-bx1-XS6-2026-10-16-srinath-2.png?v=202610121827",
+      "href": "media/x/S6/BigHammer-bx1-XS6-2026-10-16-srinath-2.png?v=202610121828",
       "name": "BigHammer-bx1-XS6-2026-10-16-srinath-2.png",
       "ext": "png",
       "bytes": 282856,
@@ -1531,7 +1531,7 @@ window.STUDIO = {
       "h": 900
      },
      {
-      "href": "media/x/S6/BigHammer-bx1-XS6-2026-10-16-srinath-3.png?v=202610121827",
+      "href": "media/x/S6/BigHammer-bx1-XS6-2026-10-16-srinath-3.png?v=202610121828",
       "name": "BigHammer-bx1-XS6-2026-10-16-srinath-3.png",
       "ext": "png",
       "bytes": 272794,
@@ -1540,7 +1540,7 @@ window.STUDIO = {
       "h": 900
      },
      {
-      "href": "media/x/S6/BigHammer-bx1-XS6-2026-10-16-srinath-4.png?v=202610121827",
+      "href": "media/x/S6/BigHammer-bx1-XS6-2026-10-16-srinath-4.png?v=202610121828",
       "name": "BigHammer-bx1-XS6-2026-10-16-srinath-4.png",
       "ext": "png",
       "bytes": 317597,
@@ -1549,7 +1549,7 @@ window.STUDIO = {
       "h": 900
      },
      {
-      "href": "media/x/S6/BigHammer-bx1-XS6-2026-10-16-srinath-5.png?v=202610121827",
+      "href": "media/x/S6/BigHammer-bx1-XS6-2026-10-16-srinath-5.png?v=202610121828",
       "name": "BigHammer-bx1-XS6-2026-10-16-srinath-5.png",
       "ext": "png",
       "bytes": 259587,
@@ -1558,7 +1558,7 @@ window.STUDIO = {
       "h": 900
      },
      {
-      "href": "media/x/S6/BigHammer-bx1-XS6-2026-10-16-srinath-6.png?v=202610121827",
+      "href": "media/x/S6/BigHammer-bx1-XS6-2026-10-16-srinath-6.png?v=202610121828",
       "name": "BigHammer-bx1-XS6-2026-10-16-srinath-6.png",
       "ext": "png",
       "bytes": 279524,
@@ -1610,10 +1610,10 @@ window.STUDIO = {
     "title": "What's the data project that has been next quarter the longest?",
     "tall": false,
     "files": [
-     "media/b3/R4/image.jpg?v=202610121827"
+     "media/b3/R4/image.jpg?v=202610121828"
     ],
     "download": {
-     "href": "media/b3/R4/BigHammer-b3-R4-2026-10-15-richard.png?v=202610121827",
+     "href": "media/b3/R4/BigHammer-b3-R4-2026-10-15-richard.png?v=202610121828",
      "name": "BigHammer-b3-R4-2026-10-15-richard.png",
      "ext": "png",
      "bytes": 1391308,
@@ -1656,16 +1656,16 @@ window.STUDIO = {
     "src": "b3/R5",
     "title": "What actually happens on a 30-minute call with us",
     "files": [
-     "media/b3/R5/p01.jpg?v=202610121827",
-     "media/b3/R5/p02.jpg?v=202610121827",
-     "media/b3/R5/p03.jpg?v=202610121827",
-     "media/b3/R5/p04.jpg?v=202610121827",
-     "media/b3/R5/p05.jpg?v=202610121827",
-     "media/b3/R5/p06.jpg?v=202610121827",
-     "media/b3/R5/p07.jpg?v=202610121827"
+     "media/b3/R5/p01.jpg?v=202610121828",
+     "media/b3/R5/p02.jpg?v=202610121828",
+     "media/b3/R5/p03.jpg?v=202610121828",
+     "media/b3/R5/p04.jpg?v=202610121828",
+     "media/b3/R5/p05.jpg?v=202610121828",
+     "media/b3/R5/p06.jpg?v=202610121828",
+     "media/b3/R5/p07.jpg?v=202610121828"
     ],
     "download": {
-     "href": "media/b3/R5/BigHammer-b3-R5-2026-10-16-richard.pdf?v=202610121827",
+     "href": "media/b3/R5/BigHammer-b3-R5-2026-10-16-richard.pdf?v=202610121828",
      "name": "BigHammer-b3-R5-2026-10-16-richard.pdf",
      "ext": "pdf",
      "bytes": 3840862,
@@ -1709,10 +1709,10 @@ window.STUDIO = {
     "title": "Mocked Slack #security-review thread: four questions, four answers, approved",
     "tall": false,
     "files": [
-     "media/b3/S2/image.jpg?v=202610121827"
+     "media/b3/S2/image.jpg?v=202610121828"
     ],
     "download": {
-     "href": "media/b3/S2/BigHammer-b3-S2-2026-10-13-srinath.png?v=202610121827",
+     "href": "media/b3/S2/BigHammer-b3-S2-2026-10-13-srinath.png?v=202610121828",
      "name": "BigHammer-b3-S2-2026-10-13-srinath.png",
      "ext": "png",
      "bytes": 385172,
@@ -1762,15 +1762,15 @@ window.STUDIO = {
     "src": "b3/S3",
     "title": "Both runs succeeded. The data didn't match: 3 silent differences, 5 parity checks",
     "files": [
-     "media/b3/S3/p01.jpg?v=202610121827",
-     "media/b3/S3/p02.jpg?v=202610121827",
-     "media/b3/S3/p03.jpg?v=202610121827",
-     "media/b3/S3/p04.jpg?v=202610121827",
-     "media/b3/S3/p05.jpg?v=202610121827",
-     "media/b3/S3/p06.jpg?v=202610121827"
+     "media/b3/S3/p01.jpg?v=202610121828",
+     "media/b3/S3/p02.jpg?v=202610121828",
+     "media/b3/S3/p03.jpg?v=202610121828",
+     "media/b3/S3/p04.jpg?v=202610121828",
+     "media/b3/S3/p05.jpg?v=202610121828",
+     "media/b3/S3/p06.jpg?v=202610121828"
     ],
     "download": {
-     "href": "media/b3/S3/BigHammer-b3-S3-2026-10-14-srinath.pdf?v=202610121827",
+     "href": "media/b3/S3/BigHammer-b3-S3-2026-10-14-srinath.pdf?v=202610121828",
      "name": "BigHammer-b3-S3-2026-10-14-srinath.pdf",
      "ext": "pdf",
      "bytes": 1039335,
@@ -1821,10 +1821,10 @@ window.STUDIO = {
     "title": "The room went quiet: a visibility problem, not a people problem",
     "tall": false,
     "files": [
-     "media/b3/S4/image.jpg?v=202610121827"
+     "media/b3/S4/image.jpg?v=202610121828"
     ],
     "download": {
-     "href": "media/b3/S4/BigHammer-b3-S4-2026-10-15-srinath.png?v=202610121827",
+     "href": "media/b3/S4/BigHammer-b3-S4-2026-10-15-srinath.png?v=202610121828",
      "name": "BigHammer-b3-S4-2026-10-15-srinath.png",
      "ext": "png",
      "bytes": 814912,
@@ -1872,15 +1872,15 @@ window.STUDIO = {
     "src": "b3/C1",
     "title": "Make failure cheap and loud: 4 guardrails for Databricks jobs",
     "files": [
-     "media/b3/C1/p01.jpg?v=202610121827",
-     "media/b3/C1/p02.jpg?v=202610121827",
-     "media/b3/C1/p03.jpg?v=202610121827",
-     "media/b3/C1/p04.jpg?v=202610121827",
-     "media/b3/C1/p05.jpg?v=202610121827",
-     "media/b3/C1/p06.jpg?v=202610121827"
+     "media/b3/C1/p01.jpg?v=202610121828",
+     "media/b3/C1/p02.jpg?v=202610121828",
+     "media/b3/C1/p03.jpg?v=202610121828",
+     "media/b3/C1/p04.jpg?v=202610121828",
+     "media/b3/C1/p05.jpg?v=202610121828",
+     "media/b3/C1/p06.jpg?v=202610121828"
     ],
     "download": {
-     "href": "media/b3/C1/BigHammer-b3-C1-2026-10-12-company.pdf?v=202610121827",
+     "href": "media/b3/C1/BigHammer-b3-C1-2026-10-12-company.pdf?v=202610121828",
      "name": "BigHammer-b3-C1-2026-10-12-company.pdf",
      "ext": "pdf",
      "bytes": 2452346,
@@ -1924,16 +1924,16 @@ window.STUDIO = {
     "src": "b3/S1",
     "title": "The 3 AM failure is still on your bill",
     "files": [
-     "media/b3/S1/p01.jpg?v=202610121827",
-     "media/b3/S1/p02.jpg?v=202610121827",
-     "media/b3/S1/p03.jpg?v=202610121827",
-     "media/b3/S1/p04.jpg?v=202610121827",
-     "media/b3/S1/p05.jpg?v=202610121827",
-     "media/b3/S1/p06.jpg?v=202610121827",
-     "media/b3/S1/p07.jpg?v=202610121827"
+     "media/b3/S1/p01.jpg?v=202610121828",
+     "media/b3/S1/p02.jpg?v=202610121828",
+     "media/b3/S1/p03.jpg?v=202610121828",
+     "media/b3/S1/p04.jpg?v=202610121828",
+     "media/b3/S1/p05.jpg?v=202610121828",
+     "media/b3/S1/p06.jpg?v=202610121828",
+     "media/b3/S1/p07.jpg?v=202610121828"
     ],
     "download": {
-     "href": "media/b3/S1/BigHammer-b3-S1-2026-10-12-srinath.pdf?v=202610121827",
+     "href": "media/b3/S1/BigHammer-b3-S1-2026-10-12-srinath.pdf?v=202610121828",
      "name": "BigHammer-b3-S1-2026-10-12-srinath.pdf",
      "ext": "pdf",
      "bytes": 1536084,
@@ -1983,10 +1983,10 @@ window.STUDIO = {
     "title": "Hand-drawn staircase: 8 steps from a Databricks invoice total to evidence you can defend",
     "tall": false,
     "files": [
-     "media/b3/C4/image.jpg?v=202610121827"
+     "media/b3/C4/image.jpg?v=202610121828"
     ],
     "download": {
-     "href": "media/b3/C4/BigHammer-b3-C4-2026-10-15-company.png?v=202610121827",
+     "href": "media/b3/C4/BigHammer-b3-C4-2026-10-15-company.png?v=202610121828",
      "name": "BigHammer-b3-C4-2026-10-15-company.png",
      "ext": "png",
      "bytes": 1093145,
@@ -2034,10 +2034,10 @@ window.STUDIO = {
     "title": "Renewals are won six months early: the 180 to 30 day roadmap",
     "tall": false,
     "files": [
-     "media/b3/R1/image.jpg?v=202610121827"
+     "media/b3/R1/image.jpg?v=202610121828"
     ],
     "download": {
-     "href": "media/b3/R1/BigHammer-b3-R1-2026-10-12-richard.png?v=202610121827",
+     "href": "media/b3/R1/BigHammer-b3-R1-2026-10-12-richard.png?v=202610121828",
      "name": "BigHammer-b3-R1-2026-10-12-richard.png",
      "ext": "png",
      "bytes": 738723,
@@ -2080,16 +2080,16 @@ window.STUDIO = {
     "src": "b3/R2",
     "title": "The person who owned the bill wasn't in the room",
     "files": [
-     "media/b3/R2/p01.jpg?v=202610121827",
-     "media/b3/R2/p02.jpg?v=202610121827",
-     "media/b3/R2/p03.jpg?v=202610121827",
-     "media/b3/R2/p04.jpg?v=202610121827",
-     "media/b3/R2/p05.jpg?v=202610121827",
-     "media/b3/R2/p06.jpg?v=202610121827",
-     "media/b3/R2/p07.jpg?v=202610121827"
+     "media/b3/R2/p01.jpg?v=202610121828",
+     "media/b3/R2/p02.jpg?v=202610121828",
+     "media/b3/R2/p03.jpg?v=202610121828",
+     "media/b3/R2/p04.jpg?v=202610121828",
+     "media/b3/R2/p05.jpg?v=202610121828",
+     "media/b3/R2/p06.jpg?v=202610121828",
+     "media/b3/R2/p07.jpg?v=202610121828"
     ],
     "download": {
-     "href": "media/b3/R2/BigHammer-b3-R2-2026-10-13-richard.pdf?v=202610121827",
+     "href": "media/b3/R2/BigHammer-b3-R2-2026-10-13-richard.pdf?v=202610121828",
      "name": "BigHammer-b3-R2-2026-10-13-richard.pdf",
      "ext": "pdf",
      "bytes": 17046483,
@@ -2133,17 +2133,17 @@ window.STUDIO = {
     "src": "b3/R3",
     "title": "5 questions worth asking live tomorrow",
     "files": [
-     "media/b3/R3/p01.jpg?v=202610121827",
-     "media/b3/R3/p02.jpg?v=202610121827",
-     "media/b3/R3/p03.jpg?v=202610121827",
-     "media/b3/R3/p04.jpg?v=202610121827",
-     "media/b3/R3/p05.jpg?v=202610121827",
-     "media/b3/R3/p06.jpg?v=202610121827",
-     "media/b3/R3/p07.jpg?v=202610121827",
-     "media/b3/R3/p08.jpg?v=202610121827"
+     "media/b3/R3/p01.jpg?v=202610121828",
+     "media/b3/R3/p02.jpg?v=202610121828",
+     "media/b3/R3/p03.jpg?v=202610121828",
+     "media/b3/R3/p04.jpg?v=202610121828",
+     "media/b3/R3/p05.jpg?v=202610121828",
+     "media/b3/R3/p06.jpg?v=202610121828",
+     "media/b3/R3/p07.jpg?v=202610121828",
+     "media/b3/R3/p08.jpg?v=202610121828"
     ],
     "download": {
-     "href": "media/b3/R3/BigHammer-b3-R3-2026-10-14-richard.pdf?v=202610121827",
+     "href": "media/b3/R3/BigHammer-b3-R3-2026-10-14-richard.pdf?v=202610121828",
      "name": "BigHammer-b3-R3-2026-10-14-richard.pdf",
      "ext": "pdf",
      "bytes": 1692961,
@@ -2189,10 +2189,10 @@ window.STUDIO = {
     "title": "All-Purpose vs Jobs compute: same notebook, 3.67x the list price per DBU, and three required tags",
     "tall": false,
     "files": [
-     "media/b3/C2/image.jpg?v=202610121827"
+     "media/b3/C2/image.jpg?v=202610121828"
     ],
     "download": {
-     "href": "media/b3/C2/BigHammer-b3-C2-2026-10-13-company.png?v=202610121827",
+     "href": "media/b3/C2/BigHammer-b3-C2-2026-10-13-company.png?v=202610121828",
      "name": "BigHammer-b3-C2-2026-10-13-company.png",
      "ext": "png",
      "bytes": 677639,
@@ -2246,10 +2246,10 @@ window.STUDIO = {
     "title": "Tomorrow: Reduce your Databricks costs up to 75%, live masterclass with Srinath Reddy",
     "tall": false,
     "files": [
-     "media/b3/C3/image.jpg?v=202610121827"
+     "media/b3/C3/image.jpg?v=202610121828"
     ],
     "download": {
-     "href": "media/b3/C3/BigHammer-b3-C3-2026-10-14-company.png?v=202610121827",
+     "href": "media/b3/C3/BigHammer-b3-C3-2026-10-14-company.png?v=202610121828",
      "name": "BigHammer-b3-C3-2026-10-14-company.png",
      "ext": "png",
      "bytes": 451118,
@@ -2298,17 +2298,17 @@ window.STUDIO = {
     "src": "b3/C5",
     "title": "The State of Your Databricks & Snowflake Bill, October 2026: 5 cost changes",
     "files": [
-     "media/b3/C5/p01.jpg?v=202610121827",
-     "media/b3/C5/p02.jpg?v=202610121827",
-     "media/b3/C5/p03.jpg?v=202610121827",
-     "media/b3/C5/p04.jpg?v=202610121827",
-     "media/b3/C5/p05.jpg?v=202610121827",
-     "media/b3/C5/p06.jpg?v=202610121827",
-     "media/b3/C5/p07.jpg?v=202610121827",
-     "media/b3/C5/p08.jpg?v=202610121827"
+     "media/b3/C5/p01.jpg?v=202610121828",
+     "media/b3/C5/p02.jpg?v=202610121828",
+     "media/b3/C5/p03.jpg?v=202610121828",
+     "media/b3/C5/p04.jpg?v=202610121828",
+     "media/b3/C5/p05.jpg?v=202610121828",
+     "media/b3/C5/p06.jpg?v=202610121828",
+     "media/b3/C5/p07.jpg?v=202610121828",
+     "media/b3/C5/p08.jpg?v=202610121828"
     ],
     "download": {
-     "href": "media/b3/C5/BigHammer-b3-C5-2026-10-16-company.pdf?v=202610121827",
+     "href": "media/b3/C5/BigHammer-b3-C5-2026-10-16-company.pdf?v=202610121828",
      "name": "BigHammer-b3-C5-2026-10-16-company.pdf",
      "ext": "pdf",
      "bytes": 2212714,
