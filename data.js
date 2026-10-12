@@ -16,7 +16,7 @@ window.STUDIO = {
   {
    "id": "3",
    "title": "Batch 3",
-   "dates": "Mon 12 Oct to Fri 16 Oct 2026"
+   "dates": "Mon 12 Oct to Sat 17 Oct 2026"
   }
  ],
  "profiles": [
@@ -81,10 +81,10 @@ window.STUDIO = {
     "src": "C1",
     "tall": false,
     "files": [
-     "media/C1/image.jpg?v=202610121937"
+     "media/C1/image.jpg?v=202610122020"
     ],
     "download": {
-     "href": "media/C1/BigHammer-b2-C1-2026-10-05-company.png?v=202610121937",
+     "href": "media/C1/BigHammer-b2-C1-2026-10-05-company.png?v=202610122020",
      "name": "BigHammer-b2-C1-2026-10-05-company.png",
      "ext": "png",
      "bytes": 708828,
@@ -130,10 +130,10 @@ window.STUDIO = {
     "src": "C2",
     "tall": false,
     "files": [
-     "media/C2/image.jpg?v=202610121937"
+     "media/C2/image.jpg?v=202610122020"
     ],
     "download": {
-     "href": "media/C2/BigHammer-b2-C2-2026-10-06-company.png?v=202610121937",
+     "href": "media/C2/BigHammer-b2-C2-2026-10-06-company.png?v=202610122020",
      "name": "BigHammer-b2-C2-2026-10-06-company.png",
      "ext": "png",
      "bytes": 522910,
@@ -174,10 +174,10 @@ window.STUDIO = {
     "src": "C3",
     "tall": false,
     "files": [
-     "media/C3/image.jpg?v=202610121937"
+     "media/C3/image.jpg?v=202610122020"
     ],
     "download": {
-     "href": "media/C3/BigHammer-b2-C3-2026-10-07-company.png?v=202610121937",
+     "href": "media/C3/BigHammer-b2-C3-2026-10-07-company.png?v=202610122020",
      "name": "BigHammer-b2-C3-2026-10-07-company.png",
      "ext": "png",
      "bytes": 872565,
@@ -221,10 +221,10 @@ window.STUDIO = {
     "src": "C4",
     "tall": false,
     "files": [
-     "media/C4/image.jpg?v=202610121937"
+     "media/C4/image.jpg?v=202610122020"
     ],
     "download": {
-     "href": "media/C4/BigHammer-b2-C4-2026-10-03-company.png?v=202610121937",
+     "href": "media/C4/BigHammer-b2-C4-2026-10-03-company.png?v=202610122020",
      "name": "BigHammer-b2-C4-2026-10-03-company.png",
      "ext": "png",
      "bytes": 761800,
@@ -270,10 +270,10 @@ window.STUDIO = {
     "src": "C5",
     "tall": false,
     "files": [
-     "media/C5/image.jpg?v=202610121937"
+     "media/C5/image.jpg?v=202610122020"
     ],
     "download": {
-     "href": "media/C5/BigHammer-b2-C5-2026-10-04-company.png?v=202610121937",
+     "href": "media/C5/BigHammer-b2-C5-2026-10-04-company.png?v=202610122020",
      "name": "BigHammer-b2-C5-2026-10-04-company.png",
      "ext": "png",
      "bytes": 499414,
@@ -313,10 +313,10 @@ window.STUDIO = {
     "src": "C6",
     "tall": false,
     "files": [
-     "media/C6/image.jpg?v=202610121937"
+     "media/C6/image.jpg?v=202610122020"
     ],
     "download": {
-     "href": "media/C6/BigHammer-b2-C6-2026-10-02-company.png?v=202610121937",
+     "href": "media/C6/BigHammer-b2-C6-2026-10-02-company.png?v=202610122020",
      "name": "BigHammer-b2-C6-2026-10-02-company.png",
      "ext": "png",
      "bytes": 520267,
@@ -359,10 +359,10 @@ window.STUDIO = {
     "src": "S1",
     "tall": false,
     "files": [
-     "media/S1/image.jpg?v=202610121937"
+     "media/S1/image.jpg?v=202610122020"
     ],
     "download": {
-     "href": "media/S1/BigHammer-b2-S1-2026-10-02-srinath.png?v=202610121937",
+     "href": "media/S1/BigHammer-b2-S1-2026-10-02-srinath.png?v=202610122020",
      "name": "BigHammer-b2-S1-2026-10-02-srinath.png",
      "ext": "png",
      "bytes": 1147084,
@@ -403,10 +403,10 @@ window.STUDIO = {
     "src": "S2",
     "tall": false,
     "files": [
-     "media/S2/image.jpg?v=202610121937"
+     "media/S2/image.jpg?v=202610122020"
     ],
     "download": {
-     "href": "media/S2/BigHammer-b2-S2-2026-10-05-srinath.png?v=202610121937",
+     "href": "media/S2/BigHammer-b2-S2-2026-10-05-srinath.png?v=202610122020",
      "name": "BigHammer-b2-S2-2026-10-05-srinath.png",
      "ext": "png",
      "bytes": 611454,
@@ -450,10 +450,10 @@ window.STUDIO = {
     "src": "S3v2",
     "tall": false,
     "files": [
-     "media/S3v2/image.jpg?v=202610121937"
+     "media/S3v2/image.jpg?v=202610122020"
     ],
     "download": {
-     "href": "media/S3v2/BigHammer-b2-S3-2026-10-07-srinath.png?v=202610121937",
+     "href": "media/S3v2/BigHammer-b2-S3-2026-10-07-srinath.png?v=202610122020",
      "name": "BigHammer-b2-S3-2026-10-07-srinath.png",
      "ext": "png",
      "bytes": 1640866,
@@ -496,10 +496,10 @@ window.STUDIO = {
     "src": "S4",
     "tall": false,
     "files": [
-     "media/S4/image.jpg?v=202610121937"
+     "media/S4/image.jpg?v=202610122020"
     ],
     "download": {
-     "href": "media/S4/BigHammer-b2-S4-2026-10-03-srinath.png?v=202610121937",
+     "href": "media/S4/BigHammer-b2-S4-2026-10-03-srinath.png?v=202610122020",
      "name": "BigHammer-b2-S4-2026-10-03-srinath.png",
      "ext": "png",
      "bytes": 304607,
@@ -545,10 +545,10 @@ window.STUDIO = {
     "src": "S5",
     "tall": false,
     "files": [
-     "media/S5/image.jpg?v=202610121937"
+     "media/S5/image.jpg?v=202610122020"
     ],
     "download": {
-     "href": "media/S5/BigHammer-b2-S5-2026-10-04-srinath.png?v=202610121937",
+     "href": "media/S5/BigHammer-b2-S5-2026-10-04-srinath.png?v=202610122020",
      "name": "BigHammer-b2-S5-2026-10-04-srinath.png",
      "ext": "png",
      "bytes": 554340,
@@ -594,17 +594,17 @@ window.STUDIO = {
     "src": "S6",
     "title": "Spark 4.0: 3 silent migration risks + 5 parity checks",
     "files": [
-     "media/S6/p01.jpg?v=202610121937",
-     "media/S6/p02.jpg?v=202610121937",
-     "media/S6/p03.jpg?v=202610121937",
-     "media/S6/p04.jpg?v=202610121937",
-     "media/S6/p05.jpg?v=202610121937",
-     "media/S6/p06.jpg?v=202610121937",
-     "media/S6/p07.jpg?v=202610121937",
-     "media/S6/p08.jpg?v=202610121937"
+     "media/S6/p01.jpg?v=202610122020",
+     "media/S6/p02.jpg?v=202610122020",
+     "media/S6/p03.jpg?v=202610122020",
+     "media/S6/p04.jpg?v=202610122020",
+     "media/S6/p05.jpg?v=202610122020",
+     "media/S6/p06.jpg?v=202610122020",
+     "media/S6/p07.jpg?v=202610122020",
+     "media/S6/p08.jpg?v=202610122020"
     ],
     "download": {
-     "href": "media/S6/BigHammer-b2-S6-2026-10-06-srinath.pdf?v=202610121937",
+     "href": "media/S6/BigHammer-b2-S6-2026-10-06-srinath.pdf?v=202610122020",
      "name": "BigHammer-b2-S6-2026-10-06-srinath.pdf",
      "ext": "pdf",
      "bytes": 2177726,
@@ -647,10 +647,10 @@ window.STUDIO = {
     "src": "R4",
     "tall": false,
     "files": [
-     "media/R4/image.jpg?v=202610121937"
+     "media/R4/image.jpg?v=202610122020"
     ],
     "download": {
-     "href": "media/R4/BigHammer-b2-R4-2026-10-02-richard.png?v=202610121937",
+     "href": "media/R4/BigHammer-b2-R4-2026-10-02-richard.png?v=202610122020",
      "name": "BigHammer-b2-R4-2026-10-02-richard.png",
      "ext": "png",
      "bytes": 1483743,
@@ -691,10 +691,10 @@ window.STUDIO = {
     "src": "R2",
     "tall": false,
     "files": [
-     "media/R2/image.jpg?v=202610121937"
+     "media/R2/image.jpg?v=202610122020"
     ],
     "download": {
-     "href": "media/R2/BigHammer-b2-R2-2026-10-03-richard.png?v=202610121937",
+     "href": "media/R2/BigHammer-b2-R2-2026-10-03-richard.png?v=202610122020",
      "name": "BigHammer-b2-R2-2026-10-03-richard.png",
      "ext": "png",
      "bytes": 1336043,
@@ -735,19 +735,19 @@ window.STUDIO = {
     "src": "R3",
     "title": "The Worried vs The Curious",
     "files": [
-     "media/R3/p01.jpg?v=202610121937",
-     "media/R3/p02.jpg?v=202610121937",
-     "media/R3/p03.jpg?v=202610121937",
-     "media/R3/p04.jpg?v=202610121937",
-     "media/R3/p05.jpg?v=202610121937",
-     "media/R3/p06.jpg?v=202610121937",
-     "media/R3/p07.jpg?v=202610121937",
-     "media/R3/p08.jpg?v=202610121937",
-     "media/R3/p09.jpg?v=202610121937",
-     "media/R3/p10.jpg?v=202610121937"
+     "media/R3/p01.jpg?v=202610122020",
+     "media/R3/p02.jpg?v=202610122020",
+     "media/R3/p03.jpg?v=202610122020",
+     "media/R3/p04.jpg?v=202610122020",
+     "media/R3/p05.jpg?v=202610122020",
+     "media/R3/p06.jpg?v=202610122020",
+     "media/R3/p07.jpg?v=202610122020",
+     "media/R3/p08.jpg?v=202610122020",
+     "media/R3/p09.jpg?v=202610122020",
+     "media/R3/p10.jpg?v=202610122020"
     ],
     "download": {
-     "href": "media/R3/BigHammer-b2-R3-2026-10-04-richard.pdf?v=202610121937",
+     "href": "media/R3/BigHammer-b2-R3-2026-10-04-richard.pdf?v=202610122020",
      "name": "BigHammer-b2-R3-2026-10-04-richard.pdf",
      "ext": "pdf",
      "bytes": 2132900,
@@ -790,10 +790,10 @@ window.STUDIO = {
     "src": "R1",
     "tall": false,
     "files": [
-     "media/R1/image.jpg?v=202610121937"
+     "media/R1/image.jpg?v=202610122020"
     ],
     "download": {
-     "href": "media/R1/BigHammer-b2-R1-2026-10-05-richard.png?v=202610121937",
+     "href": "media/R1/BigHammer-b2-R1-2026-10-05-richard.png?v=202610122020",
      "name": "BigHammer-b2-R1-2026-10-05-richard.png",
      "ext": "png",
      "bytes": 1362940,
@@ -837,10 +837,10 @@ window.STUDIO = {
     "src": "R5",
     "tall": false,
     "files": [
-     "media/R5/image.jpg?v=202610121937"
+     "media/R5/image.jpg?v=202610122020"
     ],
     "download": {
-     "href": "media/R5/BigHammer-b2-R5-2026-10-06-richard.png?v=202610121937",
+     "href": "media/R5/BigHammer-b2-R5-2026-10-06-richard.png?v=202610122020",
      "name": "BigHammer-b2-R5-2026-10-06-richard.png",
      "ext": "png",
      "bytes": 470253,
@@ -885,16 +885,16 @@ window.STUDIO = {
     "src": "R6",
     "title": "Please don't come to our masterclass if...",
     "files": [
-     "media/R6/p01.jpg?v=202610121937",
-     "media/R6/p02.jpg?v=202610121937",
-     "media/R6/p03.jpg?v=202610121937",
-     "media/R6/p04.jpg?v=202610121937",
-     "media/R6/p05.jpg?v=202610121937",
-     "media/R6/p06.jpg?v=202610121937",
-     "media/R6/p07.jpg?v=202610121937"
+     "media/R6/p01.jpg?v=202610122020",
+     "media/R6/p02.jpg?v=202610122020",
+     "media/R6/p03.jpg?v=202610122020",
+     "media/R6/p04.jpg?v=202610122020",
+     "media/R6/p05.jpg?v=202610122020",
+     "media/R6/p06.jpg?v=202610122020",
+     "media/R6/p07.jpg?v=202610122020"
     ],
     "download": {
-     "href": "media/R6/BigHammer-b2-R6-2026-10-07-richard.pdf?v=202610121937",
+     "href": "media/R6/BigHammer-b2-R6-2026-10-07-richard.pdf?v=202610122020",
      "name": "BigHammer-b2-R6-2026-10-07-richard.pdf",
      "ext": "pdf",
      "bytes": 4050911,
@@ -938,10 +938,10 @@ window.STUDIO = {
     "src": "T4",
     "tall": false,
     "files": [
-     "media/T4/image.jpg?v=202610121937"
+     "media/T4/image.jpg?v=202610122020"
     ],
     "download": {
-     "href": "media/T4/BigHammer-b2-T4-2026-10-02-terry.png?v=202610121937",
+     "href": "media/T4/BigHammer-b2-T4-2026-10-02-terry.png?v=202610122020",
      "name": "BigHammer-b2-T4-2026-10-02-terry.png",
      "ext": "png",
      "bytes": 331206,
@@ -984,10 +984,10 @@ window.STUDIO = {
     "src": "T5",
     "tall": false,
     "files": [
-     "media/T5/image.jpg?v=202610121937"
+     "media/T5/image.jpg?v=202610122020"
     ],
     "download": {
-     "href": "media/T5/BigHammer-b2-T5-2026-10-03-terry.png?v=202610121937",
+     "href": "media/T5/BigHammer-b2-T5-2026-10-03-terry.png?v=202610122020",
      "name": "BigHammer-b2-T5-2026-10-03-terry.png",
      "ext": "png",
      "bytes": 424603,
@@ -1031,16 +1031,16 @@ window.STUDIO = {
     "src": "T6",
     "title": "AI agents move data. Transform?",
     "files": [
-     "media/T6/p01.jpg?v=202610121937",
-     "media/T6/p02.jpg?v=202610121937",
-     "media/T6/p03.jpg?v=202610121937",
-     "media/T6/p04.jpg?v=202610121937",
-     "media/T6/p05.jpg?v=202610121937",
-     "media/T6/p06.jpg?v=202610121937",
-     "media/T6/p07.jpg?v=202610121937"
+     "media/T6/p01.jpg?v=202610122020",
+     "media/T6/p02.jpg?v=202610122020",
+     "media/T6/p03.jpg?v=202610122020",
+     "media/T6/p04.jpg?v=202610122020",
+     "media/T6/p05.jpg?v=202610122020",
+     "media/T6/p06.jpg?v=202610122020",
+     "media/T6/p07.jpg?v=202610122020"
     ],
     "download": {
-     "href": "media/T6/BigHammer-b2-T6-2026-10-04-terry.pdf?v=202610121937",
+     "href": "media/T6/BigHammer-b2-T6-2026-10-04-terry.pdf?v=202610122020",
      "name": "BigHammer-b2-T6-2026-10-04-terry.pdf",
      "ext": "pdf",
      "bytes": 3371853,
@@ -1087,17 +1087,17 @@ window.STUDIO = {
     "src": "T1",
     "title": "Your cost per job report is missing the jobs that cost the most",
     "files": [
-     "media/T1/p01.jpg?v=202610121937",
-     "media/T1/p02.jpg?v=202610121937",
-     "media/T1/p03.jpg?v=202610121937",
-     "media/T1/p04.jpg?v=202610121937",
-     "media/T1/p05.jpg?v=202610121937",
-     "media/T1/p06.jpg?v=202610121937",
-     "media/T1/p07.jpg?v=202610121937",
-     "media/T1/p08.jpg?v=202610121937"
+     "media/T1/p01.jpg?v=202610122020",
+     "media/T1/p02.jpg?v=202610122020",
+     "media/T1/p03.jpg?v=202610122020",
+     "media/T1/p04.jpg?v=202610122020",
+     "media/T1/p05.jpg?v=202610122020",
+     "media/T1/p06.jpg?v=202610122020",
+     "media/T1/p07.jpg?v=202610122020",
+     "media/T1/p08.jpg?v=202610122020"
     ],
     "download": {
-     "href": "media/T1/BigHammer-b2-T1-2026-10-05-terry.pdf?v=202610121937",
+     "href": "media/T1/BigHammer-b2-T1-2026-10-05-terry.pdf?v=202610122020",
      "name": "BigHammer-b2-T1-2026-10-05-terry.pdf",
      "ext": "pdf",
      "bytes": 1823726,
@@ -1142,10 +1142,10 @@ window.STUDIO = {
     "src": "T2",
     "tall": false,
     "files": [
-     "media/T2/image.jpg?v=202610121937"
+     "media/T2/image.jpg?v=202610122020"
     ],
     "download": {
-     "href": "media/T2/BigHammer-b2-T2-2026-10-06-terry.png?v=202610121937",
+     "href": "media/T2/BigHammer-b2-T2-2026-10-06-terry.png?v=202610122020",
      "name": "BigHammer-b2-T2-2026-10-06-terry.png",
      "ext": "png",
      "bytes": 465983,
@@ -1230,11 +1230,11 @@ window.STUDIO = {
     "type": "image",
     "src": "x/S1",
     "files": [
-     "media/x/S1/image.jpg?v=202610121937"
+     "media/x/S1/image.jpg?v=202610122020"
     ],
     "tall": false,
     "download": {
-     "href": "media/x/S1/BigHammer-bx1-XS1-2026-10-13-srinath.png?v=202610121937",
+     "href": "media/x/S1/BigHammer-bx1-XS1-2026-10-13-srinath.png?v=202610122020",
      "name": "BigHammer-bx1-XS1-2026-10-13-srinath.png",
      "ext": "png",
      "bytes": 963622,
@@ -1283,11 +1283,11 @@ window.STUDIO = {
     "type": "image",
     "src": "x/S2",
     "files": [
-     "media/x/S2/image.jpg?v=202610121937"
+     "media/x/S2/image.jpg?v=202610122020"
     ],
     "tall": false,
     "download": {
-     "href": "media/x/S2/BigHammer-bx1-XS2-2026-10-14-srinath.png?v=202610121937",
+     "href": "media/x/S2/BigHammer-bx1-XS2-2026-10-14-srinath.png?v=202610122020",
      "name": "BigHammer-bx1-XS2-2026-10-14-srinath.png",
      "ext": "png",
      "bytes": 518055,
@@ -1339,11 +1339,11 @@ window.STUDIO = {
     "type": "image",
     "src": "x/S3",
     "files": [
-     "media/x/S3/image.jpg?v=202610121937"
+     "media/x/S3/image.jpg?v=202610122020"
     ],
     "tall": false,
     "download": {
-     "href": "media/x/S3/BigHammer-bx1-XS3-2026-10-15-srinath.png?v=202610121937",
+     "href": "media/x/S3/BigHammer-bx1-XS3-2026-10-15-srinath.png?v=202610122020",
      "name": "BigHammer-bx1-XS3-2026-10-15-srinath.png",
      "ext": "png",
      "bytes": 1640860,
@@ -1390,11 +1390,11 @@ window.STUDIO = {
     "type": "image",
     "src": "x/S4",
     "files": [
-     "media/x/S4/image.jpg?v=202610121937"
+     "media/x/S4/image.jpg?v=202610122020"
     ],
     "tall": false,
     "download": {
-     "href": "media/x/S4/BigHammer-bx1-XS4-2026-10-17-srinath.png?v=202610121937",
+     "href": "media/x/S4/BigHammer-bx1-XS4-2026-10-17-srinath.png?v=202610122020",
      "name": "BigHammer-bx1-XS4-2026-10-17-srinath.png",
      "ext": "png",
      "bytes": 362352,
@@ -1446,11 +1446,11 @@ window.STUDIO = {
     "type": "image",
     "src": "x/S5",
     "files": [
-     "media/x/S5/image.jpg?v=202610121937"
+     "media/x/S5/image.jpg?v=202610122020"
     ],
     "tall": false,
     "download": {
-     "href": "media/x/S5/BigHammer-bx1-XS5-2026-10-18-srinath.png?v=202610121937",
+     "href": "media/x/S5/BigHammer-bx1-XS5-2026-10-18-srinath.png?v=202610122020",
      "name": "BigHammer-bx1-XS5-2026-10-18-srinath.png",
      "ext": "png",
      "bytes": 550503,
@@ -1504,16 +1504,16 @@ window.STUDIO = {
     "placement": "thread",
     "title": "Spark 4.0: 3 silent migration risks + 5 parity checks",
     "files": [
-     "media/x/S6/p01.jpg?v=202610121937",
-     "media/x/S6/p02.jpg?v=202610121937",
-     "media/x/S6/p03.jpg?v=202610121937",
-     "media/x/S6/p04.jpg?v=202610121937",
-     "media/x/S6/p05.jpg?v=202610121937",
-     "media/x/S6/p06.jpg?v=202610121937"
+     "media/x/S6/p01.jpg?v=202610122020",
+     "media/x/S6/p02.jpg?v=202610122020",
+     "media/x/S6/p03.jpg?v=202610122020",
+     "media/x/S6/p04.jpg?v=202610122020",
+     "media/x/S6/p05.jpg?v=202610122020",
+     "media/x/S6/p06.jpg?v=202610122020"
     ],
     "downloads": [
      {
-      "href": "media/x/S6/BigHammer-bx1-XS6-2026-10-16-srinath-1.png?v=202610121937",
+      "href": "media/x/S6/BigHammer-bx1-XS6-2026-10-16-srinath-1.png?v=202610122020",
       "name": "BigHammer-bx1-XS6-2026-10-16-srinath-1.png",
       "ext": "png",
       "bytes": 280992,
@@ -1522,7 +1522,7 @@ window.STUDIO = {
       "h": 900
      },
      {
-      "href": "media/x/S6/BigHammer-bx1-XS6-2026-10-16-srinath-2.png?v=202610121937",
+      "href": "media/x/S6/BigHammer-bx1-XS6-2026-10-16-srinath-2.png?v=202610122020",
       "name": "BigHammer-bx1-XS6-2026-10-16-srinath-2.png",
       "ext": "png",
       "bytes": 282856,
@@ -1531,7 +1531,7 @@ window.STUDIO = {
       "h": 900
      },
      {
-      "href": "media/x/S6/BigHammer-bx1-XS6-2026-10-16-srinath-3.png?v=202610121937",
+      "href": "media/x/S6/BigHammer-bx1-XS6-2026-10-16-srinath-3.png?v=202610122020",
       "name": "BigHammer-bx1-XS6-2026-10-16-srinath-3.png",
       "ext": "png",
       "bytes": 272794,
@@ -1540,7 +1540,7 @@ window.STUDIO = {
       "h": 900
      },
      {
-      "href": "media/x/S6/BigHammer-bx1-XS6-2026-10-16-srinath-4.png?v=202610121937",
+      "href": "media/x/S6/BigHammer-bx1-XS6-2026-10-16-srinath-4.png?v=202610122020",
       "name": "BigHammer-bx1-XS6-2026-10-16-srinath-4.png",
       "ext": "png",
       "bytes": 317597,
@@ -1549,7 +1549,7 @@ window.STUDIO = {
       "h": 900
      },
      {
-      "href": "media/x/S6/BigHammer-bx1-XS6-2026-10-16-srinath-5.png?v=202610121937",
+      "href": "media/x/S6/BigHammer-bx1-XS6-2026-10-16-srinath-5.png?v=202610122020",
       "name": "BigHammer-bx1-XS6-2026-10-16-srinath-5.png",
       "ext": "png",
       "bytes": 259587,
@@ -1558,7 +1558,7 @@ window.STUDIO = {
       "h": 900
      },
      {
-      "href": "media/x/S6/BigHammer-bx1-XS6-2026-10-16-srinath-6.png?v=202610121937",
+      "href": "media/x/S6/BigHammer-bx1-XS6-2026-10-16-srinath-6.png?v=202610122020",
       "name": "BigHammer-bx1-XS6-2026-10-16-srinath-6.png",
       "ext": "png",
       "bytes": 279524,
@@ -1609,15 +1609,15 @@ window.STUDIO = {
     "src": "b3/C1",
     "title": "Make failure cheap and loud: 4 guardrails for Databricks jobs",
     "files": [
-     "media/b3/C1/p01.jpg?v=202610121937",
-     "media/b3/C1/p02.jpg?v=202610121937",
-     "media/b3/C1/p03.jpg?v=202610121937",
-     "media/b3/C1/p04.jpg?v=202610121937",
-     "media/b3/C1/p05.jpg?v=202610121937",
-     "media/b3/C1/p06.jpg?v=202610121937"
+     "media/b3/C1/p01.jpg?v=202610122020",
+     "media/b3/C1/p02.jpg?v=202610122020",
+     "media/b3/C1/p03.jpg?v=202610122020",
+     "media/b3/C1/p04.jpg?v=202610122020",
+     "media/b3/C1/p05.jpg?v=202610122020",
+     "media/b3/C1/p06.jpg?v=202610122020"
     ],
     "download": {
-     "href": "media/b3/C1/BigHammer-b3-C1-2026-10-12-company.pdf?v=202610121937",
+     "href": "media/b3/C1/BigHammer-b3-C1-2026-10-12-company.pdf?v=202610122020",
      "name": "BigHammer-b3-C1-2026-10-12-company.pdf",
      "ext": "pdf",
      "bytes": 2440169,
@@ -1662,10 +1662,10 @@ window.STUDIO = {
     "title": "All-Purpose vs Jobs compute: same notebook, 3.67x the list price per DBU, and three required tags",
     "tall": false,
     "files": [
-     "media/b3/C2/image.jpg?v=202610121937"
+     "media/b3/C2/image.jpg?v=202610122020"
     ],
     "download": {
-     "href": "media/b3/C2/BigHammer-b3-C2-2026-10-13-company.png?v=202610121937",
+     "href": "media/b3/C2/BigHammer-b3-C2-2026-10-13-company.png?v=202610122020",
      "name": "BigHammer-b3-C2-2026-10-13-company.png",
      "ext": "png",
      "bytes": 677639,
@@ -1719,10 +1719,10 @@ window.STUDIO = {
     "title": "Tomorrow: Cut your Databricks bill by up to 75%, live masterclass with Srinath Reddy",
     "tall": false,
     "files": [
-     "media/b3/C3/image.jpg?v=202610121937"
+     "media/b3/C3/image.jpg?v=202610122020"
     ],
     "download": {
-     "href": "media/b3/C3/BigHammer-b3-C3-2026-10-14-company.png?v=202610121937",
+     "href": "media/b3/C3/BigHammer-b3-C3-2026-10-14-company.png?v=202610122020",
      "name": "BigHammer-b3-C3-2026-10-14-company.png",
      "ext": "png",
      "bytes": 441966,
@@ -1772,10 +1772,10 @@ window.STUDIO = {
     "title": "Hand-drawn staircase: 8 steps from a Databricks invoice total to evidence you can defend",
     "tall": false,
     "files": [
-     "media/b3/C4/image.jpg?v=202610121937"
+     "media/b3/C4/image.jpg?v=202610122020"
     ],
     "download": {
-     "href": "media/b3/C4/BigHammer-b3-C4-2026-10-15-company.png?v=202610121937",
+     "href": "media/b3/C4/BigHammer-b3-C4-2026-10-15-company.png?v=202610122020",
      "name": "BigHammer-b3-C4-2026-10-15-company.png",
      "ext": "png",
      "bytes": 1093145,
@@ -1822,17 +1822,17 @@ window.STUDIO = {
     "src": "b3/C5",
     "title": "The State of Your Databricks & Snowflake Bill, October 2026: 5 cost changes",
     "files": [
-     "media/b3/C5/p01.jpg?v=202610121937",
-     "media/b3/C5/p02.jpg?v=202610121937",
-     "media/b3/C5/p03.jpg?v=202610121937",
-     "media/b3/C5/p04.jpg?v=202610121937",
-     "media/b3/C5/p05.jpg?v=202610121937",
-     "media/b3/C5/p06.jpg?v=202610121937",
-     "media/b3/C5/p07.jpg?v=202610121937",
-     "media/b3/C5/p08.jpg?v=202610121937"
+     "media/b3/C5/p01.jpg?v=202610122020",
+     "media/b3/C5/p02.jpg?v=202610122020",
+     "media/b3/C5/p03.jpg?v=202610122020",
+     "media/b3/C5/p04.jpg?v=202610122020",
+     "media/b3/C5/p05.jpg?v=202610122020",
+     "media/b3/C5/p06.jpg?v=202610122020",
+     "media/b3/C5/p07.jpg?v=202610122020",
+     "media/b3/C5/p08.jpg?v=202610122020"
     ],
     "download": {
-     "href": "media/b3/C5/BigHammer-b3-C5-2026-10-16-company.pdf?v=202610121937",
+     "href": "media/b3/C5/BigHammer-b3-C5-2026-10-16-company.pdf?v=202610122020",
      "name": "BigHammer-b3-C5-2026-10-16-company.pdf",
      "ext": "pdf",
      "bytes": 2212714,
@@ -1887,10 +1887,10 @@ window.STUDIO = {
     "title": "Renewals are won six months early: the 180 to 30 day roadmap",
     "tall": false,
     "files": [
-     "media/b3/R1/image.jpg?v=202610121937"
+     "media/b3/R1/image.jpg?v=202610122020"
     ],
     "download": {
-     "href": "media/b3/R1/BigHammer-b3-R1-2026-10-12-richard.png?v=202610121937",
+     "href": "media/b3/R1/BigHammer-b3-R1-2026-10-12-richard.png?v=202610122020",
      "name": "BigHammer-b3-R1-2026-10-12-richard.png",
      "ext": "png",
      "bytes": 737538,
@@ -1933,16 +1933,16 @@ window.STUDIO = {
     "src": "b3/R2",
     "title": "The person who owned the bill wasn't in the room",
     "files": [
-     "media/b3/R2/p01.jpg?v=202610121937",
-     "media/b3/R2/p02.jpg?v=202610121937",
-     "media/b3/R2/p03.jpg?v=202610121937",
-     "media/b3/R2/p04.jpg?v=202610121937",
-     "media/b3/R2/p05.jpg?v=202610121937",
-     "media/b3/R2/p06.jpg?v=202610121937",
-     "media/b3/R2/p07.jpg?v=202610121937"
+     "media/b3/R2/p01.jpg?v=202610122020",
+     "media/b3/R2/p02.jpg?v=202610122020",
+     "media/b3/R2/p03.jpg?v=202610122020",
+     "media/b3/R2/p04.jpg?v=202610122020",
+     "media/b3/R2/p05.jpg?v=202610122020",
+     "media/b3/R2/p06.jpg?v=202610122020",
+     "media/b3/R2/p07.jpg?v=202610122020"
     ],
     "download": {
-     "href": "media/b3/R2/BigHammer-b3-R2-2026-10-13-richard.pdf?v=202610121937",
+     "href": "media/b3/R2/BigHammer-b3-R2-2026-10-13-richard.pdf?v=202610122020",
      "name": "BigHammer-b3-R2-2026-10-13-richard.pdf",
      "ext": "pdf",
      "bytes": 17059976,
@@ -1986,17 +1986,17 @@ window.STUDIO = {
     "src": "b3/R3",
     "title": "5 questions worth asking live tomorrow",
     "files": [
-     "media/b3/R3/p01.jpg?v=202610121937",
-     "media/b3/R3/p02.jpg?v=202610121937",
-     "media/b3/R3/p03.jpg?v=202610121937",
-     "media/b3/R3/p04.jpg?v=202610121937",
-     "media/b3/R3/p05.jpg?v=202610121937",
-     "media/b3/R3/p06.jpg?v=202610121937",
-     "media/b3/R3/p07.jpg?v=202610121937",
-     "media/b3/R3/p08.jpg?v=202610121937"
+     "media/b3/R3/p01.jpg?v=202610122020",
+     "media/b3/R3/p02.jpg?v=202610122020",
+     "media/b3/R3/p03.jpg?v=202610122020",
+     "media/b3/R3/p04.jpg?v=202610122020",
+     "media/b3/R3/p05.jpg?v=202610122020",
+     "media/b3/R3/p06.jpg?v=202610122020",
+     "media/b3/R3/p07.jpg?v=202610122020",
+     "media/b3/R3/p08.jpg?v=202610122020"
     ],
     "download": {
-     "href": "media/b3/R3/BigHammer-b3-R3-2026-10-14-richard.pdf?v=202610121937",
+     "href": "media/b3/R3/BigHammer-b3-R3-2026-10-14-richard.pdf?v=202610122020",
      "name": "BigHammer-b3-R3-2026-10-14-richard.pdf",
      "ext": "pdf",
      "bytes": 1684385,
@@ -2042,10 +2042,10 @@ window.STUDIO = {
     "title": "What's the data project that has been next quarter the longest?",
     "tall": false,
     "files": [
-     "media/b3/R4/image.jpg?v=202610121937"
+     "media/b3/R4/image.jpg?v=202610122020"
     ],
     "download": {
-     "href": "media/b3/R4/BigHammer-b3-R4-2026-10-15-richard.png?v=202610121937",
+     "href": "media/b3/R4/BigHammer-b3-R4-2026-10-15-richard.png?v=202610122020",
      "name": "BigHammer-b3-R4-2026-10-15-richard.png",
      "ext": "png",
      "bytes": 1391308,
@@ -2088,16 +2088,16 @@ window.STUDIO = {
     "src": "b3/R5",
     "title": "What actually happens on a 30-minute call with us",
     "files": [
-     "media/b3/R5/p01.jpg?v=202610121937",
-     "media/b3/R5/p02.jpg?v=202610121937",
-     "media/b3/R5/p03.jpg?v=202610121937",
-     "media/b3/R5/p04.jpg?v=202610121937",
-     "media/b3/R5/p05.jpg?v=202610121937",
-     "media/b3/R5/p06.jpg?v=202610121937",
-     "media/b3/R5/p07.jpg?v=202610121937"
+     "media/b3/R5/p01.jpg?v=202610122020",
+     "media/b3/R5/p02.jpg?v=202610122020",
+     "media/b3/R5/p03.jpg?v=202610122020",
+     "media/b3/R5/p04.jpg?v=202610122020",
+     "media/b3/R5/p05.jpg?v=202610122020",
+     "media/b3/R5/p06.jpg?v=202610122020",
+     "media/b3/R5/p07.jpg?v=202610122020"
     ],
     "download": {
-     "href": "media/b3/R5/BigHammer-b3-R5-2026-10-16-richard.pdf?v=202610121937",
+     "href": "media/b3/R5/BigHammer-b3-R5-2026-10-16-richard.pdf?v=202610122020",
      "name": "BigHammer-b3-R5-2026-10-16-richard.pdf",
      "ext": "pdf",
      "bytes": 3840862,
@@ -2140,16 +2140,16 @@ window.STUDIO = {
     "src": "b3/S1",
     "title": "The 3 AM failure is still on your bill",
     "files": [
-     "media/b3/S1/p01.jpg?v=202610121937",
-     "media/b3/S1/p02.jpg?v=202610121937",
-     "media/b3/S1/p03.jpg?v=202610121937",
-     "media/b3/S1/p04.jpg?v=202610121937",
-     "media/b3/S1/p05.jpg?v=202610121937",
-     "media/b3/S1/p06.jpg?v=202610121937",
-     "media/b3/S1/p07.jpg?v=202610121937"
+     "media/b3/S1/p01.jpg?v=202610122020",
+     "media/b3/S1/p02.jpg?v=202610122020",
+     "media/b3/S1/p03.jpg?v=202610122020",
+     "media/b3/S1/p04.jpg?v=202610122020",
+     "media/b3/S1/p05.jpg?v=202610122020",
+     "media/b3/S1/p06.jpg?v=202610122020",
+     "media/b3/S1/p07.jpg?v=202610122020"
     ],
     "download": {
-     "href": "media/b3/S1/BigHammer-b3-S1-2026-10-12-srinath.pdf?v=202610121937",
+     "href": "media/b3/S1/BigHammer-b3-S1-2026-10-12-srinath.pdf?v=202610122020",
      "name": "BigHammer-b3-S1-2026-10-12-srinath.pdf",
      "ext": "pdf",
      "bytes": 1532817,
@@ -2199,10 +2199,10 @@ window.STUDIO = {
     "title": "Mocked Slack #security-review thread: four questions, four answers, approved",
     "tall": false,
     "files": [
-     "media/b3/S2/image.jpg?v=202610121937"
+     "media/b3/S2/image.jpg?v=202610122020"
     ],
     "download": {
-     "href": "media/b3/S2/BigHammer-b3-S2-2026-10-13-srinath.png?v=202610121937",
+     "href": "media/b3/S2/BigHammer-b3-S2-2026-10-13-srinath.png?v=202610122020",
      "name": "BigHammer-b3-S2-2026-10-13-srinath.png",
      "ext": "png",
      "bytes": 385172,
@@ -2252,15 +2252,15 @@ window.STUDIO = {
     "src": "b3/S3",
     "title": "Both runs succeeded. The data didn't match: 3 silent differences, 5 parity checks",
     "files": [
-     "media/b3/S3/p01.jpg?v=202610121937",
-     "media/b3/S3/p02.jpg?v=202610121937",
-     "media/b3/S3/p03.jpg?v=202610121937",
-     "media/b3/S3/p04.jpg?v=202610121937",
-     "media/b3/S3/p05.jpg?v=202610121937",
-     "media/b3/S3/p06.jpg?v=202610121937"
+     "media/b3/S3/p01.jpg?v=202610122020",
+     "media/b3/S3/p02.jpg?v=202610122020",
+     "media/b3/S3/p03.jpg?v=202610122020",
+     "media/b3/S3/p04.jpg?v=202610122020",
+     "media/b3/S3/p05.jpg?v=202610122020",
+     "media/b3/S3/p06.jpg?v=202610122020"
     ],
     "download": {
-     "href": "media/b3/S3/BigHammer-b3-S3-2026-10-14-srinath.pdf?v=202610121937",
+     "href": "media/b3/S3/BigHammer-b3-S3-2026-10-14-srinath.pdf?v=202610122020",
      "name": "BigHammer-b3-S3-2026-10-14-srinath.pdf",
      "ext": "pdf",
      "bytes": 1029894,
@@ -2311,10 +2311,10 @@ window.STUDIO = {
     "title": "The room went quiet: a visibility problem, not a people problem",
     "tall": false,
     "files": [
-     "media/b3/S4/image.jpg?v=202610121937"
+     "media/b3/S4/image.jpg?v=202610122020"
     ],
     "download": {
-     "href": "media/b3/S4/BigHammer-b3-S4-2026-10-15-srinath.png?v=202610121937",
+     "href": "media/b3/S4/BigHammer-b3-S4-2026-10-15-srinath.png?v=202610122020",
      "name": "BigHammer-b3-S4-2026-10-15-srinath.png",
      "ext": "png",
      "bytes": 814912,
@@ -2338,6 +2338,174 @@ window.STUDIO = {
     "Jobs compute billed at a lower rate than interactive (All-Purpose) compute: directional claim from Databricks list prices, no number used"
    ],
    "key": "b3-S4"
+  },
+  {
+   "id": "C6",
+   "batch": "3",
+   "profile": "company",
+   "status": "ready",
+   "date": "2026-10-17",
+   "time": "10:00",
+   "short": "How SBC Labs builds a readiness score",
+   "idea": "Named case study (owner cleared): how @SBC Labs is building India's first rural Customer Readiness Score on BigHammer's AI Data Engineer. Problem (no transaction data for hundreds of millions of rural people; savings, credit, investment, insurance readiness), the alternate data (surveys, programmable data, product usage signals, phone usage, internet penetration), 4 steps (onboard, catalog with business context, NLP to triangulate and model, one unified score for banks, FinTechs and MFIs), impact (financial inclusion, women in rural India, healthcare access; next sectors), Anushka's public quote, soft book-a-demo close.",
+   "format": "Image · magazine-style editorial spread (PC39)",
+   "sample": {
+    "id": "PC39",
+    "creator": "Patrick James Cumming",
+    "what": "Two-page magazine-style editorial spread in dark mode: bold grotesk headline with a second-colour accent phrase, justified body with bold run-in lead-ins, portrait facing the text page, byline block, grey pull-box. Portrait kept modest (Srinath rule) and folios/running heads/eyebrow pill dropped (no-filler rule).",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7437471342653767680"
+   },
+   "copy_basis": "Case Study template, company voice; image structure from PC39 (editorial spread: headline, body columns, quote panel)",
+   "cta": false,
+   "media": {
+    "type": "image",
+    "src": "b3/C6",
+    "title": "The data didn't exist. SBC Labs measured readiness anyway (magazine spread)",
+    "tall": false,
+    "files": [
+     "media/b3/C6/image.jpg?v=202610122020"
+    ],
+    "download": {
+     "href": "media/b3/C6/BigHammer-b3-C6-2026-10-17-company.png?v=202610122020",
+     "name": "BigHammer-b3-C6-2026-10-17-company.png",
+     "ext": "png",
+     "bytes": 1080796,
+     "pages": 1,
+     "w": 1080,
+     "h": 1350
+    }
+   },
+   "text": "How do you judge financial readiness for people who have never had a bank statement?\n\nThat's the problem @SBC Labs set out to solve.\n\nAcross rural India, transaction data doesn't exist for hundreds of millions of people. Without it, banks, FinTechs and microfinance institutions can't see which households are ready for savings, credit, investment or insurance products.\n\nSo people who are ready stay underserved.\n\nSBC Labs is building a first-of-its-kind answer: a Customer Readiness Score for rural households, built from the data that does exist. Surveys. Programmable data. Product usage signals. Structural indicators such as phone usage and internet penetration.\n\nNone of those sources look alike. Here's how they bring them together with the AI Data Engineer from @BigHammer.ai:\n\n1. Onboard many different sources\n↳ Every source comes in, whatever its shape.\n\n2. Catalog each dataset with business context\n↳ Each dataset says what it is and what it's for, in plain language.\n\n3. Apply NLP to triangulate and model\n↳ Signals are checked against each other before anything is modelled.\n\n4. Produce one unified Customer Readiness Score\n↳ One score that banks, FinTechs and microfinance institutions can act on.\n\nNo comparable score exists today for India's rural segments.\n\nThe aim goes beyond finance: financial inclusion, women's empowerment and healthcare access for people at the bottom of the pyramid. Next, SBC Labs is exploring readiness scores for agriculture insurance, automotive financing, farm equipment leasing and healthcare access.\n\nIn the words of Anushka, Founder and CEO of SBC Labs:\n\n\"BigHammer transformed a multi-year data engineering challenge into a production-ready platform in months, without requiring a technical team.\"\n\nThis is the work we built BigHammer for: lots of messy, different data, turned into something people can act on.\n\n#FinancialInclusion #DataEngineering #India",
+   "first_comment": "@SBC Labs brings two decades of experience across sectors, systems and stakeholders in 10+ countries, applying behavioural science, design, data and AI to solutions that last. If your own data arrives in many shapes and you'd like to see how the AI Data Engineer onboards, catalogs and models it, book a demo with the @BigHammer.ai team:\nhttps://bighammer.ai/book-demo/",
+   "sources": [
+    "corpus/case-studies/sbc-labs.md (owner, 2026-10-12; cleared for public posts naming SBC Labs): Customer Readiness Score for rural households across India (savings, credit, investment, insurance); no transaction data for hundreds of millions; alternate data (surveys, programmable data, product usage signals, phone usage, internet penetration); BigHammer's AI Data Engineer onboards heterogeneous sources, catalogs with business context, applies NLP to triangulate and model into a unified score; for banks, FinTechs, MFIs; no comparable score exists for India's rural segments; impact (financial inclusion, women in rural India, healthcare access, bottom of the pyramid); next sectors; two decades, 10+ countries",
+    "https://sbclabs.in/ (SBC Labs)",
+    "https://webinar.bighammerai.com/ (public testimonial: Anushka, Founder and CEO, SBC Labs; quoted only, webinar not mentioned)",
+    "https://bighammer.ai/book-demo/ (first comment and CTA slide)",
+    "Mock UI screens are illustrative (labelled 'Illustrative view'), no metrics; 3D props via pipeline/kie.py (nano-banana-pro), no text in the art: assets/b3/C6/village.png, gauge.png"
+   ],
+   "numbers_for_signoff": [
+    "hundreds of millions of people (no transaction data)",
+    "two decades of experience, 10+ countries (SBC Labs)",
+    "'multi-year' to 'in months' (testimonial wording)"
+   ],
+   "key": "b3-C6"
+  },
+  {
+   "id": "R6",
+   "batch": "3",
+   "profile": "richard",
+   "status": "ready",
+   "date": "2026-10-17",
+   "time": "10:00",
+   "short": "Why SBC Labs' problem was 'multi-year'",
+   "idea": "Richard's buyer-side read of the SBC Labs case: as an ex data integration seller, he'd have called this 'multi-year'. Why it was hard (no transaction data for hundreds of millions of rural households; signal built from surveys, programmable data, product usage, phone usage, internet penetration; many heterogeneous sources onboarded, catalogued with business context, triangulated with NLP into one Customer Readiness Score), who did what (BigHammer.ai's AI Data Engineer vs SBC Labs' behavioural science, design and two decades across 10+ countries), and why it matters (banks, FinTechs, MFIs reach ready-but-underserved people incl. women in rural India; next sectors). Distinct from S5 (Srinath's story-first version, 16 Oct): new hook (seller's 'multi-year' estimate), new argument (division of labour), new takeaway ('Demand exists. Measurement doesn't.').",
+   "format": "Carousel (9 slides) · stage-photo cover, shadowed-paper text slides with marker highlights and arrow cues, ransom-note collage payoff, soft book-a-demo close",
+   "sample": {
+    "id": "HD12",
+    "creator": "Harry Dry",
+    "what": "'The Translation Theory' carousel: founder-on-stage photo cover with condensed bold two-colour title, minimalist warm paper slides with cast window-light shadow, coloured marker highlights and arrow cues, ransom-note cut-out collage as the typographic payoff",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7475421239004672000"
+   },
+   "copy_basis": "Prompt doc Case Study template (Problem > Solution > Results > Reflection) in Richard's buyer-side voice: personal seller's-eye opener, problem unpacked, honest division of labour, public testimonial verbatim, why it matters, the ransom-note line as the reflection. No CTA in copy (webinar is past); soft book-a-demo on the last slide and in the first comment.",
+   "cta": false,
+   "media": {
+    "type": "carousel",
+    "src": "b3/R6",
+    "title": "The missing signal: how SBC Labs measured readiness with no transaction data",
+    "files": [
+     "media/b3/R6/p01.jpg?v=202610122020",
+     "media/b3/R6/p02.jpg?v=202610122020",
+     "media/b3/R6/p03.jpg?v=202610122020",
+     "media/b3/R6/p04.jpg?v=202610122020",
+     "media/b3/R6/p05.jpg?v=202610122020",
+     "media/b3/R6/p06.jpg?v=202610122020",
+     "media/b3/R6/p07.jpg?v=202610122020",
+     "media/b3/R6/p08.jpg?v=202610122020",
+     "media/b3/R6/p09.jpg?v=202610122020"
+    ],
+    "download": {
+     "href": "media/b3/R6/BigHammer-b3-R6-2026-10-17-richard.pdf?v=202610122020",
+     "name": "BigHammer-b3-R6-2026-10-17-richard.pdf",
+     "ext": "pdf",
+     "bytes": 16041520,
+     "pages": 9,
+     "w": 1080,
+     "h": 1350
+    }
+   },
+   "text": "I spent years selling data integration software. When a customer described a problem like this one, the honest answer was usually \"multi-year\".\n\n@SBC Labs is building a Customer Readiness Score: a way to tell whether rural households across India are ready for savings, credit, investment and insurance.\n\nHere's why that's hard.\n\nFor hundreds of millions of those households, there is no transaction data. None. So the signal has to be built from what does exist: surveys, programmable data, product usage signals, phone usage and internet penetration.\n\nEvery one of those sources arrives in a different shape. Each has to be onboarded, catalogued with its business context, and then triangulated with the others into a single score.\n\nIn my old world, that meant a large integration team and a long statement of work before anyone saw a number.\n\nWhat changed here is who did which part.\n\n@BigHammer.ai's AI Data Engineer took the data engineering: onboarding the sources, cataloguing each dataset, and applying NLP to triangulate them into one score.\n\nThe SBC Labs team kept the part no tool should take: behavioural science, design, and two decades of experience across more than 10 countries.\n\nAnushka, Founder and CEO of SBC Labs, put the outcome like this: \"BigHammer transformed a multi-year data engineering challenge into a production-ready platform in months, without requiring a technical team.\"\n\nThat matters well beyond the data team. Banks, FinTechs and microfinance institutions can identify and serve people who are ready for financial products but underserved today, including women in rural India. SBC Labs is now exploring readiness scores for agriculture insurance, auto financing, farm equipment leasing and healthcare access.\n\nDemand exists. Measurement doesn't.\n\nClosing that gap is a data engineering problem first. This is one case where it didn't take years.\n\n#FinancialInclusion #DataEngineering #AI",
+   "first_comment": "A question for anyone working in lending, insurance or microfinance: when there's no transaction history, which alternative signal have you found you can actually trust?\n\nAnd if you have a problem like the one @SBC Labs brought to @BigHammer.ai, the kind everyone has filed under \"multi-year\", I'd be glad to look at it with you. Book a time here:\nhttps://bighammer.ai/book-demo/",
+   "sources": [
+    "corpus/case-studies/sbc-labs.md (Customer Readiness Score; rural households across India; savings, credit, investment, insurance; no transaction data for hundreds of millions; surveys, programmable data, product usage signals, phone usage, internet penetration; AI Data Engineer onboards heterogeneous sources, catalogs with business context, NLP triangulation into one score; banks, FinTechs, microfinance institutions; women in rural India; behavioural science, design, two decades, 10+ countries; agriculture insurance, automotive financing, farm equipment leasing, healthcare access; 'demand exists but measurement does not'). Owner cleared naming SBC Labs.",
+    "https://webinar.bighammerai.com/ public testimonial, Anushka, Founder and CEO, SBC Labs (also corpus/nurture/sequence.md e23), quoted verbatim",
+    "corpus/richard/switch-to-startup.md (Richard's career selling data integration: Talend, Pentaho, StreamSets)",
+    "queue/BUILD_STATE_B3.md (book-a-demo link cleared)"
+   ],
+   "numbers_for_signoff": [
+    "Two decades of experience across 10+ countries (SBC Labs, case study)",
+    "Hundreds of millions of people without transaction data (case study)"
+   ],
+   "key": "b3-R6"
+  },
+  {
+   "id": "S5",
+   "batch": "3",
+   "profile": "srinath",
+   "status": "ready",
+   "date": "2026-10-16",
+   "time": "10:00",
+   "short": "The data didn't exist",
+   "idea": "Founder editorial case study: most data platforms start from data that exists; SBC Labs had to measure financial readiness for rural Indian households with no transaction data, so they built a first-of-its-kind Customer Readiness Score from alternate data. BigHammer's AI Data Engineer onboards, catalogs with business context and triangulates (NLP) the sources into one score for banks, FinTechs and microfinance. Why it matters to Srinath: financial inclusion, women in rural India, healthcare access; readiness scores next for other sectors.",
+   "format": "Carousel · 10 slides, case-study steps with annotated product views (PC42)",
+   "sample": {
+    "id": "PC42",
+    "creator": "Patrick James Cumming",
+    "what": "KlientBoost 'How We ...' case-study carousel: title cover, then numbered steps on one consistent template (dotted ribbon header, tilted title label, body, annotated product screenshot with arrows and tilted dark callout tabs), playful 3D props. Coral/cream kitchen world swapped for BigHammer violet/magenta on light lavender; SERP screenshots replaced by clearly labelled 'Illustrative view' mock screens of the AI Data Engineer; kitchen stickers replaced by two kie.ai 3D props (village house + phone, readiness gauge) that bookend cover and CTA.",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7432756328592228352"
+   },
+   "copy_basis": "Case Study template, Srinath story-first voice; carousel structure from PC42 (cover, problem, data, 4 steps, impact, quote, CTA)",
+   "cta": false,
+   "media": {
+    "type": "carousel",
+    "src": "b3/S5",
+    "title": "How SBC Labs is building a first-of-its-kind rural Customer Readiness Score (10 slides)",
+    "files": [
+     "media/b3/S5/p01.jpg?v=202610122020",
+     "media/b3/S5/p02.jpg?v=202610122020",
+     "media/b3/S5/p03.jpg?v=202610122020",
+     "media/b3/S5/p04.jpg?v=202610122020",
+     "media/b3/S5/p05.jpg?v=202610122020",
+     "media/b3/S5/p06.jpg?v=202610122020",
+     "media/b3/S5/p07.jpg?v=202610122020",
+     "media/b3/S5/p08.jpg?v=202610122020",
+     "media/b3/S5/p09.jpg?v=202610122020",
+     "media/b3/S5/p10.jpg?v=202610122020"
+    ],
+    "download": {
+     "href": "media/b3/S5/BigHammer-b3-S5-2026-10-16-srinath.pdf?v=202610122020",
+     "name": "BigHammer-b3-S5-2026-10-16-srinath.pdf",
+     "ext": "pdf",
+     "bytes": 2993423,
+     "pages": 10,
+     "w": 1080,
+     "h": 1350
+    }
+   },
+   "text": "Most data platforms start with data that already exists.\n\n@SBC Labs had to start with data that does not.\n\nThey want to know if rural households across India are ready for savings, credit, investment and insurance. But for hundreds of millions of people in India, there is no transaction data at all.\n\nSo a bank cannot see who is ready. And people who are ready stay unseen.\n\nHere is what they did.\n\nThey built a first-of-its-kind Customer Readiness Score from alternate data. Surveys. Programmable data. Product usage signals. And simple signals like phone usage and internet penetration.\n\nThat is a hard data problem. Many sources, and every one of them looks different.\n\nThis is where @BigHammer.ai comes in. Our AI Data Engineer onboards each source, catalogs every dataset with its business context, and uses NLP to triangulate them into one score.\n\nThe result?\n\nBanks, FinTechs and microfinance institutions can now find people who are ready for financial products but are underserved today. No comparable score exists for rural India.\n\nAnushka, Founder and CEO of @SBC Labs, said it better than I can: \"BigHammer transformed a multi-year data engineering challenge into a production-ready platform in months, without requiring a technical team.\"\n\nWhy does this one matter so much to me?\n\nBecause it is about people at the bottom of the pyramid. Financial inclusion. Women in rural India. Healthcare access.\n\nAnd it does not stop at finance. SBC Labs is now exploring readiness scores for agriculture insurance, auto financing, farm equipment leasing and healthcare.\n\nThe lesson I keep coming back to is simple. When the data does not exist, you do not wait for it. You find the signals that do exist, and you join them up with care.\n\nWhat decision in your world is waiting on data nobody has measured yet?\n\n#FinancialInclusion #DataEngineering #AI",
+   "first_comment": "Working on a problem where the data \"doesn't exist yet\"? That is the kind of problem @SBC Labs brought to @BigHammer.ai, and I would be glad to talk yours through with you:\nhttps://bighammer.ai/book-demo/",
+   "sources": [
+    "corpus/case-studies/sbc-labs.md (Customer Readiness Score, first of its kind; rural households across India; savings, credit, investment, insurance; transaction data does not exist for hundreds of millions; alternate data: surveys, programmable data, product usage signals, phone usage, internet penetration; AI Data Engineer onboards heterogeneous sources, catalogs with business context, NLP triangulation into one score; banks, FinTechs, microfinance institutions; no comparable score for India's rural segments; bottom of the pyramid, financial inclusion, women in rural India, healthcare access; next: agriculture insurance, automotive financing, farm equipment leasing, healthcare access)",
+    "https://webinar.bighammerai.com/ public testimonial, Anushka, Founder and CEO, SBC Labs (also corpus/nurture/sequence.md e23)",
+    "https://bighammer.ai/book-demo/ (first comment CTA, cleared in queue/BUILD_STATE_B3.md)"
+   ],
+   "numbers_for_signoff": [
+    "Hundreds of millions of people in India without transaction data (case study wording, no exact figure)",
+    "First-of-its-kind Customer Readiness Score / no comparable score exists for rural India (case study claim)",
+    "Anushka quote: multi-year challenge to production-ready platform in months (public testimonial, verbatim)",
+    "Customer naming: SBC Labs named and tagged (owner cleared for this post; overrides Srinath's no-client-naming rule, confirm with Srinath)"
+   ],
+   "key": "b3-S5"
   }
  ],
  "webinar_url": "https://webinar.bighammerai.com/",
