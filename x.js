@@ -50,7 +50,7 @@
     return `<article class="x-post${i < n - 1 ? " has-next" : ""}">
       <div class="x-l"><span class="x-av">${pr.avatar_ok ? `<img src="${esc(pr.avatar)}" alt="">` : `<b>${esc(pr.name[0])}</b>`}</span></div>
       <div class="x-r">
-        <div class="x-h"><span class="x-name">${esc(pr.name)}</span><span class="x-handle">${esc(pr.x_handle || "@srinathreddy")} · 1m</span><span class="x-more">${I.more}</span></div>
+        <div class="x-h"><span class="x-name">${esc(pr.name)}</span><span class="x-handle">${esc(pr.x_handle || "@bighammerai")} · 1m</span><span class="x-more">${I.more}</span></div>
         <div class="x-text">${body(text)}</div>
         ${mediaFor(p, i)}
         <div class="x-acts"><span>${I.reply}</span><span>${I.repost}</span><span>${I.like}</span><span>${I.views}</span><span class="x-end">${I.mark}${I.share}</span></div>
