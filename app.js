@@ -257,7 +257,7 @@
       const p = S.posts.find(x => x.key === ct.closest(".pcard").dataset.id), what = ct.dataset.copyt === "text" ? "Post copy" : "First comment";
       const val = ct.dataset.copyt === "text" ? [p.text, ...(p.thread || [])].join("\n\n") : p[ct.dataset.copyt];  // X: the whole thread, posts separated by a blank line
       copyText(val || "").then(() => {
-        C.toast(what + " copied");
+        C.toast(/@BigHammer\.ai/.test(val || "") ? what + " copied. When pasting, delete @BigHammer.ai, type @BigHammer and pick the company page so it becomes a tag" : what + " copied");
         ct.dataset.label = ct.dataset.label || ct.textContent; ct.textContent = "✓ Copied"; ct.classList.add("done");
         clearTimeout(ct._t); ct._t = setTimeout(() => { ct.textContent = ct.dataset.label; ct.classList.remove("done"); }, 1800);
       }, () => C.toast("Copy blocked by the browser. Select the text in the post instead."));

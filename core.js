@@ -24,9 +24,14 @@
     });
   }
   /* Plain text → HTML with clickable links and highlighted raw tokens. Text is filled according to state.mode. */
+  // "@BigHammer.ai" = a tag of the BigHammer.ai company page (shown like LinkedIn: bold blue name, no @).
+  // Bare "BigHammer.ai" is left to linkify, because LinkedIn turns it into a website link (reach penalty).
+  const MENTION_RE = /@(BigHammer\.ai)/g;
   function rich(text, cls) {
-    let html = esc(fill(text, state.mode));
+    let html = esc(fill(text, state.mode)).replace(MENTION_RE, "\u0001$1\u0002");
+    html = html.replace(/\u0001[^\u0002]*\u0002/g, (m) => m.replace(/\./g, "\u0003"));  // hide the dot from linkify
     html = linkify(html, cls);
+    html = html.replace(/\u0001([^\u0002]*)\u0002/g, (_, n) => `<span class="mention" title="Tag: BigHammer.ai company page">${n.replace(/\u0003/g, ".")}</span>`);
     return html.replace(TOK_RE, '<span class="tok">{{$1}}</span>');
   }
   function firstUrl(text) {
